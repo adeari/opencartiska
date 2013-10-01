@@ -1,0 +1,913 @@
+2013-09-28 14:58:34 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:10:51 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:11:33 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 41
+2013-09-28 15:12:47 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 40
+2013-09-28 15:20:38 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:22:09 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:22:10 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:22:10 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:22:10 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:12 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:13 - PHP Notice:  Error: Could not load language common/login! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:13 - PHP Notice:  Error: Could not load language common/header! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:13 - PHP Notice:  Error: Could not load template /media/datas/proyeKerja/onlineshop/upload/admin/view/template/common/header.tpl! in /media/datas/proyeKerja/onlineshop/upload/system/engine/controller.php on line 90
+2013-09-28 15:26:13 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:13 - PHP Notice:  Error: Could not load language common/login! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:13 - PHP Notice:  Error: Could not load language common/header! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:13 - PHP Notice:  Error: Could not load template /media/datas/proyeKerja/onlineshop/upload/admin/view/template/common/header.tpl! in /media/datas/proyeKerja/onlineshop/upload/system/engine/controller.php on line 90
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language common/login! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language common/header! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load template /media/datas/proyeKerja/onlineshop/upload/admin/view/template/common/header.tpl! in /media/datas/proyeKerja/onlineshop/upload/system/engine/controller.php on line 90
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language common/login! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language common/header! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load template /media/datas/proyeKerja/onlineshop/upload/admin/view/template/common/header.tpl! in /media/datas/proyeKerja/onlineshop/upload/system/engine/controller.php on line 90
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language common/login! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language common/header! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load template /media/datas/proyeKerja/onlineshop/upload/admin/view/template/common/header.tpl! in /media/datas/proyeKerja/onlineshop/upload/system/engine/controller.php on line 90
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language common/login! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load language common/header! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:14 - PHP Notice:  Error: Could not load template /media/datas/proyeKerja/onlineshop/upload/admin/view/template/common/header.tpl! in /media/datas/proyeKerja/onlineshop/upload/system/engine/controller.php on line 90
+2013-09-28 15:26:29 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:29 - PHP Notice:  Error: Could not load language common/login! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:29 - PHP Notice:  Error: Could not load language common/header! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:26:29 - PHP Notice:  Error: Could not load template /media/datas/proyeKerja/onlineshop/upload/admin/view/template/common/header.tpl! in /media/datas/proyeKerja/onlineshop/upload/system/engine/controller.php on line 90
+2013-09-28 15:27:34 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:27:34 - PHP Notice:  Error: Could not load language common/login! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:27:34 - PHP Notice:  Error: Could not load language common/header! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 15:27:34 - PHP Notice:  Error: Could not load template /media/datas/proyeKerja/onlineshop/upload/admin/view/template/common/header.tpl! in /media/datas/proyeKerja/onlineshop/upload/system/engine/controller.php on line 90
+2013-09-28 15:45:30 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:30 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:30 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:30 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:55 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:55 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:55 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:55 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:56 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:56 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:56 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:56 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:57 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:57 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:57 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:57 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:57 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:57 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:57 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:58 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:58 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:58 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:58 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:58 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:58 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:58 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:58 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:58 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:58 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:58 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:58 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:58 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:59 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:59 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:59 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:59 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:59 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:59 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:45:59 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:59 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:59 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:45:59 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:46:00 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:46:00 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:46:00 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:46:00 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:46:01 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:46:01 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:46:01 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: column_left in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 1
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: column_right in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 1
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: content_top in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 2
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: content_bottom in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 4
+2013-09-28 15:46:01 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:46:01 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:46:01 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: column_left in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 1
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: column_right in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 1
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: content_top in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 2
+2013-09-28 15:46:01 - PHP Notice:  Undefined variable: content_bottom in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 4
+2013-09-28 15:46:02 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:46:02 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_logged in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 69
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:46:02 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: column_left in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 1
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: column_right in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 1
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: content_top in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 2
+2013-09-28 15:46:02 - PHP Notice:  Undefined variable: content_bottom in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/home.tpl on line 4
+2013-09-28 15:46:15 - PHP Warning:  include(catalog/view/theme/Luxury/template/common/include_header.tpl): failed to open stream: No such file or directory in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:46:15 - PHP Warning:  include(): Failed opening 'catalog/view/theme/Luxury/template/common/include_header.tpl' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 5
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: icon in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 14
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: google_analytics in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 45
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: sys in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 49
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: logo in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 51
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: language in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 54
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: currency in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 55
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 56
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 59
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_search in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 62
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_welcome in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 67
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_home in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_shopping_cart in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_checkout in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 72
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/header.tpl on line 74
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_information in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 6
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: informations in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:46:15 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 8
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_service in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 14
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_contact in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 16
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_return in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 17
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_sitemap in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 18
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_extra in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 22
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_manufacturer in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 24
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_voucher in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 25
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_affiliate in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 26
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_special in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 27
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 31
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_account in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 33
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_order in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 34
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_wishlist in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 35
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: text_newsletter in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 36
+2013-09-28 15:46:15 - PHP Notice:  Undefined variable: powered in /media/datas/proyeKerja/onlineshop/upload/mimoki/view/template/common/footer.tpl on line 45
+2013-09-28 15:52:20 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/Luxury/template/common/header.tpl on line 59
+2013-09-28 15:53:45 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/Luxury/template/common/header.tpl on line 59
+2013-09-28 15:54:40 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/me-5000/template/common/header.tpl on line 60
+2013-09-28 15:54:49 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/me-5000/template/common/header.tpl on line 60
+2013-09-28 15:54:57 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/me-5000/template/common/header.tpl on line 60
+2013-09-28 15:57:04 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/pink/template/common/header.tpl on line 60
+2013-09-28 15:57:13 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/pink/template/common/header.tpl on line 60
+2013-09-28 15:57:53 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/me-5000/template/common/header.tpl on line 60
+2013-09-28 15:57:59 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/me-5000/template/common/header.tpl on line 60
+2013-09-28 16:02:48 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/me-5000/template/common/header.tpl on line 60
+2013-09-28 16:03:05 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/me-5000/template/common/header.tpl on line 60
+2013-09-28 16:04:17 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/me-5000/template/common/header.tpl on line 60
+2013-09-28 22:48:59 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 22:51:19 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 22:53:37 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 22:53:38 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 22:53:39 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 22:53:39 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 22:53:39 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 22:53:40 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 22:53:40 - PHP Notice:  Error: Could not load language english! in /media/datas/proyeKerja/onlineshop/upload/system/library/language.php on line 39
+2013-09-28 23:31:24 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/Luxury/template/common/header.tpl on line 59
+2013-09-28 23:44:32 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/pink/template/common/header.tpl on line 60
+2013-09-28 23:44:44 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/pink/template/common/header.tpl on line 60
+2013-09-28 23:48:50 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/pink/template/common/header.tpl on line 60
