@@ -911,3 +911,4 @@
 2013-09-28 23:44:32 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/pink/template/common/header.tpl on line 60
 2013-09-28 23:44:44 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/pink/template/common/header.tpl on line 60
 2013-09-28 23:48:50 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/pink/template/common/header.tpl on line 60
+2013-10-02 21:34:43 - PHP Notice:  Undefined variable: cart in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\common\header.tpl on line 84

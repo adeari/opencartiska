@@ -50,24 +50,23 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 </head>
 <body>
 <div id="container">
-<div id="header">
-  <?php if ($logo) { ?>
+<div id="header" class="clearfix">
+  <?php $logo=false; //hapus
+
+  if ($logo) { ?>
   <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
   <?php } ?>
+  <?php /* hapus ?>
   <?php echo $language; ?>
-  <?php echo $cart; ?>
-  <div id="search">
-    <div class="button-search"></div>
-    <input type="text" name="search" placeholder="<?php echo $text_search; ?>" value="<?php echo $search; ?>" />
+  
+  
+  
+  <?php */ ?>  
+  <div class="floatright"><div id="header-links-wrap"><div id="header-links" class="clearfix">
+  <ul><li><a href="<?php echo $home; ?>"><?php echo $text_home; ?></a></li><li>|</li><li><?php echo $text_wishlist; ?></li><li>|</li><li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li><li>|</li>  <li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li><li>|</li>  <li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>  <li><?php echo $cart; ?></li></ul></div></div><div class="clearfix"><div id="search" class="clearfix"><input type="text" name="search" placeholder="<?php echo $text_search; ?>" value="<?php echo $search; ?>" /><div class="button-search"></div></div></div>
+	<div id="welcome"><?php if (!$logged) { ?><?php echo $text_welcome; ?><?php } else { ?><?php echo $text_logged; ?><?php } ?>
   </div>
-  <div id="welcome">
-    <?php if (!$logged) { ?>
-    <?php echo $text_welcome; ?>
-    <?php } else { ?>
-    <?php echo $text_logged; ?>
-    <?php } ?>
   </div>
-  <div class="links"><a href="<?php echo $home; ?>"><?php echo $text_home; ?></a><?php echo $text_wishlist; ?></a><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></div>
 </div>
 <?php if ($error) { ?>
     
