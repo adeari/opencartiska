@@ -912,3 +912,24 @@
 2013-09-28 23:44:44 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/pink/template/common/header.tpl on line 60
 2013-09-28 23:48:50 - PHP Notice:  Undefined variable: filter_name in /media/datas/proyeKerja/onlineshop/upload/catalog/view/theme/pink/template/common/header.tpl on line 60
 2013-10-02 21:34:43 - PHP Notice:  Undefined variable: cart in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\common\header.tpl on line 84
+2013-10-04 22:47:25 - PHP Notice:  Undefined variable: breadcrumbs in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\product\category.tpl on line 4
+2013-10-04 22:47:25 - PHP Warning:  Invalid argument supplied for foreach() in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\product\category.tpl on line 4
+2013-10-04 22:48:55 - PHP Notice:  Undefined variable: breadcrumbs in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\product\category.tpl on line 4
+2013-10-04 22:48:55 - PHP Warning:  Invalid argument supplied for foreach() in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\product\category.tpl on line 4
+2013-10-04 22:49:08 - PHP Warning:  Invalid argument supplied for foreach() in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\product\category.tpl on line 4
+2013-10-04 23:12:39 - PHP Notice:  Undefined index: symbol_left in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 12
+2013-10-04 23:12:39 - PHP Notice:  Undefined index: symbol_right in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 15
+2013-10-04 23:12:39 - PHP Notice:  Undefined index: symbol_left in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 12
+2013-10-04 23:12:39 - PHP Notice:  Undefined index: symbol_right in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 15
+2013-10-04 23:12:39 - PHP Notice:  Undefined index: symbol_left in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 12
+2013-10-04 23:12:39 - PHP Notice:  Undefined index: symbol_right in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 15
+2013-10-04 23:12:39 - PHP Notice:  Undefined index: symbol_left in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 6
+2013-10-04 23:12:39 - PHP Notice:  Undefined index: symbol_right in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 9
+2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_left in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 12
+2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_right in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 15
+2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_left in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 12
+2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_right in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 15
+2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_left in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 12
+2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_right in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 15
+2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_left in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 6
+2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_right in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 9

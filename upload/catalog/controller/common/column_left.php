@@ -8,6 +8,7 @@ class ControllerCommonColumnLeft extends Controller {
 		
 		if (isset($this->request->get['route'])) {
 			$route = (string)$this->request->get['route'];
+			if (strcmp($route,'common/home')==0)	$route = 'product/category';
 		} else {
 			$route = 'product/category';
 		}

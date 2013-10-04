@@ -593,20 +593,17 @@ table.radio tr.highlight:hover td {
 }
 /* button */
 a.button, input.button {
-	cursor: pointer;
-	color: #FFFFFF;
-	line-height: 12px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	background: url('../image/button.png') repeat-x;
-	-webkit-border-radius: 7px 7px 7px 7px;
-	-moz-border-radius: 7px 7px 7px 7px;
-	-khtml-border-radius: 7px 7px 7px 7px;
-	border-radius: 7px 7px 7px 7px;
-	-webkit-box-shadow: 0px 2px 2px #DDDDDD;
-	-moz-box-shadow: 0px 2px 2px #DDDDDD;
-	box-shadow: 0px 2px 2px #DDDDDD;
+	padding:5px 13px;
+	background:#1171d0 url(../image/button-bg.png) center top repeat-x;
+	text-decoration: none;
+	cursor: pointer;	
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;	
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
 }
 a.button {
 	display: inline-block;
@@ -620,7 +617,7 @@ input.button {
 	padding: 0px 12px 0px 12px;
 }
 a.button:hover, input.button:hover {
-	background-position: 0px -24px;
+	background:#1272d0 url(../image/button-bg-active.png) center top repeat-x;
 }
 .buttons {
 	background: #FFFFFF;
@@ -779,12 +776,19 @@ ul.box-filter > li ul {
 	overflow: auto;
 }
 .box-product > div {
-	width: 130px;
-	display: inline-block;
-	vertical-align: top;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	width:134px;
+		display:inline-block;
+		vertical-align:top;
+		margin:0 1px 5px;		
+		background:#f3f3f3;
+		border:1px solid #ddd;
+		text-align:center;
+		padding:15px 0;
 }
+.box-product > div:hover{
+		background:#eaeaea;
+		border:1px solid #d1d1d1;
+	}
 #column-left + #column-right + #content .box-product > div {
 	width: 119px;
 }
@@ -797,12 +801,16 @@ ul.box-filter > li ul {
 	border: 1px solid #E7E7E7;
 }
 .box-product .name a {
-	color: #38B0E3;
-	font-weight: bold;
-	text-decoration: none;
-	display: block;
-	margin-bottom: 4px;
+	color:#222;
+		font-weight:bold;
+		text-decoration:none;
+		display:block;
+		margin:8px 0;
+		font-size:12px !important;
 }
+.box-product .name a:hover{
+			color:#106ECC;
+		}
 .box-product .price {
 	display: block;
 	font-weight: bold;
@@ -986,7 +994,8 @@ ul.box-filter > li ul {
 	color: #BBBBBB;
 }
 .product-list .cart {
-	margin-bottom: 3px;
+	margin:8px 0;
+		padding-top:5px;
 }
 .product-list .wishlist, .product-list .compare {
 	margin-bottom: 3px;
