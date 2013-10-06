@@ -10,8 +10,7 @@ class Currency {
 		$this->request = $registry->get('request');
 		$this->session = $registry->get('session');
 		
-		$query = $this->db->query("SELECT a.* FROM " . DB_PREFIX . "currency a inner join  oc_setting b on a.code=b.value where b.key = 'config_currency'");
-
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "currency");
     	foreach ($query->rows as $result) {
       		$this->currencies[$result['code']] = array(
         		'currency_id'   => $result['currency_id'],

@@ -933,3 +933,38 @@
 2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_right in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 15
 2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_left in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 6
 2013-10-04 23:12:45 - PHP Notice:  Undefined index: symbol_right in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\module\currency.tpl on line 9
+2013-10-06 2:09:55 - PHP Notice:  Error: Could not load language indonesia! in /media/datas/proyeKerja/onlineshop/src/upload/system/library/language.php on line 39
+2013-10-06 2:10:14 - PHP Notice:  Error: Could not load language indonesia! in /media/datas/proyeKerja/onlineshop/src/upload/system/library/language.php on line 39
+2013-10-06 2:15:21 - PHP Notice:  Error: Could not load language indonesia! in /media/datas/proyeKerja/onlineshop/src/upload/system/library/language.php on line 39
+2013-10-06 4:36:42 - PHP Notice:  Array to string conversion in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/localisation/language.php on line 11
+2013-10-06 4:38:07 - PHP Notice:  Undefined index: $language_data in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/localisation/language.php on line 33
+2013-10-06 4:38:29 - PHP Notice:  Undefined index: language_id in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/localisation/language.php on line 33
+2013-10-06 4:39:03 - PHP Notice:  Array to string conversion in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/localisation/language.php on line 33
+2013-10-06 5:43:37 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 14
+2013-10-06 5:43:53 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 14
+2013-10-06 5:43:53 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 14
+2013-10-06 5:43:54 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 14
+2013-10-06 5:43:54 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 14
+2013-10-06 5:43:55 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 14
+2013-10-06 5:44:54 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 15
+2013-10-06 5:44:54 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 15
+2013-10-06 5:44:55 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 15
+2013-10-06 5:44:55 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 15
+2013-10-06 5:44:55 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 15
+2013-10-06 5:44:56 - PHP Notice:  Undefined index: language in /media/datas/proyeKerja/onlineshop/src/upload/system/library/currency.php on line 15
+2013-10-06 5:51:32 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:51:54 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:52:13 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:52:24 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:52:26 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:52:31 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:52:36 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:53:19 - PHP Notice:  Error: Unknown table 'a'<br />Error No: 1051<br />SELECT a.* FROM oc_currency in /media/datas/proyeKerja/onlineshop/src/upload/system/database/mysql.php on line 50
+2013-10-06 5:53:29 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:53:34 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:53:37 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:54:21 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 5:54:26 - PHP Notice:  Undefined index: currency_code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/module/currency.php on line 4
+2013-10-06 16:58:23 - PHP Notice:  Undefined variable: results in E:\proyeKerja\onlineshop\src\upload\catalog\controller\module\language.php on line 39
+2013-10-06 16:58:23 - PHP Warning:  Invalid argument supplied for foreach() in E:\proyeKerja\onlineshop\src\upload\catalog\controller\module\language.php on line 39
+2013-10-06 17:18:17 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and code <>'id' ORDER BY sort_order, name' at line 1<br />Error No: 1064<br />SELECT * FROM oc_language and code <>'id' ORDER BY sort_order, name in E:\proyeKerja\onlineshop\src\upload\system\database\mysql.php on line 50

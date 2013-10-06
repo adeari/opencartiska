@@ -3,7 +3,12 @@ class ControllerModuleLanguage extends Controller {
 	protected function index() {
     	if (isset($this->request->post['language_code'])) {
 			$this->session->data['language'] = $this->request->post['language_code'];
-		
+			$this->currency->set('IDR');
+			if ($this->session->data['language']!=null) {
+				if (strcmp($this->session->data['language'],"en")==0) {
+					$this->currency->set('USD');
+				}
+			}
 			if (isset($this->request->post['redirect'])) {
 				$this->redirect($this->request->post['redirect']);
 			} else {
