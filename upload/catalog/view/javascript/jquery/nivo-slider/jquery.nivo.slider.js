@@ -44,7 +44,7 @@
                 child = child.find('img:first');
             }
             //Get img width & height
-            var childWidth = 760;
+            var childWidth = child.width();
             if(childWidth == 0) childWidth = child.attr('width');
             var childHeight = child.height();
             if(childHeight == 0) childHeight = child.attr('height');

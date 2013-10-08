@@ -45,6 +45,8 @@ class ControllerModuleLanguage extends Controller {
 				);	
 			}
 		}
+		
+		$this->data['mimomiiiii'] = $this->session->data['language'];
 
 		if (!isset($this->request->get['route'])) {
 			$this->data['redirect'] = $this->url->link('common/home');

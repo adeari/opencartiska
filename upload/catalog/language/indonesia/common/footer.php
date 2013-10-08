@@ -14,5 +14,5 @@ $_['text_account']      = 'Akun Saya';
 $_['text_order']        = 'Riwayat Pesanan';
 $_['text_wishlist']     = 'Daftar Belanja';
 $_['text_newsletter']   = 'Berita';
-$_['text_powered']      = 'Powered By <a href="http://www.opencart.com">OpenCart</a><br /> %s &copy; %s';
+$_['text_powered']      = 'Powered By <a href="http://www.opencart.com">OpenCart</a> %s &copy; %s';
 ?>

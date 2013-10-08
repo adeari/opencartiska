@@ -123,19 +123,21 @@ label {
 }
 /* header */
 #header {
+	background:url(../image/headriii.jpg);
 	height: 90px;
 	position: relative;
 	z-index: 99;
+	margin-bottom:5px;
 }
 
 #header .floatright {
 	height: 85px;
 	overflow: hidden;
-	width: 650px;
+	width: 850px;
 }
 
 #header-links-wrap {
-	width: 650px;
+	width: 850px;
 	float: right;
 }
 
@@ -183,19 +185,8 @@ label {
 }
 
 #language {
-	position: absolute;
-	top: 26px;
-	left: 600px;
-	background: #106ecc url(../image/header-links-bg.png) repeat-x top;
-	width: 100px;
-	color: #FFF;
-	-webkit-border-radius: 0 0 5px 5px;
-	-moz-border-radius: 0 0 5px 5px;
-	-khtml-border-radius: 0 0 5px 5px;
-	border-radius: 0 0 5px 5px;
-	padding: 4px;
+	position: relative;
 	font-weight: bold;
-	text-align:center;
 }
 
 #language img {
@@ -387,6 +378,7 @@ label {
 	-webkit-box-shadow: 0 2px 0 #f0f0f0;
 	-moz-box-shadow: 0px 2px 0px #F0F0F0;
 	box-shadow: 0 2px 0 #f0f0f0;
+	background:#FFF;
 }
 
 #header .button-search,#header #search input {
@@ -413,12 +405,19 @@ label {
 }
 
 #header #welcome {
-	width: 400px;
+	width: 250px;
 	height: 15px;
 	text-align: right;
 	color: #777;
 	float: right;
 	font-weight: bold;
+	background:#FFF;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-box-shadow: 0px 2px 2px #DDDDDD;
+	-moz-box-shadow: 0px 2px 2px #DDDDDD;
 }
 /* menu */
 #menu {
@@ -2047,19 +2046,41 @@ ul.box-filter>li ul {
 	text-decoration: underline;
 }
 
-#powered {
-	margin-top: 5px;
-	text-align: right;
-	background: #106ECC;
-	height: 20px;
-	-webkit-border-radius: 7px 7px 0px 0px;
-	-moz-border-radius: 7px 7px 0px 0px;
-	-khtml-border-radius: 7px 7px 0px 0px;
-	border-radius: 7px 7px 7px 7px;
-	border: 1px solid #DBDEE1;
-	padding: 4px 30px 0 0;
-	clear: both;
-}
+#powered{		
+		clear:both;
+		background:url(../image/menu-bg.png) no-repeat;	
+		height:40px;
+		line-height:40px;
+		overflow:hidden;
+		margin:0 0 15px;
+		padding:0 20px;
+	}
+		#powered  br{
+			display:none;
+		}
+		#powered, #powered a{
+			color:#fff;
+			text-decoration:none;
+			font-size:11px;			
+		}
+			#powered a{
+				font-weight:bold;
+			}
+				#powered a:hover{
+					color:#fff;
+					text-decoration:underline;
+				}
+		#powered ul.floatright{
+			list-style:none;
+			padding:0;
+			margin:0;
+		}
+			#powered ul.floatright li{
+				display:block;				
+				float:left;
+				padding:0 4px;
+			}	
+
 /* banner */
 .banner div {
 	text-align: center;
