@@ -24,6 +24,7 @@
 <script type="text/javascript" src="catalog/view/javascript/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
 <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css" />
 <script type="text/javascript" src="catalog/view/javascript/common.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/deploy.js"></script>
 <?php foreach ($scripts as $script) { ?>
 <script type="text/javascript" src="<?php echo $script; ?>"></script>
 <?php } ?>
@@ -68,3 +69,22 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
     
 <?php } ?>
 <div id="notification"></div>
+<div id="menu">
+	<ul>
+		<?php foreach ($categories as $category) { ?>
+      <li>
+        <a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
+        <?php if ($category['children']) { ?>
+        <div style="display: none;">
+        <ul>
+          <?php foreach ($category['children'] as $child) { ?>
+          <li>
+            <a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a>
+          </li>
+          <?php } ?>
+        </ul>
+        <?php } ?>
+      </li>
+      <?php } ?>
+	</ul>
+</div>
