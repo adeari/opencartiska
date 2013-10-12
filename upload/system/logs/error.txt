@@ -1256,3 +1256,4 @@
 2013-10-09 15:15:48 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/header.tpl on line 74
 2013-10-09 15:15:50 - PHP Notice:  Undefined variable: categories in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/header.tpl on line 74
 2013-10-09 15:15:50 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/header.tpl on line 74
+2013-10-12 12:03:17 - PHP Notice:  Undefined index: verified in E:\proyeKerja\onlineshop\src\upload\catalog\controller\account\fbconnect.php on line 40
