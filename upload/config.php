@@ -1,5 +1,10 @@
 <?php
 // HTTP
+$shoFBAcc = true;
+if (strcmp($_SERVER['HTTP_HOST'],"iska.tit")==0) {
+	$shoFBAcc = false;
+}
+define('showFBIT', $shoFBAcc);
 $myServer = 'http://'.$_SERVER['HTTP_HOST'].'/';
 define('HTTP_SERVER', $myServer);
 

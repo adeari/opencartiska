@@ -28,6 +28,7 @@ $_['entry_address']                = 'Alamat:';
 $_['entry_email']                  = 'E-Mail:';
 $_['entry_telephone']              = 'Telepon:';
 $_['entry_fax']                    = 'Fax:';
+$_['entry_pinBB']                  = 'Pin Blackberry :';
 $_['entry_title']                  = 'Judul:';
 $_['entry_meta_description']       = 'Deskripsi Tag Meta:';
 $_['entry_layout']                 = 'Tampilan Default:';

@@ -71,19 +71,9 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 <div id="notification"></div>
 <div id="menu">
 	<ul>
-		<?php foreach ($categories as $category) { ?>
+		<?php foreach ($informations as $information) { ?>
       <li>
-        <a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>
-        <?php if ($category['children']) { ?>
-        <div style="display: none;">
-        <ul>
-          <?php foreach ($category['children'] as $child) { ?>
-          <li>
-            <a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a>
-          </li>
-          <?php } ?>
-        </ul>
-        <?php } ?>
+        <a href="<?php echo $information['href']; ?>"><?php echo $information['name']; ?></a>        
       </li>
       <?php } ?>
 	</ul>

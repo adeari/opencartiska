@@ -27,13 +27,6 @@ class ControllerCommonColumnLeft extends Controller {
 				'setting'    => $modules,
 				'sort_order' => 0
 		);
-		$moduleChoos = 'affiliate';
-		$modules = $this->config->get($moduleChoos.'_module');
-		$module_data[1] = array(
-				'code'       => $moduleChoos,
-				'setting'    => $modules,
-				'sort_order' => 1
-		);
 		
 
 		$sort_order = array();
@@ -53,6 +46,9 @@ class ControllerCommonColumnLeft extends Controller {
 				$this->data['modules'][] = $module;
 			}
 		}
+		
+		$this->data['showFBAcc']=showFBIT;
+		$this->data['pinBB'] = $this->config->get('config_pinBB');
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/column_left.tpl')) {
 			$this->template = $this->config->get('config_template') . '/template/common/column_left.tpl';

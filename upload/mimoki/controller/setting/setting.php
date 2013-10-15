@@ -51,7 +51,8 @@ class ControllerSettingSetting extends Controller {
 		$this->data['entry_address'] = $this->language->get('entry_address');
 		$this->data['entry_email'] = $this->language->get('entry_email');
 		$this->data['entry_telephone'] = $this->language->get('entry_telephone');
-		$this->data['entry_fax'] = $this->language->get('entry_fax');		
+		$this->data['entry_fax'] = $this->language->get('entry_fax');
+		$this->data['entry_pinBB'] = $this->language->get('entry_pinBB');
 		$this->data['entry_title'] = $this->language->get('entry_title');
 		$this->data['entry_meta_description'] = $this->language->get('entry_meta_description');
 		$this->data['entry_layout'] = $this->language->get('entry_layout');
@@ -378,6 +379,12 @@ class ControllerSettingSetting extends Controller {
 			$this->data['config_fax'] = $this->request->post['config_fax'];
 		} else {
 			$this->data['config_fax'] = $this->config->get('config_fax');
+		}
+		
+		if (isset($this->request->post['config_pinBB'])) {
+			$this->data['config_pinBB'] = $this->request->post['config_pinBB'];
+		} else {
+			$this->data['config_pinBB'] = $this->config->get('config_pinBB');
 		}
 
 		if (isset($this->request->post['config_title'])) {

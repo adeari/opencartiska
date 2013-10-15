@@ -2081,3 +2081,12 @@ ul.box-filter>li ul {
 .clearfix {
 	*zoom: 1;
 }
+.boxJNe {
+	background: #F8F8F8;
+	-webkit-border-radius: 7px 7px 0px 0px;
+	-moz-border-radius: 7px 7px 0px 0px;
+	-khtml-border-radius: 7px 7px 0px 0px;
+	border-radius: 7px 7px 7px 7px;
+	border: 1px solid #E8E8E8;
+	height:180px;
+}

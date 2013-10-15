@@ -95,45 +95,28 @@ class ControllerCommonHeader extends Controller {
 			$this->data['search'] = '';
 		}
 		
-		// Menu
-		$this->load->model('catalog/category');
+		$this->data['information'] = array();
+		$informations = $this->model_catalog_information->getInformations(0);
 		
-		$this->load->model('catalog/product');
-		
-		$this->data['categories'] = array();
-					
-		$categories = $this->model_catalog_category->getCategories(0);
-		
-		foreach ($categories as $category) {
-			if ($category['top']) {
-				// Level 2
-				$children_data = array();
-				
-				$children = $this->model_catalog_category->getCategories($category['category_id']);
-				
-				foreach ($children as $child) {
-					$data = array(
-						'filter_category_id'  => $child['category_id'],
-						'filter_sub_category' => true
-					);
-					
-					$product_total = $this->model_catalog_product->getTotalProducts($data);
-									
-					$children_data[] = array(
-						'name'  => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $product_total . ')' : ''),
-						'href'  => $this->url->link('product/category', 'path=' . $category['category_id'] . '_' . $child['category_id'])
-					);						
-				}
-				
-				// Level 1
-				$this->data['categories'][] = array(
-					'name'     => $category['name'],
-					'children' => $children_data,
-					'column'   => $category['column'] ? $category['column'] : 1,
-					'href'     => $this->url->link('product/category', 'path=' . $category['category_id'])
+		foreach ($informations as $information) {
+			$this->data['informations'][] = array(
+					'name'     => $information['title'],
+					'column'   => 1,
+					'href'     => $this->url->link('information/information', 'information_id=' . $information['information_id'])
 				);
-			}
 		}
+		
+		$this->data['informations'][] = array(
+        		'name' => $this->language->get('text_contact'),
+				'column'   => 1,
+	    		'href'  => $this->url->link('information/contact')
+      		);
+		
+		$this->data['informations'][] = array(
+        		'name' => $this->language->get('text_sitemap'),
+				'column'   => 1,
+	    		'href'  => $this->url->link('information/sitemap')
+      		);	
 		
 		$this->children = array(
 			'module/language',
