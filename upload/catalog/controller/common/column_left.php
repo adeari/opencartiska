@@ -49,6 +49,7 @@ class ControllerCommonColumnLeft extends Controller {
 		
 		$this->data['showFBAcc']=showFBIT;
 		$this->data['pinBB'] = $this->config->get('config_pinBB');
+		$this->data['waNum'] = $this->config->get('config_whatsApp');
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/column_left.tpl')) {
 			$this->template = $this->config->get('config_template') . '/template/common/column_left.tpl';

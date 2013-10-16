@@ -28,7 +28,7 @@ define('DIR_LOGS', $direki.'system/logs/');
 define('DB_DRIVER', 'mysql');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'ade');
-define('DB_PASSWORD', '123');
 define('DB_DATABASE', 'opencartiska');
+define('DB_PASSWORD', '123');
 define('DB_PREFIX', 'oc_');
 ?>

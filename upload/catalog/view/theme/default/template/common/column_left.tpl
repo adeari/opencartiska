@@ -17,7 +17,7 @@
   <br/><br/>
   <div style="height:20px">
   <div style="float:left"><img src="image/logo/wa.png" /></div> 
-  <div style="float:left;margin-top:6px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7777798007</div>
+  <div style="float:left;margin-top:6px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $waNum; ?></div>
   </div>
   <br/><br/>
   <div style="height:30px">

@@ -29,6 +29,7 @@ $_['entry_email']                  = 'E-Mail:';
 $_['entry_telephone']              = 'Telephone:';
 $_['entry_fax']                    = 'Fax:';
 $_['entry_pinBB']                  = 'Blackberry pin :';
+$_['entry_Whatsapp']               = 'WhatsApp number :';
 $_['entry_title']                  = 'Title:';
 $_['entry_meta_description']       = 'Meta Tag Description:';
 $_['entry_layout']                 = 'Default Layout:';

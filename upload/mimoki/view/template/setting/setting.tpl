@@ -64,6 +64,10 @@
               <td><?php echo $entry_pinBB; ?></td>
               <td><input type="text" name="config_pinBB" value="<?php echo $config_pinBB; ?>" /></td>
             </tr>
+			<tr>
+              <td><?php echo $entry_Whatsapp; ?></td>
+              <td><input type="text" name="config_whatsApp" value="<?php echo $config_whatsApp; ?>" /></td>
+            </tr>
           </table>
         </div>
         <div id="tab-store">
