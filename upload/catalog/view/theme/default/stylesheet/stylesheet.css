@@ -2089,4 +2089,58 @@ ul.box-filter>li ul {
 	border-radius: 7px 7px 7px 7px;
 	border: 1px solid #E8E8E8;
 	height:180px;
+	margin-bottom:10px;
+}
+.boxJNe {
+	background: #F8F8F8;
+	padding: 0;
+	margin: 2px 0 0 0;
+}
+.boxLogin {
+	background: #F8F8F8;
+	-webkit-border-radius: 7px 7px 0px 0px;
+	-moz-border-radius: 7px 7px 0px 0px;
+	-khtml-border-radius: 7px 7px 0px 0px;
+	border-radius: 7px 7px 7px 7px;
+	border: 1px solid #E8E8E8;
+	margin-bottom:10px;
+}
+.boxForm {
+	padding:6px;
+}
+.widthLoginInput {
+	width:155px;
+	margin-bottom:13px;
+}
+.rightForgetEmail{
+	margin-right:5px;
+}
+
+.box.box-fbconnect .box-content .box-fbconnect-a {
+	margin-top:7px;
+	height: 27px;
+	width: 130px;
+	margin-bottom: 5px;
+	background:url(../image/facebuton1.fw.png) bottom;
+	text-indent: -99999px;
+	outline: none;
+}
+
+
+.box.box-fbconnect {
+	height: auto;
+	width: auto;
+	display: block;
+	line-height: 20px;
+	font-weight: bolder;
+	color: #FFF;
+}
+.box.box-fbconnect .box-content .box-fbconnect-a:hover {
+	background-position: 0 0;
+}
+.box.box-fbconnect .box-content .box-fbconnect-a {
+	float: left;
+}
+.box-content11 {
+	padding:10px;
 }

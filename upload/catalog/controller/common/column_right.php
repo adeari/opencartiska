@@ -20,12 +20,18 @@ class ControllerCommonColumnRight extends Controller {
 		$extensions = $this->model_setting_extension->getExtensions('module');
 		$moduleChoos = 'trackingjne';
 		$modules = $this->config->get($moduleChoos.'_module');
-		$module_data[0] = array(
+		$module_data[1] = array(
 				'code'       => $moduleChoos,
 				'setting'    => $modules,
-				'sort_order' => 0
+				'sort_order' => 1
 		);		
 		$sort_order = array(); 
+		
+		$module_data[0] = array(
+				'code'       => 'loginright',
+				'setting'    => '',
+				'sort_order' => 0
+		);	
 	  
 		foreach ($module_data as $key => $value) {
       		$sort_order[$key] = $value['sort_order'];

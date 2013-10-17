@@ -1,7 +1,7 @@
 <div class="boxJNe">
 <div class="box">
   <div class="box-heading"><?php echo $heading_title; ?></div>
-  <div class="box-content">
+  <div class="boxJNe1">
     <div style="text-align:center">
     <a href="http://www.jne.co.id" target="_blank"><img src="/image/logo/jne.png" border="0"></a>
     </div>	
