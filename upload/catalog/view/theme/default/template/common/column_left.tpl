@@ -4,11 +4,11 @@
   <?php echo $module; ?>
   <?php } ?>
   <div style="text-align:center">
-  <?php if ($showFBAcc) { ?>  
-  <a href="ymsgr:sendIM?iska_nk"><img src="http://opi.yahoo.com/online?u=iska_nk&amp;m=g&amp;t=15" border="0"></a>
+  <?php // if ($showFBAcc) { ?>  
+  <a href="ymsgr:sendIM?iska_nk"><img src="http://opi.yahoo.com/online?u=<?php echo $YMid; ?>&amp;m=g&amp;t=15" border="0"></a>
   <br/>
-  iska_nk<br/><br/>
-  <?php } ?>
+  <?php echo $YMid; ?><br/><br/>
+  <?php // } ?>
   
   <div style="height:20px">
   <div style="float:left"><img src="image/logo/bb.png" /></div> 
@@ -22,7 +22,7 @@
   <br/><br/>
   <div style="height:30px">
   <div style="float:left"><img src="image/logo/sms.png" /></div> 
-  <div style="float:left;margin-top:12px">&nbsp;&nbsp;&nbsp;0788565</div>
+  <div style="float:left;margin-top:12px">&nbsp;&nbsp;&nbsp;<?php echo $SMSnum; ?></div>
   </div>
   <br/><br/>
   </div>

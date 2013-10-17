@@ -54,6 +54,8 @@ class ControllerSettingSetting extends Controller {
 		$this->data['entry_fax'] = $this->language->get('entry_fax');
 		$this->data['entry_pinBB'] = $this->language->get('entry_pinBB');
 		$this->data['entry_Whatsapp'] = $this->language->get('entry_Whatsapp');
+		$this->data['entry_YM'] = $this->language->get('entry_YM');
+		$this->data['entry_SMS'] = $this->language->get('entry_SMS');
 		$this->data['entry_title'] = $this->language->get('entry_title');
 		$this->data['entry_meta_description'] = $this->language->get('entry_meta_description');
 		$this->data['entry_layout'] = $this->language->get('entry_layout');
@@ -392,6 +394,18 @@ class ControllerSettingSetting extends Controller {
 			$this->data['config_whatsApp'] = $this->request->post['config_whatsApp'];
 		} else {
 			$this->data['config_whatsApp'] = $this->config->get('config_whatsApp');
+		}
+		
+		if (isset($this->request->post['config_SMS'])) {
+			$this->data['config_SMS'] = $this->request->post['config_SMS'];
+		} else {
+			$this->data['config_SMS'] = $this->config->get('config_SMS');
+		}
+		
+		if (isset($this->request->post['config_YM'])) {
+			$this->data['config_YM'] = $this->request->post['config_YM'];
+		} else {
+			$this->data['config_YM'] = $this->config->get('config_YM');
 		}
 
 		if (isset($this->request->post['config_title'])) {

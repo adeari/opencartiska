@@ -61,12 +61,20 @@
               <td><input type="text" name="config_fax" value="<?php echo $config_fax; ?>" /></td>
             </tr>
 			<tr>
+              <td><?php echo $entry_SMS; ?></td>
+              <td><input type="text" name="config_SMS" value="<?php echo $config_SMS; ?>" /></td>
+            </tr>
+			<tr>
               <td><?php echo $entry_pinBB; ?></td>
               <td><input type="text" name="config_pinBB" value="<?php echo $config_pinBB; ?>" /></td>
             </tr>
 			<tr>
               <td><?php echo $entry_Whatsapp; ?></td>
               <td><input type="text" name="config_whatsApp" value="<?php echo $config_whatsApp; ?>" /></td>
+            </tr>
+			<tr>
+              <td><?php echo $entry_YM; ?></td>
+              <td><input type="text" name="config_YM" value="<?php echo $config_YM; ?>" /></td>
             </tr>
           </table>
         </div>
