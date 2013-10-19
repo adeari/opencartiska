@@ -49,6 +49,8 @@ class ControllerCommonColumnRight extends Controller {
 			}
 		}
 		
+		$this->data['showFBAcc']=showFBIT;
+		
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/column_right.tpl')) {
 			$this->template = $this->config->get('config_template') . '/template/common/column_right.tpl';
 		} else {

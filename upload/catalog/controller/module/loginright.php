@@ -2,7 +2,7 @@
 class ControllerModuleLoginright extends Controller {
 
 	public function index() {
-		if(!$this->customer->isLogged()){
+		if (!$this->customer->isLogged()|| strcmp($this->request->get['route'],'account/login')==0) {
 		$this->language->load('account/login');
 		$this->language->load('module/fbconnect');
 		require_once(DIR_SYSTEM . 'vendor/facebook-sdk/facebook.php');

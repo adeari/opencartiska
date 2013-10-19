@@ -1631,3 +1631,4 @@
 2013-10-19 5:04:06 - PHP Warning:  strlen() expects parameter 1 to be string, array given in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 9
 2013-10-19 5:09:57 - PHP Notice:  Undefined variable: YMid1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 23
 2013-10-19 5:09:57 - PHP Notice:  Undefined variable: i in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 23
+2013-10-19 12:57:19 - PHP Notice:  Undefined variable: showFBAcc in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_right.tpl on line 9
