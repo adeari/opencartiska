@@ -3,3 +3,5 @@
 /upload/system/cache
 
 cache
+
+/upload/system/logs/error.txt

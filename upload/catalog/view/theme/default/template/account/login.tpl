@@ -39,6 +39,12 @@
           <?php if ($redirect) { ?>
           <input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
           <?php } ?>
+          
+          <div class="box box-fbconnect" style="margin:-33px 0 0 117px;">
+  <div class="box-content box-content11">
+	<a class="box-fbconnect-a" href="<?php echo $fbconnect_url; ?>"><?php echo $fbconnect_button; ?></a>
+  </div></div>
+  
         </div>
       </form>
     </div>
