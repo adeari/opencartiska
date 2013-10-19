@@ -50,12 +50,14 @@
         <td><?php echo $products[$product['product_id']]['model']; ?></td>
         <?php } ?>
       </tr>
+      <?php /* ?>
       <tr>
         <td><?php echo $text_manufacturer; ?></td>
         <?php foreach ($products as $product) { ?>
         <td><?php echo $products[$product['product_id']]['manufacturer']; ?></td>
         <?php } ?>
       </tr>
+       <?php */ ?>
       <tr>
         <td><?php echo $text_availability; ?></td>
         <?php foreach ($products as $product) { ?>

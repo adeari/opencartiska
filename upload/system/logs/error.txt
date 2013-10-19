@@ -1620,3 +1620,4 @@
 2013-10-17 15:44:03 - PHP Notice:  Undefined variable: action in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/module/loginRight.tpl on line 6
 2013-10-17 15:44:12 - PHP Notice:  Undefined variable: action in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/module/loginRight.tpl on line 6
 2013-10-17 15:44:23 - PHP Notice:  Undefined variable: action in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/module/loginRight.tpl on line 6
+2013-10-19 4:27:22 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/product/product.tpl on line 26

@@ -23,7 +23,7 @@
     <?php } ?>
     <div class="right">
       <div class="description">
-        <?php if ($manufacturer) { ?>
+        <?php $manufacturer = false; if ($manufacturer) { ?>
         <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
         <?php } ?>
         <span><?php echo $text_model; ?></span> <?php echo $model; ?><br />

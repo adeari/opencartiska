@@ -4,11 +4,11 @@
   <?php echo $module; ?>
   <?php } ?>
   <div style="text-align:center">
-  <?php // if ($showFBAcc) { ?>  
+  <?php if ($showFBAcc) { ?>  
   <a href="ymsgr:sendIM?iska_nk"><img src="http://opi.yahoo.com/online?u=<?php echo $YMid; ?>&amp;m=g&amp;t=15" border="0"></a>
   <br/>
   <?php echo $YMid; ?><br/><br/>
-  <?php // } ?>
+  <?php } ?>
   
   <div style="height:20px">
   <div style="float:left"><img src="image/logo/bb.png" /></div> 
