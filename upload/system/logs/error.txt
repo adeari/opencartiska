@@ -1621,3 +1621,13 @@
 2013-10-17 15:44:12 - PHP Notice:  Undefined variable: action in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/module/loginRight.tpl on line 6
 2013-10-17 15:44:23 - PHP Notice:  Undefined variable: action in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/module/loginRight.tpl on line 6
 2013-10-19 4:27:22 - PHP Notice:  Undefined variable: manufacturer in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/product/product.tpl on line 26
+2013-10-19 5:03:25 - PHP Notice:  Undefined variable: YMid1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 8
+2013-10-19 5:03:25 - PHP Warning:  strlen() expects parameter 1 to be string, array given in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 9
+2013-10-19 5:03:25 - PHP Notice:  Array to string conversion in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 12
+2013-10-19 5:03:25 - PHP Notice:  Array to string conversion in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 12
+2013-10-19 5:03:25 - PHP Notice:  Array to string conversion in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 14
+2013-10-19 5:03:51 - PHP Notice:  Undefined variable: YMid1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 8
+2013-10-19 5:03:51 - PHP Warning:  strlen() expects parameter 1 to be string, array given in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 9
+2013-10-19 5:04:06 - PHP Warning:  strlen() expects parameter 1 to be string, array given in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 9
+2013-10-19 5:09:57 - PHP Notice:  Undefined variable: YMid1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 23
+2013-10-19 5:09:57 - PHP Notice:  Undefined variable: i in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/common/column_left.tpl on line 23
