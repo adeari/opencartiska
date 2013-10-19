@@ -52,6 +52,9 @@ class ControllerCommonColumnLeft extends Controller {
 		$this->data['waNum'] = $this->config->get('config_whatsApp');
 		$this->data['SMSnum'] = $this->config->get('config_SMS');
 		$this->data['YMid'] = $this->config->get('config_YM');
+		
+		$this->language->load('information/contact');
+		$this->data['contact_us'] = $this->language->get('text_location');
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/column_left.tpl')) {
 			$this->template = $this->config->get('config_template') . '/template/common/column_left.tpl';
