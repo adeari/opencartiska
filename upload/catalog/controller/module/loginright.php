@@ -8,7 +8,10 @@ class ControllerModuleLoginright extends Controller {
 		if ($showLoginRightOn) {
 			if (isset($this->request->get['route'])) {
 				$route = (string)$this->request->get['route'];
-				if (strcmp($route,'account/login')==0)	$showLoginRightOn = false;;
+				if (strcmp($route,'account/login')==0
+				|| strcmp($route,'checkout/checkout')==0
+				)	
+					$showLoginRightOn = false;;
 			}
 		}
 		if ($showLoginRightOn) {

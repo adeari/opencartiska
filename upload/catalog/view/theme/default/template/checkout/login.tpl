@@ -38,5 +38,11 @@
   <a href="<?php echo $forgotten; ?>"><?php echo $text_forgotten; ?></a><br />
   <br />
   <input type="button" value="<?php echo $button_login; ?>" id="button-login" class="button" /><br />
+  
+  <div class="box box-fbconnect" style="margin:-33px 0 0 117px;">
+  <div class="box-content box-content11">
+	<a class="box-fbconnect-a" href="<?php echo $fbconnect_url; ?>"><?php echo $fbconnect_button; ?></a>
+  </div></div>
+  
   <br />
 </div>

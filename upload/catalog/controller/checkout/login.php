@@ -26,6 +26,27 @@ class ControllerCheckoutLogin extends Controller {
 			$this->data['account'] = 'register';
 		}
 		
+		
+		
+		$this->language->load('module/fbconnect');
+		require_once(DIR_SYSTEM . 'vendor/facebook-sdk/facebook.php');
+		$this->fbconnect = new Facebook(array(
+				'appId'  => '545219405555247',
+				'secret' => 'acb93d14f328402f58032ac62c7cabbd',
+		));
+		$this->data['fbconnect_url'] = $this->fbconnect->getLoginUrl(
+				array(
+						'scope' => 'email,user_birthday,user_location,user_hometown',
+						'redirect_uri'  => $this->url->link('account/fbconnect', '', 'SSL')
+				)
+		);
+		if($this->config->get('fbconnect_button_' . $this->config->get('config_language_id'))){
+			$this->data['fbconnect_button'] = html_entity_decode($this->config->get('fbconnect_button_' . $this->config->get('config_language_id')));
+		}
+		else $this->data['fbconnect_button'] = $this->language->get('heading_title');
+
+		
+		
 		$this->data['forgotten'] = $this->url->link('account/forgotten', '', 'SSL');
 		
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/login.tpl')) {
