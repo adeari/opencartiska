@@ -5,6 +5,7 @@ if (strcmp($_SERVER['HTTP_HOST'],"iska.tit")==0) {
 	$shoFBAcc = false;
 }
 define('showFBIT', $shoFBAcc);
+define('apikeyongkir', 'f7da17c2d33e2079d2fc7a2efd38c499');
 $myServer = 'http://'.$_SERVER['HTTP_HOST'].'/';
 define('HTTP_SERVER', $myServer);
 

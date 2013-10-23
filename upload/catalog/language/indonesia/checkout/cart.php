@@ -18,7 +18,7 @@ $_['text_use_coupon']        = 'Gunakan Kupon Diskon';
 $_['text_use_voucher']       = 'Gunakan Voucher Hadiah';
 $_['text_use_reward']        = 'Gunakan Point Reward (Tersedia %s)';
 $_['text_shipping_estimate'] = 'Simulasi Biaya Kirim';
-$_['text_shipping_detail']   = 'Masukkan tujuan Anda untuk mendapatkan perkiraan biaya pengiriman.';
+$_['text_shipping_detail']   = 'Masukkan tujuan Anda untuk mendapatkan perkiraan biaya pengiriman dari JNE.';
 $_['text_shipping_method']   = 'Silahkan pilih metode pengiriman yang disukai untuk mengirim pesanan Anda.';
 $_['text_empty']             = 'Keranjang Belanja Anda kosong!';
 
@@ -34,8 +34,11 @@ $_['column_total']           = 'Total';
 $_['entry_coupon']           = 'Masukkan kupon Anda disini:';
 $_['entry_voucher']          = 'Masukkan Voucher Hadiah Anda disini:';
 $_['entry_reward']           = 'Point yang akan digunakan (Maks %s):';
-$_['entry_country']          = 'Propinsi:';
-$_['entry_zone']             = 'Kab / Kota:';
+$_['entry_country']          = 'Negara:';
+$_['entry_zone']             = 'Propinsi:';
+$_['entry_city']         	 = 'Kota asal:';
+$_['to_city']         	 	 = 'Kota tujuan:';
+$_['beratnya']         	 	 = 'Berat:';
 $_['entry_postcode']         = 'Post Code:';
 
 // Error

@@ -163,29 +163,15 @@
     </div>
     <div id="shipping" class="content" style="display: <?php echo ($next == 'shipping' ? 'block' : 'none'); ?>;">
       <p><?php echo $text_shipping_detail; ?></p>
-      <table>
+      <table>        
         <tr>
-          <td><span class="required">*</span> <?php echo $entry_country; ?></td>
-          <td><select name="country_id">
-              <option value=""><?php echo $text_select; ?></option>
-              <?php foreach ($countries as $country) { ?>
-              <?php if ($country['country_id'] == $country_id) { ?>
-              <option value="<?php echo $country['country_id']; ?>" selected="selected"><?php echo $country['name']; ?></option>
-              <?php } else { ?>
-              <option value="<?php echo $country['country_id']; ?>"><?php echo $country['name']; ?></option>
-              <?php } ?>
-              <?php } ?>
-            </select></td>
+          <td><span class="required">*</span> <?php echo $entry_city; ?></td>
+          <td><input type="text" name="from" id="fromcity"></td>
         </tr>
         <tr>
-          <td><span class="required">*</span> <?php echo $entry_zone; ?></td>
-          <td><select name="zone_id">
-            </select></td>
-        </tr>
-        <tr>
-          <td><span id="postcode-required" class="required">*</span> <?php echo $entry_postcode; ?></td>
-          <td><input type="text" name="postcode" value="<?php echo $postcode; ?>" /></td>
-        </tr>
+          <td><span class="required">*</span> <?php echo $to_city; ?></td>
+          <td><input type="text" name="to" id="tocity"></td>
+        </tr>       
       </table>
       <input type="button" value="<?php echo $button_quote; ?>" id="button-quote" class="button" />
     </div>
@@ -216,6 +202,7 @@ $('input[name=\'next\']').bind('change', function() {
 <?php if ($shipping_status) { ?>
 <script type="text/javascript"><!--
 $('#button-quote').live('click', function() {
+
 	$.ajax({
 		url: 'index.php?route=checkout/cart/quote',
 		type: 'post',
@@ -224,12 +211,17 @@ $('#button-quote').live('click', function() {
 		beforeSend: function() {
 			$('#button-quote').attr('disabled', true);
 			$('#button-quote').after('<span class="wait">&nbsp;<img src="catalog/view/theme/default/image/loading.gif" alt="" /></span>');
-		},
+		},	
 		complete: function() {
 			$('#button-quote').attr('disabled', false);
 			$('.wait').remove();
-		},		
-		success: function(json) {
+		},
+		success: function(jsonmu) {
+		var json = jsonmu;
+		
+			
+		
+		
 			$('.success, .warning, .attention, .error').remove();			
 						
 			if (json['error']) {
@@ -297,6 +289,7 @@ $('#button-quote').live('click', function() {
 							
 				html += '</form>';
 				
+				
 				$.colorbox({
 					overlayClose: true,
 					opacity: 0.5,
@@ -309,7 +302,15 @@ $('#button-quote').live('click', function() {
 				$('input[name=\'shipping_method\']').bind('change', function() {
 					$('#button-shipping').attr('disabled', false);
 				});
-			}
+				
+				
+				}
+		
+		
+				
+				
+				
+			
 		}
 	});
 });

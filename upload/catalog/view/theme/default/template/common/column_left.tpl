@@ -65,7 +65,7 @@
   <?php } ?>
   <br/>
   
-   <?php // if ($showFBAcc) {  
+   <?php  if ($showFBAcc) {  
   $YMid1 = explode(",",$YMid);
   $length1 = count($YMid1);
   if ($length1) { ?>
@@ -81,7 +81,7 @@
   </tbody>
   </table>  
   <?php }?>
-  <?php // } ?>
+  <?php  } ?>
   
   </div></div></div>
 </div>

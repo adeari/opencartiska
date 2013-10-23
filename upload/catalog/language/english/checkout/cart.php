@@ -18,7 +18,7 @@ $_['text_use_coupon']        = 'Use Coupon Code';
 $_['text_use_voucher']       = 'Use Gift Voucher';
 $_['text_use_reward']        = 'Use Reward Points (Available %s)';
 $_['text_shipping_estimate'] = 'Estimate Shipping &amp; Taxes';
-$_['text_shipping_detail']   = 'Enter your destination to get a shipping estimate.';
+$_['text_shipping_detail']   = 'Enter your destination to get a shipping estimate from JNE.';
 $_['text_shipping_method']   = 'Please select the preferred shipping method to use on this order.';
 $_['text_empty']             = 'Your shopping cart is empty!';
 $_['text_until_cancelled']   = 'until cancelled';
@@ -47,6 +47,9 @@ $_['entry_voucher']          = 'Enter your gift voucher code here:';
 $_['entry_reward']           = 'Points to use (Max %s):';
 $_['entry_country']          = 'Country:';
 $_['entry_zone']             = 'Region / State:';
+$_['entry_city']             = 'Origin City:';
+$_['to_city']             	 = 'Destination City:';
+$_['beratnya']         	 	 = 'Weight:';
 $_['entry_postcode']         = 'Post Code:';
 
 // Error

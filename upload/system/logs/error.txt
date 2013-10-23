@@ -1709,3 +1709,41 @@
 2013-10-20 14:21:59 - PHP Notice:  Undefined index: code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 16
 2013-10-20 14:21:59 - PHP Notice:  Undefined index: code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 20
 2013-10-20 14:21:59 - PHP Notice:  Undefined index: code in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 21
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-21 21:34:31 - PHP Warning:  strpos(): Empty delimiter in /media/datas/proyeKerja/onlineshop/src/upload/catalog/model/shipping/jne.php on line 28
+2013-10-23 20:09:19 - PHP Notice:  Undefined variable: entry_city in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/cart.tpl on line 186
+2013-10-23 20:21:53 - PHP Notice:  Undefined variable: to_city in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/cart.tpl on line 172
+2013-10-23 22:30:51 - PHP Warning:  Illegal string offset 'jne' in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 771
+2013-10-23 22:30:51 - PHP Notice:  Undefined index: sort_order in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 782
+2013-10-23 22:33:14 - PHP Warning:  Attempt to modify property of non-object in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 771
+2013-10-23 22:34:13 - PHP Warning:  Attempt to assign property of non-object in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 771
+2013-10-23 22:47:22 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 778
+2013-10-23 23:21:40 - PHP Warning:  file_get_contents(http://api.ongkir.info/cost/find): failed to open stream: HTTP request failed!  in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 785
+2013-10-23 23:30:29 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 802
+2013-10-23 23:30:33 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 802
