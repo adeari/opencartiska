@@ -53,9 +53,9 @@ $_['entry_tax_id']                   = 'NPWP:';
 $_['entry_address_1']                = 'Alamat 1:';
 $_['entry_address_2']                = 'Alamat 2:';
 $_['entry_postcode']                 = 'Kode Pos:';
-$_['entry_city']                     = 'Kota:';
-$_['entry_country']                  = 'Propinsi:';
-$_['entry_zone']                     = 'Kab / Kota:';
+$_['entry_city']                     = 'Kab / Kota:';
+$_['entry_country']                  = 'Negara:';
+$_['entry_zone']                     = 'Propinsi:';
 $_['entry_newsletter']               = 'Saya ingin berlangganan %s berita.';
 $_['entry_shipping'] 	             = 'Alamat pengiriman dan tagihan saya adalah sama.';
 

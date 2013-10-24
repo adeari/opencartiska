@@ -19,7 +19,7 @@
   <tr>
   	<td height=1 width=20><img src="image/logo/bb.png" /></td>
   	<td height=1 width=75> Pin BB : </td>
-  	<td><?php echo $YMid1[$i]; ?></td>
+  	<td align="right"><?php echo $YMid1[$i]; ?></td>
   </tr> 
   <?php  } ?>
   </tbody>
@@ -38,7 +38,7 @@
   <tr>
   	<td height=1 width=20><img src="image/logo/wa.png" /></td>
   	<td height=1 width=75> Whatsapp : </td>
-  	<td><?php echo $YMid1[$i]; ?></td>
+  	<td align="right"><?php echo $YMid1[$i]; ?></td>
   </tr> 
   <?php  } ?>
   </tbody>
@@ -57,7 +57,7 @@
   <tr>
   	<td height=1 width=20><img src="image/logo/sms.png" /></td>
   	<td height=1 width=75> SMS : </td>
-  	<td><?php echo $YMid1[$i]; ?></td>
+  	<td align="right"><?php echo $YMid1[$i]; ?></td>
   </tr> 
   <?php  } ?>
   </tbody>
@@ -74,7 +74,7 @@
   <?php for ($i=0;$i<$length1;$i++) {
   	$NumChr = 65+$i;
   ?>
-  <tr><td height=1 >Contact ym <?php  echo chr($NumChr); ?> : </td><td height=1>
+  <tr><td height=1 >Contact ym <?php  echo chr($NumChr); ?> : </td><td height=1 align="right">
   <a href="ymsgr:sendIM?<?php echo $YMid1[$i]; ?>"><img style="height:18px" src="http://opi.yahoo.com/online?u=<?php echo $YMid1[$i]; ?>&amp;m=g&amp;t=1" border="0"></a>
 </td></tr> 
   <?php  } ?>

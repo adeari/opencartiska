@@ -1,30 +1,30 @@
 <div class="left">
   <h2><?php echo $text_your_details; ?></h2>
   <span class="required">*</span> <?php echo $entry_firstname; ?><br />
-  <input type="text" name="firstname" value="<?php echo $firstname; ?>" class="large-field" />
+  <input type="text" name="firstname" value="<?php echo $firstname; ?>" class="medium-field" />
   <br />
   <br />
   <span class="required">*</span> <?php echo $entry_lastname; ?><br />
-  <input type="text" name="lastname" value="<?php echo $lastname; ?>" class="large-field" />
+  <input type="text" name="lastname" value="<?php echo $lastname; ?>" class="medium-field" />
   <br />
   <br />
   <span class="required">*</span> <?php echo $entry_email; ?><br />
-  <input type="text" name="email" value="<?php echo $email; ?>" class="large-field" />
+  <input type="text" name="email" value="<?php echo $email; ?>" class="medium-field" />
   <br />
   <br />
   <span class="required">*</span> <?php echo $entry_telephone; ?><br />
-  <input type="text" name="telephone" value="<?php echo $telephone; ?>" class="large-field" />
+  <input type="text" name="telephone" value="<?php echo $telephone; ?>" class="medium-field" />
   <br />
   <br />
   <?php echo $entry_fax; ?><br />
-  <input type="text" name="fax" value="<?php echo $fax; ?>" class="large-field" />
+  <input type="text" name="fax" value="<?php echo $fax; ?>" class="medium-field" />
   <br />
   <br />
 </div>
 <div class="right">
   <h2><?php echo $text_your_address; ?></h2>
   <?php echo $entry_company; ?><br />
-  <input type="text" name="company" value="<?php echo $company; ?>" class="large-field" />
+  <input type="text" name="company" value="<?php echo $company; ?>" class="medium-field" />
   <br />
   <br />
   <div style="display: <?php echo (count($customer_groups) > 1 ? 'table-row' : 'none'); ?>;"> <?php echo $entry_customer_group; ?><br />
@@ -42,33 +42,33 @@
     <br />
   </div>
   <div id="company-id-display"><span id="company-id-required" class="required">*</span> <?php echo $entry_company_id; ?><br />
-    <input type="text" name="company_id" value="<?php echo $company_id; ?>" class="large-field" />
+    <input type="text" name="company_id" value="<?php echo $company_id; ?>" class="medium-field" />
     <br />
     <br />
   </div>
   <div id="tax-id-display"><span id="tax-id-required" class="required">*</span> <?php echo $entry_tax_id; ?><br />
-    <input type="text" name="tax_id" value="<?php echo $tax_id; ?>" class="large-field" />
+    <input type="text" name="tax_id" value="<?php echo $tax_id; ?>" class="medium-field" />
     <br />
     <br />
   </div>
   <span class="required">*</span> <?php echo $entry_address_1; ?><br />
-  <input type="text" name="address_1" value="<?php echo $address_1; ?>" class="large-field" />
+  <input type="text" name="address_1" value="<?php echo $address_1; ?>" class="medium-field" />
   <br />
   <br />
   <?php echo $entry_address_2; ?><br />
-  <input type="text" name="address_2" value="<?php echo $address_2; ?>" class="large-field" />
+  <input type="text" name="address_2" value="<?php echo $address_2; ?>" class="medium-field" />
   <br />
   <br />
   <span class="required">*</span> <?php echo $entry_city; ?><br />
-  <input type="text" name="city" value="<?php echo $city; ?>" class="large-field" />
+  <input type="text" name="city" value="<?php echo $city; ?>" class="medium-field" />
   <br />
   <br />
   <span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?><br />
-  <input type="text" name="postcode" value="<?php echo $postcode; ?>" class="large-field" />
+  <input type="text" name="postcode" value="<?php echo $postcode; ?>" class="medium-field" />
   <br />
   <br />
   <span class="required">*</span> <?php echo $entry_country; ?><br />
-  <select name="country_id" class="large-field">
+  <select name="country_id" class="medium-field">
     <option value=""><?php echo $text_select; ?></option>
     <?php foreach ($countries as $country) { ?>
     <?php if ($country['country_id'] == $country_id) { ?>
@@ -81,7 +81,7 @@
   <br />
   <br />
   <span class="required">*</span> <?php echo $entry_zone; ?><br />
-  <select name="zone_id" class="large-field">
+  <select name="zone_id" class="medium-field">
   </select>
   <br />
   <br />
