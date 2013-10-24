@@ -141,6 +141,7 @@ class ControllerCheckoutCart extends Controller {
 			$this->data['entry_zone'] = $this->language->get('entry_zone');
 			$this->data['entry_city'] = $this->language->get('entry_city');
 			$this->data['to_city'] = $this->language->get('to_city');
+			$this->data['weight_text'] = $this->language->get('beratnya');
 			$this->data['api1keyongkir']=apikeyongkir;
 			
 						
@@ -670,72 +671,45 @@ class ControllerCheckoutCart extends Controller {
 			$json['error']['warning'] = sprintf($this->language->get('error_no_shipping'), $this->url->link('information/contact'));				
 		}				
 		
-		if ($this->request->post['country_id'] == '') {
-			$json['error']['country'] = $this->language->get('error_country');
+		if ($this->request->post['from'] == '') {
+			$json['error']['from'] = $this->language->get('error_from_country');
 		}
 		
-		if (!isset($this->request->post['zone_id']) || $this->request->post['zone_id'] == '') {
-			$json['error']['zone'] = $this->language->get('error_zone');
+		if ( $this->request->post['to'] == '') {
+			$json['error']['to'] = $this->language->get('error_to_country');
+		}
+
+		if ( $this->request->post['weight'] == '') {
+			$json['error']['weight'] = $this->language->get('error_weight');
 		}
 			
-		$this->load->model('localisation/country');
-		
-		$country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);
-		
 						
 		if (!$json) {		
-			$this->tax->setShippingAddress($this->request->post['country_id'], $this->request->post['zone_id']);
-		
-			// Default Shipping Address
-			$this->session->data['shipping_country_id'] = $this->request->post['country_id'];
-			$this->session->data['shipping_zone_id'] = $this->request->post['zone_id'];
-		
-			if ($country_info) {
-				$country = $country_info['name'];
-				$iso_code_2 = $country_info['iso_code_2'];
-				$iso_code_3 = $country_info['iso_code_3'];
-				$address_format = $country_info['address_format'];
-			} else {
-				$country = '';
-				$iso_code_2 = '';
-				$iso_code_3 = '';	
-				$address_format = '';
-			}
 			
-			$this->load->model('localisation/zone');
-		
-			$zone_info = $this->model_localisation_zone->getZone($this->request->post['zone_id']);
-			
-			if ($zone_info) {
-				$zone = $zone_info['name'];
-				$zone_code = $zone_info['code'];
-			} else {
-				$zone = '';
-				$zone_code = '';
-			}	
-		 
-			$address_data = array(
-				'firstname'      => '',
-				'lastname'       => '',
-				'company'        => '',
-				'address_1'      => '',
-				'address_2'      => '',
-				'city'           => '',
-				'zone_id'        => $this->request->post['zone_id'],
-				'zone'           => $zone,
-				'zone_code'      => $zone_code,
-				'country_id'     => $this->request->post['country_id'],
-				'country'        => $country,	
-				'iso_code_2'     => $iso_code_2,
-				'iso_code_3'     => $iso_code_3,
-				'address_format' => $address_format
-			);
 		
 			$quote_data = array();
 			
 			$this->load->model('setting/extension');
 			
 			$results = $this->model_setting_extension->getExtensions('shipping');
+			
+			$address_data = array(
+				'firstname'      => '',
+				'lastname'       => '',
+				'company'        => '',
+				'address_1'      => '',
+				'address_2'      => '',
+				'postcode'       => '',
+				'city'           => '',
+				'zone_id'        => '',
+				'zone'           => '',
+				'zone_code'      => '',
+				'country_id'     => '',
+				'country'        => '',
+				'iso_code_2'     => '',
+				'iso_code_3'     => '',
+				'address_format' => ''
+			);
 			
 			$myJNe = 'jne';
 			foreach ($results as $result) {
@@ -766,9 +740,9 @@ class ControllerCheckoutCart extends Controller {
 			$getdata = http_build_query(
 					array(
 							'API-Key' => 'f7da17c2d33e2079d2fc7a2efd38c499',
-							'from' => 'jakarta',
-							'to'=>'surabaya',
-							'weight'=>'1500',
+							'from' => $this->request->post['from'],
+							'to'=>$this->request->post['to'],
+							'weight'=>$this->request->post['weight'],
 							'courier'=>'jne',
 							'format'=>'json'
 					)
@@ -785,6 +759,29 @@ class ControllerCheckoutCart extends Controller {
 			$result = file_get_contents('http://api.ongkir.info/cost/find' , false, $context);
 			$dataJson = json_decode($result, TRUE);
 			
+			if (!isset($dataJson['price'])) {
+				$getdata = http_build_query(
+						array(
+								'API-Key' => 'f7da17c2d33e2079d2fc7a2efd38c499',
+								'from' => $this->request->post['to'],
+								'to'=>$this->request->post['from'],
+								'weight'=>$this->request->post['weight'],
+								'courier'=>'jne',
+								'format'=>'json'
+						)
+				);
+				$opts = array('http' =>
+						array(
+								'method'  => 'POST',
+								'header'  => 'Content-type: application/x-www-form-urlencoded',
+								'content' => $getdata,
+						)
+				);
+				$context  = stream_context_create($opts);
+					
+				$result = file_get_contents('http://api.ongkir.info/cost/find' , false, $context);
+				$dataJson = json_decode($result, TRUE);
+			}
 			
 			$firrr = true;
 			foreach ($dataJson['price'] as $mimi) {
@@ -836,28 +833,6 @@ class ControllerCheckoutCart extends Controller {
 		$this->response->setOutput(json_encode($json));						
 	}
 	
-	public function country() {
-		$json = array();
-		
-		$this->load->model('localisation/country');
-
-    	$country_info = $this->model_localisation_country->getCountry($this->request->get['country_id']);
-		
-		if ($country_info) {
-			$this->load->model('localisation/zone');
-
-			$json = array(
-				'country_id'        => $country_info['country_id'],
-				'name'              => $country_info['name'],
-				'iso_code_2'        => $country_info['iso_code_2'],
-				'iso_code_3'        => $country_info['iso_code_3'],
-				'address_format'    => $country_info['address_format'],
-				'zone'              => $this->model_localisation_zone->getZonesByCountryId($this->request->get['country_id']),
-				'status'            => $country_info['status']		
-			);
-		}
-		
-		$this->response->setOutput(json_encode($json));
-	}
+	
 }
 ?>

@@ -171,6 +171,10 @@
         <tr>
           <td><span class="required">*</span> <?php echo $to_city; ?></td>
           <td><input type="text" name="to" id="tocity"></td>
+        </tr>  
+        <tr>
+          <td><span class="required">*</span> <?php echo $weight_text; ?></td>
+          <td><input type="text" name="weight" id="weightText"> gram</td>
         </tr>       
       </table>
       <input type="button" value="<?php echo $button_quote; ?>" id="button-quote" class="button" />
@@ -206,7 +210,7 @@ $('#button-quote').live('click', function() {
 	$.ajax({
 		url: 'index.php?route=checkout/cart/quote',
 		type: 'post',
-		data: 'country_id=' + $('select[name=\'country_id\']').val() + '&zone_id=' + $('select[name=\'zone_id\']').val() + '&postcode=' + encodeURIComponent($('input[name=\'postcode\']').val()),
+		data: 'from=' + $('#fromcity').val() + '&to=' + $('#tocity').val() + '&weight=' + $('#weightText').val(),
 		dataType: 'json',		
 		beforeSend: function() {
 			$('#button-quote').attr('disabled', true);
@@ -233,12 +237,16 @@ $('#button-quote').live('click', function() {
 					$('html, body').animate({ scrollTop: 0 }, 'slow'); 
 				}	
 							
-				if (json['error']['country']) {
-					$('select[name=\'country_id\']').after('<span class="error">' + json['error']['country'] + '</span>');
+				if (json['error']['from']) {
+					$('#fromcity').after('<span class="error">' + json['error']['from'] + '</span>');
+				}
+				
+				if (json['error']['to']) {
+					$('#tocity').after('<span class="error">' + json['error']['to'] + '</span>');
 				}	
 				
-				if (json['error']['zone']) {
-					$('select[name=\'zone_id\']').after('<span class="error">' + json['error']['zone'] + '</span>');
+				if (json['error']['weight']) {
+					$('#weightText').after('<span class="error">' + json['error']['weight'] + '</span>');
 				}
 				
 				if (json['error']['postcode']) {

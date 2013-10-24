@@ -52,8 +52,11 @@ $_['error_reward']           = 'Peringatan: Silahkan masukkan jumlah Point Rewar
 $_['error_points']           = 'Peringatan: Anda tidak memiliki Point Reward!';
 $_['error_maximum']          = 'Peringatan: Jumlah poin maksimum yang dapat dipakai adalah %s!';
 $_['error_postcode']         = 'Kode Pos harus terdiri dari 2 s/d 10 karakter!';
-$_['error_country']          = 'Silahkan pilih Propinsi!';
-$_['error_zone']             = 'Silahkan pilih Kab / Kota!';
+$_['error_country']          	= 'Silahkan pilih Negara!';
+$_['error_zone']             = 'Silahkan pilih Propinsi!';
+$_['error_from_country']             = 'Tulis kota asal!';
+$_['error_to_country']             = 'Tulis kota tujuan!';
+$_['error_weight']             = 'Tulis berat dalam ukuran ';
 $_['error_shipping']         = 'Peringatan: Metode pengiriman diperlukan!';
 $_['error_no_shipping']      = 'Peringatan: Tidak ada opsi pengiriman yang tersedia. Silahkan <a href="%s">hubungi kami</a>!';
 ?>
