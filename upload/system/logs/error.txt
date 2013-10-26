@@ -3545,3 +3545,53 @@
 2013-10-24 0:09:01 - PHP Notice:  Undefined index: price in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 761
 2013-10-24 0:09:04 - PHP Notice:  Undefined index: price in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 761
 2013-10-24 0:10:16 - PHP Notice:  Undefined index: price in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/cart.php on line 762
+2013-10-26 3:09:21 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group='jne' and key='apijne'' at line 1<br />Error No: 1064<br />SELECT * FROM oc_setting WHERE group='jne' and key='apijne' in /media/datas/proyeKerja/onlineshop/src/upload/system/database/mysql.php on line 50
+2013-10-26 3:09:22 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group='jne' and key='apijne'' at line 1<br />Error No: 1064<br />SELECT * FROM oc_setting WHERE group='jne' and key='apijne' in /media/datas/proyeKerja/onlineshop/src/upload/system/database/mysql.php on line 50
+2013-10-26 3:11:03 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group='jne' and key='apijne'' at line 1<br />Error No: 1064<br />SELECT * FROM oc_setting WHERE group='jne' and key='apijne' in /media/datas/proyeKerja/onlineshop/src/upload/system/database/mysql.php on line 50
+2013-10-26 3:11:39 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group='jne' and key='apijne'' at line 1<br />Error No: 1064<br />SELECT * FROM oc_setting WHERE group='jne' and key='apijne' in /media/datas/proyeKerja/onlineshop/src/upload/system/database/mysql.php on line 50
+2013-10-26 3:11:51 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group='jne' and key='apijne'' at line 1<br />Error No: 1064<br />SELECT * FROM oc_setting WHERE group='jne' and key='apijne' in /media/datas/proyeKerja/onlineshop/src/upload/system/database/mysql.php on line 50
+2013-10-26 3:14:41 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group='jne' and key='apijne'' at line 1<br />Error No: 1064<br />SELECT * FROM oc_setting WHERE group='jne' and key='apijne' in /media/datas/proyeKerja/onlineshop/src/upload/system/database/mysql.php on line 50
+2013-10-26 3:34:19 - PHP Notice:  Undefined variable: address_data in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 44
+2013-10-26 3:34:19 - PHP Notice:  Undefined index: to in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 52
+2013-10-26 3:34:19 - PHP Notice:  Undefined variable: weight11 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 53
+2013-10-26 3:34:20 - PHP Notice:  Undefined index: to in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 74
+2013-10-26 3:34:20 - PHP Notice:  Undefined variable: weight11 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 76
+2013-10-26 3:34:20 - PHP Notice:  Undefined index: price in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 95
+2013-10-26 3:34:20 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 95
+2013-10-26 3:34:20 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 118
+2013-10-26 3:34:20 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 12
+2013-10-26 3:35:13 - PHP Notice:  Undefined index: to in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 69
+2013-10-26 3:35:13 - PHP Notice:  Undefined variable: weight11 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 70
+2013-10-26 3:35:14 - PHP Notice:  Undefined index: to in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 91
+2013-10-26 3:35:14 - PHP Notice:  Undefined variable: weight11 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 93
+2013-10-26 3:35:15 - PHP Notice:  Undefined index: price in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 112
+2013-10-26 3:35:15 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 112
+2013-10-26 3:35:15 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 135
+2013-10-26 3:35:15 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 12
+2013-10-26 3:42:22 - PHP Notice:  Undefined index: to in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 52
+2013-10-26 3:42:22 - PHP Notice:  Undefined variable: weight11 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 53
+2013-10-26 3:42:22 - PHP Notice:  Undefined index: to in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 74
+2013-10-26 3:42:22 - PHP Notice:  Undefined variable: weight11 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 76
+2013-10-26 3:42:23 - PHP Notice:  Undefined index: price in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 95
+2013-10-26 3:42:23 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 95
+2013-10-26 3:42:23 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 118
+2013-10-26 3:42:23 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 12
+2013-10-26 3:44:07 - PHP Notice:  Undefined variable: weight11 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 53
+2013-10-26 3:44:09 - PHP Notice:  Undefined variable: weight11 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 76
+2013-10-26 3:44:10 - PHP Notice:  Undefined index: price in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 95
+2013-10-26 3:44:10 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 95
+2013-10-26 3:44:10 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 118
+2013-10-26 3:44:10 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 12
+2013-10-26 3:44:41 - PHP Notice:  Undefined index: price in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 95
+2013-10-26 3:44:41 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 95
+2013-10-26 3:44:41 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 118
+2013-10-26 3:44:41 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 12
+2013-10-26 3:45:27 - PHP Notice:  Undefined index: price in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 96
+2013-10-26 3:45:27 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 96
+2013-10-26 3:45:27 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 119
+2013-10-26 3:45:27 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 12
+2013-10-26 3:46:01 - PHP Notice:  Undefined index: price in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 97
+2013-10-26 3:46:01 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 97
+2013-10-26 3:46:01 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 120
+2013-10-26 3:46:01 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 12
+2013-10-26 3:52:24 - PHP Notice:  Undefined index: code1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 14

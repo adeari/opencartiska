@@ -18,9 +18,11 @@ class ControllerCheckoutShippingMethod extends Controller {
 			$this->load->model('setting/extension');
 			
 			$results = $this->model_setting_extension->getExtensions('shipping');
-			
+			$myJNe = 'jne';
 			foreach ($results as $result) {
-				if ($this->config->get($result['code'] . '_status')) {
+				if ($this->config->get($result['code'] . '_status')
+				&& strcmp($result['code'],$myJNe)!=0
+				) {
 					$this->load->model('shipping/' . $result['code']);
 					
 					$quote = $this->{'model_shipping_' . $result['code']}->getQuote($shipping_address); 
@@ -35,6 +37,92 @@ class ControllerCheckoutShippingMethod extends Controller {
 					}
 				}
 			}
+			
+			
+			$this->load->model('shipping/'.$myJNe);
+			$apiOngkir = $this->{'model_shipping_' .$myJNe}->getApikey();
+			$quote = $this->{'model_shipping_' .$myJNe}->getQuote($shipping_address);
+			$this->load->language('shipping/jne');
+				
+				
+			$getdata = http_build_query(
+					array(
+							'API-Key' => $apiOngkir,
+							'from' => 'surabaya',
+							'to'=> $shipping_address['city'],
+							'weight'=> 1000,
+							'courier'=>'jne',
+							'format'=>'json'
+					)
+			);
+			$opts = array('http' =>
+					array(
+							'method'  => 'POST',
+							'header'  => 'Content-type: application/x-www-form-urlencoded',
+							'content' => $getdata,
+					)
+			);
+			$context  = stream_context_create($opts);
+				
+			$result = file_get_contents('http://api.ongkir.info/cost/find' , false, $context);
+			$dataJson = json_decode($result, TRUE);
+				
+			if (!isset($dataJson['price'])) {
+				$getdata = http_build_query(
+						array(
+								'API-Key' => $apiOngkir,
+								'from' => $shipping_address['city'],
+								'to'=> 'surabaya',
+								'weight'=> 1000,
+								'courier'=>'jne',
+								'format'=>'json'
+						)
+				);
+				$opts = array('http' =>
+						array(
+								'method'  => 'POST',
+								'header'  => 'Content-type: application/x-www-form-urlencoded',
+								'content' => $getdata,
+						)
+				);
+				$context  = stream_context_create($opts);
+					
+				$result = file_get_contents('http://api.ongkir.info/cost/find' , false, $context);
+				$dataJson = json_decode($result, TRUE);
+			}
+				
+			$firrr = true;
+			$i=1;
+			foreach ($dataJson['price'] as $mimi) {				
+				$jne_cost = $mimi['value'];
+				$quteTax = array(
+						'code'           => 'jne.jne'.$i,
+						'title'        => $mimi['service'],
+						'cost'         => $jne_cost,
+						'tax_class_id' => $this->config->get('jne_tax_class_id'),
+						'text'         => $this->currency->format($this->tax->calculate($jne_cost, $this->config->get('jne_tax_class_id'), $this->config->get('config_tax')))
+				);
+				if ($firrr) {
+					$quteTax1 = array(
+							$myJNe =>$quteTax
+					);
+					$firrr= false;
+				} else {
+					array_push($quteTax1,$quteTax);
+				}
+				$i++;				
+			}
+				
+				
+			if ($quote) {
+				$quote_data[$myJNe] = array(
+						'title'      => $quote['title'],
+						'quote'      => $quteTax1,
+						'sort_order' => $quote['sort_order'],
+						'error'      => false
+				);
+			}
+			
 	
 			$sort_order = array();
 		  

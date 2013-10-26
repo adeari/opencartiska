@@ -163,18 +163,14 @@
     </div>
     <div id="shipping" class="content" style="display: <?php echo ($next == 'shipping' ? 'block' : 'none'); ?>;">
       <p><?php echo $text_shipping_detail; ?></p>
-      <table>        
-        <tr>
-          <td><span class="required">*</span> <?php echo $entry_city; ?></td>
-          <td><input type="text" name="from" id="fromcity"></td>
-        </tr>
+      <table>  
         <tr>
           <td><span class="required">*</span> <?php echo $to_city; ?></td>
           <td><input type="text" name="to" id="tocity"></td>
         </tr>  
         <tr>
           <td><span class="required">*</span> <?php echo $weight_text; ?></td>
-          <td><input type="text" name="weight" id="weightText"> gram</td>
+          <td><input type="text" name="weight" id="weightText"> Kg</td>
         </tr>       
       </table>
       <input type="button" value="<?php echo $button_quote; ?>" id="button-quote" class="button" />
@@ -210,7 +206,7 @@ $('#button-quote').live('click', function() {
 	$.ajax({
 		url: 'index.php?route=checkout/cart/quote',
 		type: 'post',
-		data: 'from=' + $('#fromcity').val() + '&to=' + $('#tocity').val() + '&weight=' + $('#weightText').val(),
+		data: 'to=' + $('#tocity').val() + '&weight=' + $('#weightText').val(),
 		dataType: 'json',		
 		beforeSend: function() {
 			$('#button-quote').attr('disabled', true);
@@ -223,9 +219,6 @@ $('#button-quote').live('click', function() {
 		success: function(jsonmu) {
 		var json = jsonmu;
 		
-			
-		
-		
 			$('.success, .warning, .attention, .error').remove();			
 						
 			if (json['error']) {
@@ -235,10 +228,6 @@ $('#button-quote').live('click', function() {
 					$('.warning').fadeIn('slow');
 					
 					$('html, body').animate({ scrollTop: 0 }, 'slow'); 
-				}	
-							
-				if (json['error']['from']) {
-					$('#fromcity').after('<span class="error">' + json['error']['from'] + '</span>');
 				}
 				
 				if (json['error']['to']) {

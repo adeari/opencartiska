@@ -558,3 +558,6 @@ table.form > tbody > tr > td {
 	position: relative;
 	top: 3px;
 }
+.large_field {
+	width:300px;	
+}

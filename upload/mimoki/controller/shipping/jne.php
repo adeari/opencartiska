@@ -89,6 +89,12 @@ class ControllerShippingjne extends Controller {
 			$this->data['jne_status'] = $this->config->get('jne_status');
 		}
 		
+		if (isset($this->request->post['apijne'])) {
+			$this->data['apijne'] = $this->request->post['apijne'];
+		} else {
+			$this->data['apijne'] = $this->config->get('apijne');
+		}
+		
 		if (isset($this->request->post['jne_sort_order'])) {
 			$this->data['jne_sort_order'] = $this->request->post['jne_sort_order'];
 		} else {

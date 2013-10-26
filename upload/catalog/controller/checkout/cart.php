@@ -142,8 +142,6 @@ class ControllerCheckoutCart extends Controller {
 			$this->data['entry_city'] = $this->language->get('entry_city');
 			$this->data['to_city'] = $this->language->get('to_city');
 			$this->data['weight_text'] = $this->language->get('beratnya');
-			$this->data['api1keyongkir']=apikeyongkir;
-			
 						
 			$this->data['button_update'] = $this->language->get('button_update');
 			$this->data['button_remove'] = $this->language->get('button_remove');
@@ -669,10 +667,6 @@ class ControllerCheckoutCart extends Controller {
 
 		if (!$this->cart->hasShipping()) {
 			$json['error']['warning'] = sprintf($this->language->get('error_no_shipping'), $this->url->link('information/contact'));				
-		}				
-		
-		if ($this->request->post['from'] == '') {
-			$json['error']['from'] = $this->language->get('error_from_country');
 		}
 		
 		if ( $this->request->post['to'] == '') {
@@ -681,6 +675,10 @@ class ControllerCheckoutCart extends Controller {
 
 		if ( $this->request->post['weight'] == '') {
 			$json['error']['weight'] = $this->language->get('error_weight');
+		} else {
+			$weight11 = intval($this->request->post['weight']);
+			if ($weight11<1)	$weight11 =1;
+			$weight11*=1000;
 		}
 			
 						
@@ -731,18 +729,18 @@ class ControllerCheckoutCart extends Controller {
 				}
 			}
 			
-			$this->load->model('shipping/'.$myJNe);
-				
+			$this->load->model('shipping/'.$myJNe);			
+			$apiOngkir = $this->{'model_shipping_' .$myJNe}->getApikey();			
 			$quote = $this->{'model_shipping_' .$myJNe}->getQuote($address_data);
 			$this->load->language('shipping/jne');
 			
 			
 			$getdata = http_build_query(
 					array(
-							'API-Key' => 'f7da17c2d33e2079d2fc7a2efd38c499',
-							'from' => $this->request->post['from'],
+							'API-Key' => $apiOngkir,
+							'from' => 'surabaya',
 							'to'=>$this->request->post['to'],
-							'weight'=>$this->request->post['weight'],
+							'weight'=> $weight11,
 							'courier'=>'jne',
 							'format'=>'json'
 					)
@@ -762,10 +760,10 @@ class ControllerCheckoutCart extends Controller {
 			if (!isset($dataJson['price'])) {
 				$getdata = http_build_query(
 						array(
-								'API-Key' => 'f7da17c2d33e2079d2fc7a2efd38c499',
+								'API-Key' => $apiOngkir,
 								'from' => $this->request->post['to'],
-								'to'=>$this->request->post['from'],
-								'weight'=>$this->request->post['weight'],
+								'to'=> 'surabaya',
+								'weight'=>$weight11,
 								'courier'=>'jne',
 								'format'=>'json'
 						)

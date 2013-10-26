@@ -85,5 +85,14 @@ class ModelShippingjne extends Model {
 	
 		return $method_data;
 	}
+	
+	function getApikey () {
+		$disih=0;
+		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "setting WHERE  `group`='jne' and `key`='apijne'");
+		foreach ($query->rows as $result) {
+			$disih = $result['value'];
+		}
+		return $disih;
+	}
 }
 ?>
