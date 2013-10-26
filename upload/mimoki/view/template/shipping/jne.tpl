@@ -61,7 +61,7 @@
           
           <tr>
             <td>API http://api.ongkir.info/akun/login</td>
-            <td><input type="text" name="apijne" value=<?php echo $apijne; ?> class="large_field"></td>
+            <td><input type="text" name="apijne" value="<?php echo $apijne; ?>" class="large_field"></td>
           </tr>
           <tr>
             <td><?php echo $entry_sort_order; ?></td>
