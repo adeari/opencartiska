@@ -3595,3 +3595,11 @@
 2013-10-26 3:46:01 - PHP Notice:  Undefined variable: quteTax1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/controller/checkout/shipping_method.php on line 120
 2013-10-26 3:46:01 - PHP Warning:  Invalid argument supplied for foreach() in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 12
 2013-10-26 3:52:24 - PHP Notice:  Undefined index: code1 in /media/datas/proyeKerja/onlineshop/src/upload/catalog/view/theme/default/template/checkout/shipping_method.tpl on line 14
+2013-10-30 22:40:58 - PHP Notice:  Undefined index: price in E:\proyeKerja\onlineshop\src\upload\catalog\controller\checkout\shipping_method.php on line 104
+2013-10-30 22:40:58 - PHP Warning:  Invalid argument supplied for foreach() in E:\proyeKerja\onlineshop\src\upload\catalog\controller\checkout\shipping_method.php on line 104
+2013-10-30 22:40:58 - PHP Notice:  Undefined variable: quteTax1 in E:\proyeKerja\onlineshop\src\upload\catalog\controller\checkout\shipping_method.php on line 128
+2013-10-30 22:40:58 - PHP Warning:  Invalid argument supplied for foreach() in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\checkout\shipping_method.tpl on line 12
+2013-10-30 22:41:28 - PHP Notice:  Undefined index: price in E:\proyeKerja\onlineshop\src\upload\catalog\controller\checkout\shipping_method.php on line 104
+2013-10-30 22:41:28 - PHP Warning:  Invalid argument supplied for foreach() in E:\proyeKerja\onlineshop\src\upload\catalog\controller\checkout\shipping_method.php on line 104
+2013-10-30 22:41:28 - PHP Notice:  Undefined variable: quteTax1 in E:\proyeKerja\onlineshop\src\upload\catalog\controller\checkout\shipping_method.php on line 128
+2013-10-30 22:41:28 - PHP Warning:  Invalid argument supplied for foreach() in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\checkout\shipping_method.tpl on line 12

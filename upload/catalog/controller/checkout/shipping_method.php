@@ -38,6 +38,15 @@ class ControllerCheckoutShippingMethod extends Controller {
 				}
 			}
 				
+			$products = $this->cart->getProducts();
+			$weight = 0;
+            foreach ($products as $product) {
+				try {
+				$weight += intval($product['weight']);
+				} catch (Exception  $err){}
+			}
+			if ($weight>0) $weight*=1000;
+			else $weight = 1000;
 				
 			$this->load->model('shipping/'.$myJNe);
 			$apiOngkir = $this->{'model_shipping_' .$myJNe}->getApikey();
@@ -50,7 +59,7 @@ class ControllerCheckoutShippingMethod extends Controller {
 							'API-Key' => $apiOngkir,
 							'from' => 'surabaya',
 							'to'=> $shipping_address['city'],
-							'weight'=> 1000,
+							'weight'=> $weight,
 							'courier'=>'jne',
 							'format'=>'json'
 					)
@@ -73,7 +82,7 @@ class ControllerCheckoutShippingMethod extends Controller {
 								'API-Key' => $apiOngkir,
 								'from' => $shipping_address['city'],
 								'to'=> 'surabaya',
-								'weight'=> 1000,
+								'weight'=> $weight,
 								'courier'=>'jne',
 								'format'=>'json'
 						)

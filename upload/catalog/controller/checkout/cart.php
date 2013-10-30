@@ -183,21 +183,20 @@ class ControllerCheckoutCart extends Controller {
 			
 			$this->data['action'] = $this->url->link('checkout/cart');   
 						
-			if ($this->config->get('config_cart_weight')) {
-				$this->data['weight'] = $this->weight->format($this->cart->getWeight(), $this->config->get('config_weight_class_id'), $this->language->get('decimal_point'), $this->language->get('thousand_point'));
-			} else {
-				$this->data['weight'] = '';
-			}
+			
 						 
 			$this->load->model('tool/image');
 
             $this->data['products'] = array();
 
             $products = $this->cart->getProducts();
-
+			
+			$weight = 0;
             foreach ($products as $product) {
                 $product_total = 0;
-
+				try {
+				$weight += intval($product['weight']);
+				} catch (Exception  $err){}
                 foreach ($products as $product_2) {
                     if ($product_2['product_id'] == $product['product_id']) {
                         $product_total += $product_2['quantity'];
@@ -288,6 +287,10 @@ class ControllerCheckoutCart extends Controller {
                     'profile_description' => $profile_description,
                 );
             }
+			
+			
+			$this->data['weight1'] = $weight;
+				$this->data['weight'] = $weight." Kg";
 
 
             $this->data['products_recurring'] = array();

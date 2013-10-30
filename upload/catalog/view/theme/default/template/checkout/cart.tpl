@@ -170,7 +170,7 @@
         </tr>  
         <tr>
           <td><span class="required">*</span> <?php echo $weight_text; ?></td>
-          <td><input type="text" name="weight" id="weightText"> Kg</td>
+          <td><input type="text" name="weight" id="weightText" value="<?php echo $weight1;?>"> Kg</td>
         </tr>       
       </table>
       <input type="button" value="<?php echo $button_quote; ?>" id="button-quote" class="button" />
