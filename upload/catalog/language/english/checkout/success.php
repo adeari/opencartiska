@@ -8,4 +8,5 @@ $_['text_guest']    = '<p>Your order has been successfully processed!</p><p>Plea
 $_['text_basket']   = 'Shopping Cart';
 $_['text_checkout'] = 'Checkout';
 $_['text_success']  = 'Success';
+$_['texmiioo']  = '<p>1x24 payment limit. </p><p> After payment please sms confirmation to %s with order number list: %s</p><p>*If no payment confirmation through 24 hours of your order will be canceled. </p><p> Thank you for your order in MF Shoppu. </p><p> If you have questions please contact us <a href="%s"></a></p>';
 ?>

@@ -75,6 +75,22 @@
             <td><?php echo $text_telephone; ?></td>
             <td><?php echo $telephone; ?></td>
           </tr>
+          <tr>
+            <td>Handphone:</td>
+            <td><?php echo $hp; ?></td>
+          </tr>
+          <tr>
+            <td>Pin Blackberry:</td>
+            <td><?php echo $bb; ?></td>
+          </tr>
+          <tr>
+            <td>Whatsapp:</td>
+            <td><?php echo $wa; ?></td>
+          </tr>
+          <tr>
+            <td><?php echo $lainnya; ?></td>
+            <td><?php echo $vlainnya; ?></td>
+          </tr>
           <?php if ($fax) { ?>
           <tr>
             <td><?php echo $text_fax; ?></td>

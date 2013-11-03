@@ -509,6 +509,7 @@ class ControllerSaleOrder extends Controller {
 		$this->data['entry_comment'] = $this->language->get('entry_comment');	
 		$this->data['entry_affiliate'] = $this->language->get('entry_affiliate');
 		$this->data['entry_address'] = $this->language->get('entry_address');
+		$this->data['tlainnya'] = $this->language->get('lainnya');
 		$this->data['entry_company'] = $this->language->get('entry_company');
 		$this->data['entry_company_id'] = $this->language->get('entry_company_id');
 		$this->data['entry_tax_id'] = $this->language->get('entry_tax_id');
@@ -837,6 +838,39 @@ class ControllerSaleOrder extends Controller {
 			$this->data['telephone'] = $order_info['telephone'];
 		} else {
       		$this->data['telephone'] = '';
+    	}
+		
+		if (isset($this->request->post['bb'])) {
+      		$this->data['bb'] = $this->request->post['bb'];
+    	} elseif (!empty($order_info)) { 
+			$this->data['bb'] = $order_info['bb'];
+		} else {
+      		$this->data['bb'] = '';
+    	}
+		
+		if (isset($this->request->post['hp'])) {
+      		$this->data['hp'] = $this->request->post['hp'];
+    	} elseif (!empty($order_info)) { 
+			$this->data['hp'] = $order_info['hp'];
+		} else {
+      		$this->data['hp'] = '';
+    	}
+		
+		if (isset($this->request->post['wa'])) {
+      		$this->data['wa'] = $this->request->post['wa'];
+    	} elseif (!empty($order_info)) { 
+			$this->data['wa'] = $order_info['wa'];
+		} else {
+      		$this->data['wa'] = '';
+    	}
+		
+		
+		if (isset($this->request->post['lainnya'])) {
+      		$this->data['lainnya'] = $this->request->post['lainnya'];
+    	} elseif (!empty($order_info)) { 
+			$this->data['lainnya'] = $order_info['lainnya'];
+		} else {
+      		$this->data['lainnya'] = '';
     	}
 		
     	if (isset($this->request->post['fax'])) {
@@ -1463,6 +1497,7 @@ class ControllerSaleOrder extends Controller {
 			$this->data['entry_order_status'] = $this->language->get('entry_order_status');
 			$this->data['entry_notify'] = $this->language->get('entry_notify');
 			$this->data['entry_comment'] = $this->language->get('entry_comment');
+			$this->data['lainnya'] = $this->language->get('lainnya');
 			
 			$this->data['button_invoice'] = $this->language->get('button_invoice');
 			$this->data['button_cancel'] = $this->language->get('button_cancel');
@@ -1563,6 +1598,10 @@ class ControllerSaleOrder extends Controller {
 			}
 
 			$this->data['email'] = $order_info['email'];
+			$this->data['bb'] = $order_info['bb'];
+			$this->data['wa'] = $order_info['wa'];
+			$this->data['hp'] = $order_info['hp'];
+			$this->data['vlainnya'] = $order_info['lainnya'];
 			$this->data['telephone'] = $order_info['telephone'];
 			$this->data['fax'] = $order_info['fax'];
 			$this->data['comment'] = nl2br($order_info['comment']);
@@ -2546,6 +2585,10 @@ class ControllerSaleOrder extends Controller {
 					'store_fax'          => $store_fax,
 					'email'              => $order_info['email'],
 					'telephone'          => $order_info['telephone'],
+					'bb'          => $order_info['bb'],
+					'hp'          => $order_info['hp'],
+					'wa'          => $order_info['wa'],
+					'lainnya'          => $order_info['lainnya'],
 					'shipping_address'   => $shipping_address,
 					'shipping_method'    => $order_info['shipping_method'],
 					'payment_address'    => $payment_address,

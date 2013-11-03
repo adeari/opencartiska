@@ -78,6 +78,22 @@
                 <?php } ?></td>
             </tr>
             <tr>
+              <td>Handphone:</td>
+              <td><input type="text" name="hp" value="<?php echo $hp; ?>" /></td>
+            </tr>
+            <tr>
+              <td>Pin Blackberry:</td>
+              <td><input type="text" name="bb" value="<?php echo $bb; ?>" /></td>
+            </tr>
+            <tr>
+              <td>Whatsapp:</td>
+              <td><input type="text" name="wa" value="<?php echo $wa; ?>" /></td>
+            </tr>			
+            <tr>
+              <td><?php echo $tlainnya; ?></td>
+              <td><input type="text" name="lainnya" value="<?php echo $lainnya; ?>" /></td>
+            </tr>
+            <tr>
               <td><?php echo $entry_fax; ?></td>
               <td><input type="text" name="fax" value="<?php echo $fax; ?>" /></td>
             </tr>

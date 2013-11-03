@@ -1,9 +1,15 @@
 <?php
 class ControllerCheckoutSuccess extends Controller { 
 	public function index() { 	
+		$this->language->load('checkout/success');
 		if (isset($this->session->data['order_id'])) {
 			$this->cart->clear();
-
+			$this->load->model('account/order');
+			
+			$order_info = $this->model_account_order->getOrder($this->session->data['order_id']);
+			$this->data['totalHarga'] = $this->currency->format($order_info['total'], $order_info['currency_code'], $order_info['currency_value']);
+			
+			$this->data['texmiioo'] = sprintf($this->language->get('texmiioo'), $this->config->get('config_SMS'),$this->session->data['order_id'],$this->url->link('information/contact'));
 			unset($this->session->data['shipping_method']);
 			unset($this->session->data['shipping_methods']);
 			unset($this->session->data['payment_method']);
@@ -15,9 +21,8 @@ class ControllerCheckoutSuccess extends Controller {
 			unset($this->session->data['reward']);
 			unset($this->session->data['voucher']);
 			unset($this->session->data['vouchers']);
-		}	
-									   
-		$this->language->load('checkout/success');
+			
+		}
 		
 		$this->document->setTitle($this->language->get('heading_title'));
 		

@@ -134,6 +134,10 @@ class ControllerCheckoutConfirm extends Controller {
 				$data['lastname'] = $this->session->data['guest']['lastname'];
 				$data['email'] = $this->session->data['guest']['email'];
 				$data['telephone'] = $this->session->data['guest']['telephone'];
+				$data['bb'] = $this->session->data['guest']['bb'];
+				$data['wa'] = $this->session->data['guest']['wa'];
+				$data['hp'] = $this->session->data['guest']['hp'];
+				$data['lainnya'] = $this->session->data['guest']['another_contact'];
 				$data['fax'] = $this->session->data['guest']['fax'];
 				
 				$payment_address = $this->session->data['guest']['payment'];

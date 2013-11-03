@@ -16,6 +16,7 @@ $_['text_customer']                           = 'Pelanggan:';
 $_['text_customer_group']                     = 'Grup Pelanggan:';
 $_['text_email']                              = 'E-Mail:';
 $_['text_telephone']                          = 'Telepon:';
+$_['lainnya']                          		  = 'Lainnya:';
 $_['text_fax']                                = 'Fax:';
 $_['text_shipping_method']                    = 'Metode Pengiriman:';
 $_['text_payment_method']                     = 'Metode Pembayaran:';

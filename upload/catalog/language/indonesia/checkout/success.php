@@ -8,4 +8,5 @@ $_['text_guest']    = '<p>Pesanan Anda telah berhasil diproses!</p><p>Jika ada p
 $_['text_basket']   = 'Keranjang';
 $_['text_checkout'] = 'Checkout';
 $_['text_success']  = 'Berhasil';
+$_['texmiioo']  = '<p>Batas pembayaran 1x24 jam.</p><p>Setelah melakukan pembayaran silahkan sms konfirmasi ke %s  dengan mencantumkan kode order : %s</p><p>*Apabila tidak ada konfirmasi pembayaran lewat dari 24 jam maka order anda dibatalkan.</p><p>Terima kasih telah melakukan order di MF Shoppu.</p><p>Jika ada pertanyaan silahkan <a href="%s">hubungi kami</a></p>';
 ?>
