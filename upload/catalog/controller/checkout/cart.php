@@ -126,6 +126,7 @@ class ControllerCheckoutCart extends Controller {
 			$this->data['text_freq_month'] = $this->language->get('text_freq_month');
 			$this->data['text_freq_bi_month'] = $this->language->get('text_freq_bi_month');
 			$this->data['text_freq_year'] = $this->language->get('text_freq_year');
+			$this->data['text_infoinfo'] = $this->language->get('text_infoinfo');
 
 			$this->data['column_image'] = $this->language->get('column_image');
       		$this->data['column_name'] = $this->language->get('column_name');
@@ -195,7 +196,7 @@ class ControllerCheckoutCart extends Controller {
             foreach ($products as $product) {
                 $product_total = 0;
 				try {
-				$weight += intval($product['weight']);
+				$weight += doubleval($product['weight']);
 				} catch (Exception  $err){}
                 foreach ($products as $product_2) {
                     if ($product_2['product_id'] == $product['product_id']) {

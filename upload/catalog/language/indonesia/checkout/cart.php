@@ -13,6 +13,7 @@ $_['text_login']             = 'Perhatian: Anda harus <a href="%s">login</a> ata
 $_['text_points']            = 'Point Hadiah: %s';
 $_['text_items']             = '%s item(s) - %s';
 $_['text_next']              = 'Apa yang akan Anda lakukan selanjutnya?';
+$_['text_infoinfo']          = 'Total belum termasuk ongkir, klik "SELESAI" untuk mendapatkan total keseluruhan yang harus dibayar termasuk ongkir atau klik "LANJUT BERBELANJA" jika anda ingin menambahkan produk lain dalam keranjang belanja anda';
 $_['text_next_choice']       = 'Pilih hanya jika Anda memiliki Kupon Diskon atau Point Reward yang ingin Anda gunakan atau Anda ingin memperkirakan biaya pengiriman.';
 $_['text_use_coupon']        = 'Gunakan Kupon Diskon';
 $_['text_use_voucher']       = 'Gunakan Voucher Hadiah';

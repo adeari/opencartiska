@@ -29,6 +29,7 @@ $_['text_address_existing']          = 'I want to use an existing address';
 $_['text_shipping_method']           = 'Please select the preferred shipping method to use on this order.';
 $_['text_payment_method']            = 'Please select the preferred payment method to use on this order.';
 $_['text_comments']                  = 'Add Comments About Your Order';
+$_['ambilsendiriinfo']               = 'For decision to the store, please do re-order and make an appointment through the sms to';
 
 $_['text_recurring_item']            = 'Recurring item';
 $_['text_payment_profile']           = 'Payment Profile';
@@ -56,6 +57,7 @@ $_['entry_confirm']                  = 'Password Confirm:';
 $_['entry_firstname']                = 'First Name:';
 $_['entry_lastname']                 = 'Last Name:';
 $_['entry_telephone']                = 'Telephone:';
+$_['entry_another_contact']          = 'Another contact:';
 $_['entry_fax']                      = 'Fax:';
 $_['entry_company']                  = 'Company:';
 $_['entry_customer_group']           = 'Business Type:';

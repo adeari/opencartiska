@@ -1855,8 +1855,18 @@ ul.box-filter>li ul {
 	margin-bottom: 15px;
 }
 
+.cart-total .kippp {
+	float: left;
+	position:relative;
+	color: red;
+	width:70%;
+	text-align:justify;
+}
+
 .cart-total table {
+position:relative;
 	float: right;
+	width:30%;
 }
 
 .cart-total td {

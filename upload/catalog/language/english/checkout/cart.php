@@ -13,6 +13,7 @@ $_['text_login']             = 'Attention: You must <a href="%s">login</a> or <a
 $_['text_points']            = 'Reward Points: %s';
 $_['text_items']             = '%s item(s) - %s';
 $_['text_next']              = 'What would you like to do next?';
+$_['text_infoinfo']          = 'Total exclude shipping, click "CHECKOUT" to get the total to be paid including postage or click "CONTINUE SHOPPING" if you want to add another product to your shopping cart';
 $_['text_next_choice']       = 'Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.';
 $_['text_use_coupon']        = 'Use Coupon Code';
 $_['text_use_voucher']       = 'Use Gift Voucher';

@@ -13,6 +13,10 @@ class ControllerCheckoutGuest extends Controller {
 		$this->data['entry_lastname'] = $this->language->get('entry_lastname');
 		$this->data['entry_email'] = $this->language->get('entry_email');
 		$this->data['entry_telephone'] = $this->language->get('entry_telephone');
+		$this->data['entry_hp'] = 'Handphone:';
+		$this->data['entry_wa'] = 'Whatsapp:';
+		$this->data['entry_bb'] = 'Pin Blackberry:';
+		$this->data['entry_another_contact'] = $this->language->get('entry_another_contact');
 		$this->data['entry_fax'] = $this->language->get('entry_fax');
 		$this->data['entry_company'] = $this->language->get('entry_company');
 		$this->data['entry_customer_group'] = $this->language->get('entry_customer_group');
@@ -50,6 +54,30 @@ class ControllerCheckoutGuest extends Controller {
 			$this->data['telephone'] = $this->session->data['guest']['telephone'];		
 		} else {
 			$this->data['telephone'] = '';
+		}
+		
+		if (isset($this->session->data['guest']['another_contact'])) {
+			$this->data['another_contact'] = $this->session->data['guest']['another_contact'];		
+		} else {
+			$this->data['another_contact'] = '';
+		}
+		
+		if (isset($this->session->data['guest']['wa'])) {
+			$this->data['wa'] = $this->session->data['guest']['wa'];		
+		} else {
+			$this->data['wa'] = '';
+		}
+		
+		if (isset($this->session->data['guest']['bb'])) {
+			$this->data['bb'] = $this->session->data['guest']['bb'];		
+		} else {
+			$this->data['bb'] = '';
+		}
+		
+		if (isset($this->session->data['guest']['hp'])) {
+			$this->data['hp'] = $this->session->data['guest']['hp'];		
+		} else {
+			$this->data['hp'] = '';
 		}
 
 		if (isset($this->session->data['guest']['fax'])) {
@@ -261,6 +289,10 @@ class ControllerCheckoutGuest extends Controller {
 			$this->session->data['guest']['lastname'] = $this->request->post['lastname'];
 			$this->session->data['guest']['email'] = $this->request->post['email'];
 			$this->session->data['guest']['telephone'] = $this->request->post['telephone'];
+			$this->session->data['guest']['hp'] = $this->request->post['hp'];
+			$this->session->data['guest']['wa'] = $this->request->post['wa'];
+			$this->session->data['guest']['bb'] = $this->request->post['bb'];
+			$this->session->data['guest']['another_contact'] = $this->request->post['another_contact'];			
 			$this->session->data['guest']['fax'] = $this->request->post['fax'];
 			
 			$this->session->data['guest']['payment']['firstname'] = $this->request->post['firstname'];

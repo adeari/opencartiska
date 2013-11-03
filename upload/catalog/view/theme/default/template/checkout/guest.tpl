@@ -16,8 +16,23 @@
   <input type="text" name="telephone" value="<?php echo $telephone; ?>" class="medium-field" />
   <br />
   <br />
+  <?php echo $entry_hp; ?><br />
+  <input type="text" name="hp" value="<?php echo $hp; ?>" class="medium-field" />
+  <br />
+  <br />
+  <?php echo $entry_bb; ?><br />
+  <input type="text" name="bb" value="<?php echo $bb; ?>" class="medium-field" /><br />
+  <br />
+  <?php echo $entry_wa; ?><br />
+  <input type="text" name="wa" value="<?php echo $wa; ?>" class="medium-field" />
+  <br />
+  <br />
   <?php echo $entry_fax; ?><br />
   <input type="text" name="fax" value="<?php echo $fax; ?>" class="medium-field" />
+  <br />
+  <br />
+  <?php echo $entry_another_contact; ?><br />
+  <input type="text" name="another_contact" value="<?php echo $another_contact; ?>" class="medium-field" />
   <br />
   <br />
 </div>

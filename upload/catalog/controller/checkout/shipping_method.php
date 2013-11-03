@@ -42,7 +42,7 @@ class ControllerCheckoutShippingMethod extends Controller {
 			$weight = 0;
             foreach ($products as $product) {
 				try {
-				$weight += intval($product['weight']);
+				$weight += doubleval($product['weight']);
 				} catch (Exception  $err){}
 			}
 			if ($weight>0) $weight*=1000;
@@ -146,6 +146,8 @@ class ControllerCheckoutShippingMethod extends Controller {
 			
 		$this->data['text_shipping_method'] = $this->language->get('text_shipping_method');
 		$this->data['text_comments'] = $this->language->get('text_comments');
+		$this->data['ambilsendiriinfo'] = $this->language->get('ambilsendiriinfo');
+		$this->data['SMSnum'] =$this->config->get('config_SMS');
 
 		$this->data['button_continue'] = $this->language->get('button_continue');
 

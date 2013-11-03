@@ -3603,3 +3603,4 @@
 2013-10-30 22:41:28 - PHP Warning:  Invalid argument supplied for foreach() in E:\proyeKerja\onlineshop\src\upload\catalog\controller\checkout\shipping_method.php on line 104
 2013-10-30 22:41:28 - PHP Notice:  Undefined variable: quteTax1 in E:\proyeKerja\onlineshop\src\upload\catalog\controller\checkout\shipping_method.php on line 128
 2013-10-30 22:41:28 - PHP Warning:  Invalid argument supplied for foreach() in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\checkout\shipping_method.tpl on line 12
+2013-11-03 8:41:02 - PHP Notice:  Undefined variable: hp in E:\proyeKerja\onlineshop\src\upload\catalog\view\theme\default\template\checkout\guest.tpl on line 19

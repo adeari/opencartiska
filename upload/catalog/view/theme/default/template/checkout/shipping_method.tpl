@@ -20,6 +20,9 @@
     <td><label for="<?php echo $quote['code']; ?>"><?php echo $quote['title']; ?></label></td>
     <td style="text-align: right;"><label for="<?php echo $quote['code']; ?>"><?php echo $quote['text']; ?></label></td>
   </tr>
+  <?php  if ($quote['code'] == 'pickup.pickup') { ?>
+  <tr><td></td><td colspan="2" style="color:red"><?php echo $ambilsendiriinfo.$SMSnum; ?></td></tr>
+  <?php } ?>
   <?php } ?>
   <?php } ?>
   <?php } ?>

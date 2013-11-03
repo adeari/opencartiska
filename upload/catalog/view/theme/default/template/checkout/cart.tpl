@@ -177,7 +177,7 @@
     </div>
   </div>
   <?php } ?>
-  <div class="cart-total">
+  <div class="cart-total">  
     <table id="total">
       <?php foreach ($totals as $total) { ?>
       <tr>
@@ -186,6 +186,7 @@
       </tr>
       <?php } ?>
     </table>
+	<div class="kippp"><?php echo $text_infoinfo;?></div>
   </div>
   <div class="buttons">
     <div class="right"><a href="<?php echo $checkout; ?>" class="button"><?php echo $button_checkout; ?></a></div>

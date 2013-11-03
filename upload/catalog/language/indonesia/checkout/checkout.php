@@ -29,6 +29,7 @@ $_['text_address_existing']          = 'Saya ingin menggunakan alamat yang sudah
 $_['text_shipping_method']           = 'Silahkan pilih metode pengiriman yang disukai untuk pengiriman pesanan Anda.';
 $_['text_payment_method']            = 'Silahkan pilih metode pembayaran yang disukai untuk membayar pesanan Anda.';
 $_['text_comments']                  = 'Tambahkan komentar mengenai pesanan Anda';
+$_['ambilsendiriinfo']               = 'Untuk pengambilan ke toko, silahkan melakukan order ulang dan membuat janji melalui sms ke ';
 
 // Column
 $_['column_name']                    = 'Nama Produk';
@@ -45,6 +46,7 @@ $_['entry_confirm']                  = 'Konfirmasi Password:';
 $_['entry_firstname']                = 'Nama Depan:';
 $_['entry_lastname']                 = 'Nama Belakang:';
 $_['entry_telephone']                = 'Telepon:';
+$_['entry_another_contact']          = 'Lainnya:';
 $_['entry_fax']                      = 'Fax:';
 $_['entry_company']                  = 'Perusahaan:';
 $_['entry_customer_group']           = 'Tipe Bisnis:';
