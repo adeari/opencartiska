@@ -18,23 +18,30 @@
       <input type="radio" name="shipping_method" value="<?php echo $quote['code']; ?>" id="<?php echo $quote['code']; ?>" />
       <?php } ?></td>
     <td><label for="<?php echo $quote['code']; ?>"><?php echo $quote['title']; ?></label></td>
+	<?php if ($showRupiah) { ?>
     <td style="text-align: right;"><label for="<?php echo $quote['code']; ?>"><?php echo $quote['text']; ?></label></td>
-  </tr>
-  <?php  if ($quote['code'] == 'pickup.pickup') { ?>
-  <tr><td></td><td colspan="2" style="color:red"><?php echo $ambilsendiriinfo.$SMSnum; ?></td></tr>
-  <?php } ?>
+	<?php } ?>
+  </tr>  
   <?php } ?>
   <?php } ?>
   <?php } ?>
 </table>
 <br />
 <?php } ?>
+<?php if ($showRupiah) { ?>
 <b><?php echo $text_comments; ?></b>
 <textarea name="comment" rows="8" style="width: 98%;"><?php echo $comment; ?></textarea>
 <br />
 <br />
+<?php } ?>
+
+
 <div class="buttons">
   <div class="right">
-    <input type="button" value="<?php echo $button_continue; ?>" id="button-shipping-method" class="button" />
+  <?php if ($showRupiah) { ?>
+  	<input type="button" value="<?php echo $button_continue; ?>" id="button-shipping-method" class="button" />
+  <?php } else { ?>
+    <input type="button" value="<?php echo $button_continue; ?>" id="button-shipping-method1" class="button" />
+  <?php } ?>
   </div>
 </div>

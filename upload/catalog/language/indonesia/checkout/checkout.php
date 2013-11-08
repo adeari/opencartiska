@@ -6,9 +6,11 @@ $_['heading_title']                  = 'Selesai';
 $_['text_cart']                      = 'Keranjang Belanja';
 $_['text_checkout_option']           = 'Langkah 1: Pilihan Checkout';
 $_['text_checkout_account']          = 'Langkah 2: Akun &amp; Detail Tagihan';
-$_['text_checkout_payment_address']  = 'Langkah 2: Detail Tagihan';
+$_['text_checkout_payment_address']  = 'Langkah 2: Informasi kontak';
 $_['text_checkout_shipping_address'] = 'Langkah 3: Detail Pengiriman';
+$_['text_checkout_shipping_address1'] = 'Langkah 4: Detail Pengiriman';
 $_['text_checkout_shipping_method']  = 'Langkah 4: Metode Pengiriman';
+$_['text_checkout_shipping_method1'] = 'Langkah 3: Metode Pengiriman';
 $_['text_checkout_payment_method']   = 'Langkah 5: Metode Pembayaran';
 $_['text_checkout_confirm']          = 'Langkah 6: Konfirmasi Pesanan';
 $_['text_modify']                    = 'Ubah &raquo;';
@@ -45,6 +47,7 @@ $_['entry_password']                 = 'Password:';
 $_['entry_confirm']                  = 'Konfirmasi Password:';
 $_['entry_firstname']                = 'Nama Depan:';
 $_['entry_lastname']                 = 'Nama Belakang:';
+$_['entry_name']                 	 = 'Nama:';
 $_['entry_telephone']                = 'Telepon:';
 $_['entry_another_contact']          = 'Lainnya:';
 $_['entry_fax']                      = 'Fax:';
@@ -67,6 +70,8 @@ $_['error_login']                    = 'Peringatan: Alamat Email dan/atau Passwo
 $_['error_approved']                 = 'Peringatan: Account Anda membutuhkan persetujuan sebelum Anda dapat login.'; 
 $_['error_exists']                   = 'Peringatan: Alamat Email telah terdaftar!';
 $_['error_firstname']                = 'Nama Depan harus terdiri dari 1 s/d 32 karakter!';
+$_['error_name']                	 = 'Nama harus terdiri dari 1 s/d 32 karakter!';
+$_['error_hp']                	     = 'Handphone harus terdiri dari 3 s/d 32 karakter!!';
 $_['error_lastname']                 = 'Nama Belakang harus terdiri dari 1 s/d 32 karakter!';
 $_['error_email']                    = 'Alamat Email tidak valid!';
 $_['error_telephone']                = 'Telepon harus terdiri dari 3 s/d 32 karakter!';
@@ -86,4 +91,13 @@ $_['error_shipping']                 = 'Peringatan: Metode pengiriman diperlukan
 $_['error_no_shipping']              = 'Peringatan: Tidak ada pilihan pengiriman yang tersedia. Silahkan <a href="%s">hubungi kami</a>!';
 $_['error_payment']                  = 'Peringatan: Metode pambayaran diperlukan!';
 $_['error_no_payment']               = 'Peringatan: Tidak ada pilihan pembayaran yang tersedia. Silahkan <a href="%s">hubungi kami</a>!';
+
+
+$_['jenispengiriman'] 				= 'Jenis pengiriman';
+$_['kesendiri'] 				= 'Kirim ke alamat sendiri';
+$_['kelain'] 				= 'Kirim ke orang lain';
+$_['tujuan'] 				= 'Tujuan pengiriman';
+$_['entry_address']                = 'Alamat:';
+$_['entry_kecamatan']                = 'Kecamatan:';
+$_['pengirim']                = 'Pengirim:';
 ?>

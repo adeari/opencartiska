@@ -130,7 +130,7 @@ class ControllerCheckoutConfirm extends Controller {
 			} elseif (isset($this->session->data['guest'])) {
 				$data['customer_id'] = 0;
 				$data['customer_group_id'] = $this->session->data['guest']['customer_group_id'];
-				$data['firstname'] = $this->session->data['guest']['firstname'];
+				$data['name'] = $this->session->data['guest']['name'];
 				$data['lastname'] = $this->session->data['guest']['lastname'];
 				$data['email'] = $this->session->data['guest']['email'];
 				$data['telephone'] = $this->session->data['guest']['telephone'];

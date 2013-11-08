@@ -13,7 +13,7 @@
 $('#button-confirm').bind('click', function() {
 	$.ajax({ 
 		type: 'GET',
-		url: 'index.php?route=payment/trf_bca/confirm',
+		url: 'index.php?route=payment/trf_mandiri/confirm',
 		success: function() {
 			location = '<?php echo $continue; ?>';
 		}		

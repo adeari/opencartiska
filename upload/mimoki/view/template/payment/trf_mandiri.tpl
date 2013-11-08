@@ -22,27 +22,27 @@
           </tr>
           <tr>
             <td><span class="required">*</span> <?php echo $entry_accountno; ?></td>
-            <td><input type="text" name="trf_bca_accountno" value="<?php echo $trf_bca_accountno; ?>" />
+            <td><input type="text" name="trf_mandiri_accountno" value="<?php echo $trf_mandiri_accountno; ?>" />
               <?php if ($error_accountno) { ?>
               <span class="error"><?php echo $error_accountno; ?></span>
               <?php } ?></td>
           </tr>
           <tr>
             <td><span class="required">*</span> <?php echo $entry_accountname; ?></td>
-            <td><input type="text" name="trf_bca_accountname" value="<?php echo $trf_bca_accountname; ?>" />
+            <td><input type="text" name="trf_mandiri_accountname" value="<?php echo $trf_mandiri_accountname; ?>" />
               <?php if ($error_accountname) { ?>
               <span class="error"><?php echo $error_accountname; ?></span>
               <?php } ?></td>
           </tr>
           <tr>
             <td><?php echo $entry_total; ?></td>
-            <td><input type="text" name="trf_bca_total" value="<?php echo $trf_bca_total; ?>" /></td>
+            <td><input type="text" name="trf_mandiri_total" value="<?php echo $trf_mandiri_total; ?>" /></td>
           </tr>
           <tr>
             <td><?php echo $entry_order_status; ?></td>
-            <td><select name="trf_bca_order_status_id">
+            <td><select name="trf_mandiri_order_status_id">
                 <?php foreach ($order_statuses as $order_status) { ?>
-                <?php if ($order_status['order_status_id'] == $trf_bca_order_status_id) { ?>
+                <?php if ($order_status['order_status_id'] == $trf_mandiri_order_status_id) { ?>
                 <option value="<?php echo $order_status['order_status_id']; ?>" selected="selected"><?php echo $order_status['name']; ?></option>
                 <?php } else { ?>
                 <option value="<?php echo $order_status['order_status_id']; ?>"><?php echo $order_status['name']; ?></option>
@@ -52,10 +52,10 @@
           </tr>
           <tr>
             <td><?php echo $entry_geo_zone; ?></td>
-            <td><select name="trf_bca_geo_zone_id">
+            <td><select name="trf_mandiri_geo_zone_id">
                 <option value="0"><?php echo $text_all_zones; ?></option>
                 <?php foreach ($geo_zones as $geo_zone) { ?>
-                <?php if ($geo_zone['geo_zone_id'] == $trf_bca_geo_zone_id) { ?>
+                <?php if ($geo_zone['geo_zone_id'] == $trf_mandiri_geo_zone_id) { ?>
                 <option value="<?php echo $geo_zone['geo_zone_id']; ?>" selected="selected"><?php echo $geo_zone['name']; ?></option>
                 <?php } else { ?>
                 <option value="<?php echo $geo_zone['geo_zone_id']; ?>"><?php echo $geo_zone['name']; ?></option>
@@ -65,8 +65,8 @@
           </tr>
           <tr>
             <td><?php echo $entry_status; ?></td>
-            <td><select name="trf_bca_status">
-                <?php if ($trf_bca_status) { ?>
+            <td><select name="trf_mandiri_status">
+                <?php if ($trf_mandiri_status) { ?>
                 <option value="1" selected="selected"><?php echo $text_enabled; ?></option>
                 <option value="0"><?php echo $text_disabled; ?></option>
                 <?php } else { ?>
@@ -77,7 +77,7 @@
           </tr>
           <tr>
             <td><?php echo $entry_sort_order; ?></td>
-            <td><input type="text" name="trf_bca_sort_order" value="<?php echo $trf_bca_sort_order; ?>" size="1" /></td>
+            <td><input type="text" name="trf_mandiri_sort_order" value="<?php echo $trf_mandiri_sort_order; ?>" size="1" /></td>
           </tr>
           <tr>
             <td>Pengembang</td>

@@ -1,23 +1,19 @@
 <div class="left">
   <h2><?php echo $text_your_details; ?></h2>
-  <span class="required">*</span> <?php echo $entry_firstname; ?><br />
-  <input type="text" name="firstname" value="<?php echo $firstname; ?>" class="medium-field" />
+  <span class="required">*</span> <?php echo $entry_name; ?><br />
+  <input type="text" name="name" value="<?php echo $name; ?>" class="medium-field" />
   <br />
   <br />
-  <span class="required">*</span> <?php echo $entry_lastname; ?><br />
-  <input type="text" name="lastname" value="<?php echo $lastname; ?>" class="medium-field" />
+  <span class="required">*</span> <?php echo $entry_hp; ?><br />
+  <input type="text" name="hp" value="<?php echo $hp; ?>" class="medium-field" />
   <br />
   <br />
-  <span class="required">*</span> <?php echo $entry_email; ?><br />
+  <?php echo $entry_email; ?><br />
   <input type="text" name="email" value="<?php echo $email; ?>" class="medium-field" />
   <br />
   <br />
-  <span class="required">*</span> <?php echo $entry_telephone; ?><br />
+  <?php echo $entry_telephone; ?><br />
   <input type="text" name="telephone" value="<?php echo $telephone; ?>" class="medium-field" />
-  <br />
-  <br />
-  <?php echo $entry_hp; ?><br />
-  <input type="text" name="hp" value="<?php echo $hp; ?>" class="medium-field" />
   <br />
   <br />
   <?php echo $entry_bb; ?><br />
@@ -36,85 +32,6 @@
   <br />
   <br />
 </div>
-<div class="right">
-  <h2><?php echo $text_your_address; ?></h2>
-  <?php echo $entry_company; ?><br />
-  <input type="text" name="company" value="<?php echo $company; ?>" class="medium-field" />
-  <br />
-  <br />
-  <div style="display: <?php echo (count($customer_groups) > 1 ? 'table-row' : 'none'); ?>;"> <?php echo $entry_customer_group; ?><br />
-    <?php foreach ($customer_groups as $customer_group) { ?>
-    <?php if ($customer_group['customer_group_id'] == $customer_group_id) { ?>
-    <input type="radio" name="customer_group_id" value="<?php echo $customer_group['customer_group_id']; ?>" id="customer_group_id<?php echo $customer_group['customer_group_id']; ?>" checked="checked" />
-    <label for="customer_group_id<?php echo $customer_group['customer_group_id']; ?>"><?php echo $customer_group['name']; ?></label>
-    <br />
-    <?php } else { ?>
-    <input type="radio" name="customer_group_id" value="<?php echo $customer_group['customer_group_id']; ?>" id="customer_group_id<?php echo $customer_group['customer_group_id']; ?>" />
-    <label for="customer_group_id<?php echo $customer_group['customer_group_id']; ?>"><?php echo $customer_group['name']; ?></label>
-    <br />
-    <?php } ?>
-    <?php } ?>
-    <br />
-  </div>
-  <div id="company-id-display"><span id="company-id-required" class="required">*</span> <?php echo $entry_company_id; ?><br />
-    <input type="text" name="company_id" value="<?php echo $company_id; ?>" class="medium-field" />
-    <br />
-    <br />
-  </div>
-  <div id="tax-id-display"><span id="tax-id-required" class="required">*</span> <?php echo $entry_tax_id; ?><br />
-    <input type="text" name="tax_id" value="<?php echo $tax_id; ?>" class="medium-field" />
-    <br />
-    <br />
-  </div>
-  <span class="required">*</span> <?php echo $entry_address_1; ?><br />
-  <input type="text" name="address_1" value="<?php echo $address_1; ?>" class="medium-field" />
-  <br />
-  <br />
-  <?php echo $entry_address_2; ?><br />
-  <input type="text" name="address_2" value="<?php echo $address_2; ?>" class="medium-field" />
-  <br />
-  <br />
-  <span class="required">*</span> <?php echo $entry_city; ?><br />
-  <input type="text" name="city" value="<?php echo $city; ?>" class="medium-field" />
-  <br />
-  <br />
-  <span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?><br />
-  <input type="text" name="postcode" value="<?php echo $postcode; ?>" class="medium-field" />
-  <br />
-  <br />
-  <span class="required">*</span> <?php echo $entry_country; ?><br />
-  <select name="country_id" class="medium-field">
-    <option value=""><?php echo $text_select; ?></option>
-    <?php foreach ($countries as $country) { ?>
-    <?php if ($country['country_id'] == $country_id) { ?>
-    <option value="<?php echo $country['country_id']; ?>" selected="selected"><?php echo $country['name']; ?></option>
-    <?php } else { ?>
-    <option value="<?php echo $country['country_id']; ?>"><?php echo $country['name']; ?></option>
-    <?php } ?>
-    <?php } ?>
-  </select>
-  <br />
-  <br />
-  <span class="required">*</span> <?php echo $entry_zone; ?><br />
-  <select name="zone_id" class="medium-field">
-  </select>
-  <br />
-  <br />
-  <br />
-</div>
-<?php if ($shipping_required) { ?>
-<div style="clear: both; padding-top: 15px; border-top: 1px solid #DDDDDD;">
-  <?php if ($shipping_address) { ?>
-  <input type="checkbox" name="shipping_address" value="1" id="shipping" checked="checked" />
-  <?php } else { ?>
-  <input type="checkbox" name="shipping_address" value="1" id="shipping" />
-  <?php } ?>
-  <label for="shipping"><?php echo $entry_shipping; ?></label>
-  <br />
-  <br />
-  <br />
-</div>
-<?php } ?>
 <div class="buttons">
   <div class="right">
     <input type="button" value="<?php echo $button_continue; ?>" id="button-guest" class="button" />
