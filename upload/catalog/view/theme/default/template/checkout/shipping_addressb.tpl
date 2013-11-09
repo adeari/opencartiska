@@ -1,4 +1,4 @@
-<div id="shipping-new" style="display: <?php echo ($addresses ? 'none' : 'block'); ?>;">
+<div id="shipping-new">
   <table class="form">
   	<tr>
       <td colspan="2"><h3><?php echo $jenispengiriman; ?></h3></td>
@@ -72,7 +72,7 @@
 <br />
 <div class="buttons">
   <div class="right">
-    <input type="button" value="<?php echo $button_continue; ?>" id="button-shipping-address" class="button" />
+    <input type="button" value="<?php echo $button_continue; ?>" id="button-shipping-addressb" class="button" />
   </div>
 </div>
 <script type="text/javascript"><!--
@@ -94,7 +94,7 @@ $.ajax({
 		url: 'index.php?route=checkout/checkout/country&country_id=' + vlioo,
 		dataType: 'json',
 		beforeSend: function() {
-			$('#shipping-address select[name=\'country_id\']').after('<span class="wait">&nbsp;<img src="catalog/view/theme/default/image/loading.gif" alt="" /></span>');
+			$('#shipping-method select[name=\'country_id\']').after('<span class="wait">&nbsp;<img src="catalog/view/theme/default/image/loading.gif" alt="" /></span>');
 		},
 		complete: function() {
 			$('.wait').remove();
@@ -155,9 +155,75 @@ $(strio+'jenispengiriman\']').live('change', function() {
 	}
 });
 
-$('#shipping-address select[name=\'country_id\']').trigger('change');
+$('#shipping-method select[name=\'country_id\']').trigger('change');
 
 $(document).ready(function() {
 showPropinsi232();
+$('#pilihJne').css('display','block' );
+});
+
+$('#button-shipping-addressb').live('click', function() {
+	$.ajax({
+	url: 'index.php?route=checkout/shipping_address/validateb',
+		type: 'post',
+		data: $('#shipping-method input[type=\'text\'], #shipping-method input[type=\'password\'], #shipping-method input[type=\'checkbox\']:checked, #shipping-method input[type=\'radio\']:checked, #shipping-method select'),
+		dataType: 'json',
+		beforeSend: function() {
+			$('#button-shipping-method').attr('disabled', true);
+			$('#button-shipping-address').after('<span class="wait">&nbsp;<img src="catalog/view/theme/default/image/loading.gif" alt="" /></span>');
+		},	
+		complete: function() {
+			$('#button-shipping-address').attr('disabled', false);
+			$('.wait').remove();
+		},	
+		success: function(json) {
+			$('.warning, .error').remove();
+			if (json['redirect']) {
+				location = json['redirect'];
+			} else if (json['error']) {
+				if (json['error']['warning']) {
+					$('#shipping-method .checkout-content').prepend('<div class="warning" style="display: none;">' + json['error']['warning'] + '<img src="catalog/view/theme/default/image/close.png" alt="" class="close" /></div>');
+					
+					$('.warning').fadeIn('slow');
+				}
+								
+				if (json['error']['name']) {
+					$('#shipping-method input[name=\'name\']').after('<span class="error">' + json['error']['name'] + '</span>');
+				}
+								
+				if (json['error']['hp']) {
+					$('#shipping-method input[name=\'hp\']').after('<span class="error">' + json['error']['hp'] + '</span>');
+				}		
+							
+				if (json['error']['city']) {
+					$('#shipping-method input[name=\'city\']').after('<span class="error">' + json['error']['city'] + '</span>');
+				}	
+				
+				
+				if (json['error']['country']) {
+					$('#shipping-method select[name=\'country_id\']').after('<span class="error">' + json['error']['country'] + '</span>');
+				}	
+				
+				if (json['error']['zone']) {
+					$('#shipping-method select[name=\'zone_id\']').after('<span class="error">' + json['error']['zone'] + '</span>');
+				}
+				
+				if ($('#shipping-method #jenispengirimanlain').is(':checked')) {
+					if (json['error']['iname']) {
+						$('#shipping-method input[name=\'namapengirim\']').after('<span class="error">' + json['error']['iname'] + '</span>');
+					}
+								
+					if (json['error']['ihp']) {
+						$('#shipping-method input[name=\'hppengirim\']').after('<span class="error">' + json['error']['ihp'] + '</span>');
+					}	
+				}
+			} else {
+				alert('deet');
+			}
+		},
+		error: function(xhr, ajaxOptions, thrownError) {
+			alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		}
+	});	
 });
 //--></script>

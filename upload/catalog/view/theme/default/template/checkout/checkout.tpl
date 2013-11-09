@@ -31,6 +31,10 @@
       <div class="checkout-heading"><?php echo $text_checkout_shipping_method; ?></div>
       <div class="checkout-content"></div>
     </div>
+    <div id="pilihJne" style='display:none'>
+      <div class="checkout-heading">pilihhh</div>
+      <div class="checkout-content"></div>
+    </div>
     <?php } ?>
     <div id="payment-method">
       <div class="checkout-heading"><?php echo $text_checkout_payment_method; ?></div>
