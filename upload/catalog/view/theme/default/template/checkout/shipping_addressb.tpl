@@ -75,7 +75,7 @@
     <input type="button" value="<?php echo $button_continue; ?>" id="button-shipping-addressb" class="button" />
   </div>
 </div>
-<script type="text/javascript"><!--
+<script type="text/javascript">
 $('#shipping-address input[name=\'shipping_address\']').live('change', function() {
 	if (this.value == 'new') {
 		$('#shipping-existing').hide();
@@ -85,8 +85,6 @@ $('#shipping-address input[name=\'shipping_address\']').live('change', function(
 		$('#shipping-new').hide();
 	}
 });
-//--></script> 
-<script type="text/javascript"><!--
 
 function showPropinsi232() {
 var vlioo = $('#shipping-method select[name=\'country_id\']').val();
@@ -243,4 +241,4 @@ $('#button-shipping-addressb').live('click', function() {
 		}
 	});	
 });
-//--></script>
+</script>

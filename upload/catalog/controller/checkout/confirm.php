@@ -128,17 +128,21 @@ class ControllerCheckoutConfirm extends Controller {
 				
 				$payment_address = $this->model_account_address->getAddress($this->session->data['payment_address_id']);
 			} elseif (isset($this->session->data['guest'])) {
-				$data['customer_id'] = 0;
-				$data['customer_group_id'] = $this->session->data['guest']['customer_group_id'];
-				$data['name'] = $this->session->data['guest']['name'];
-				$data['email'] = $this->session->data['guest']['email'];
-				$data['telephone'] = $this->session->data['guest']['telephone'];
-				$data['bb'] = $this->session->data['guest']['bb'];
-				$data['wa'] = $this->session->data['guest']['wa'];
-				$data['hp'] = $this->session->data['guest']['hp'];
-				$data['lainnya'] = $this->session->data['guest']['another_contact'];
-				$data['fax'] = $this->session->data['guest']['fax'];
-				$data['kecamatan'] = $this->session->data['guest']['kecamatan'];
+					$data['customer_id'] = 0;
+					$data['customer_group_id'] = $this->session->data['guest']['customer_group_id'];
+					$data['name'] = $this->session->data['guest']['name'];
+					$data['email'] = $this->session->data['guest']['email'];
+					$data['telephone'] = $this->session->data['guest']['telephone'];
+					$data['bb'] = $this->session->data['guest']['bb'];
+					$data['wa'] = $this->session->data['guest']['wa'];
+					$data['hp'] = $this->session->data['guest']['hp'];
+					$data['lainnya'] = $this->session->data['guest']['another_contact'];
+					$data['fax'] = $this->session->data['guest']['fax'];
+				if (strcmp($this->session->data['shipping_method']['code'],'pickup.pickup')==0) {
+					$data['kecamatan'] = '';
+				} else {
+					$data['kecamatan'] = $this->session->data['guest']['kecamatan'];
+				}
 				
 				$payment_address = $this->session->data['guest']['payment'];				
 			}
@@ -147,12 +151,20 @@ class ControllerCheckoutConfirm extends Controller {
 			
 			if (isset($this->session->data['guest'])) {
 				$data['name'] = $payment_address['name'];
-				$data['payment_address_1'] = $payment_address['address_1'];
-				$data['payment_city'] = $payment_address['city'];
-				$data['payment_postcode'] = $payment_address['postcode'];
+				if (strcmp($this->session->data['shipping_method']['code'],'pickup.pickup')==0) {
+					$data['payment_address_1'] = '';
+					$data['payment_city'] = '';
+					$data['payment_postcode'] = '';
+				} else {
+					$data['payment_address_1'] = $payment_address['address_1'];
+					$data['payment_city'] = $payment_address['city'];
+					$data['payment_postcode'] = $payment_address['postcode'];
+				}
 				$data['payment_zone'] = $payment_address['zone'];
 				$data['payment_zone_id'] = $payment_address['zone_id'];
+				$data['payment_country'] = $payment_address['country'];
 				$data['payment_country_id'] = $payment_address['country_id'];
+				$data['payment_address_format'] = $payment_address['address_format'];
 			} else {
 				$data['payment_firstname'] = $payment_address['firstname'];
 				$data['payment_lastname'] = $payment_address['lastname'];
@@ -193,13 +205,22 @@ class ControllerCheckoutConfirm extends Controller {
 				
 				if (isset($this->session->data['guest'])) {
 					$data['name'] = $shipping_address['name'];
-					$data['shipping_address_1'] = $shipping_address['address_1'];
-					$data['shipping_city'] = $shipping_address['city'];
-					$data['shipping_postcode'] = $shipping_address['postcode'];
-					$data['shipping_kecamatan'] = $shipping_address['kecamatan'];
+					if (strcmp($this->session->data['shipping_method']['code'],'pickup.pickup')==0) {
+						$data['shipping_address_1'] = '';
+						$data['shipping_city'] = '';
+						$data['shipping_postcode'] = '';
+						$data['shipping_kecamatan'] = '';
+					} else {
+						$data['shipping_address_1'] = $shipping_address['address_1'];
+						$data['shipping_city'] = $shipping_address['city'];
+						$data['shipping_postcode'] = $shipping_address['postcode'];
+						$data['shipping_kecamatan'] = $shipping_address['kecamatan'];
+					}
 					$data['shipping_zone'] = $shipping_address['zone'];
 					$data['shipping_zone_id'] = $shipping_address['zone_id'];
+					$data['shipping_country'] = $shipping_address['country'];
 					$data['shipping_country_id'] = $shipping_address['country_id'];
+					$data['shipping_address_format'] = $shipping_address['address_format'];
 				} else {
 					$data['shipping_firstname'] = $shipping_address['firstname'];
 					$data['shipping_lastname'] = $shipping_address['lastname'];

@@ -52,7 +52,7 @@ $('#shipping-address .checkout-content input[name=\'shipping_method\']').live('c
 	showDetailShipping(this.value);
 });
 function showDetailShipping(valii){
-	if (valii=='pickup.pickup') {
+	if (valii=='pickup.pickup'||$('#shipping-address .checkout-content input[name=\'shipping_method\']').eq(1).is(':checked')) {
 		$('#pilihJne').css('display','none');
 		$('#payment-method .checkout-heading').html('<?php echo $text_checkout_payment_method; ?>');
 		$('#confirm .checkout-heading').html('<?php echo $text_checkout_confirm; ?>');
