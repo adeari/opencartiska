@@ -94,10 +94,13 @@ $_['error_no_payment']               = 'Peringatan: Tidak ada pilihan pembayaran
 
 
 $_['jenispengiriman'] 				= 'Jenis pengiriman';
-$_['kesendiri'] 				= 'Kirim ke alamat sendiri';
-$_['kelain'] 				= 'Kirim ke orang lain';
-$_['tujuan'] 				= 'Tujuan pengiriman';
-$_['entry_address']                = 'Alamat:';
-$_['entry_kecamatan']                = 'Kecamatan:';
-$_['pengirim']                = 'Pengirim:';
+$_['kesendiri'] 					= 'Kirim ke alamat sendiri';
+$_['kelain'] 						= 'Kirim ke orang lain';
+$_['tujuan'] 						= 'Tujuan pengiriman';
+$_['entry_address']               	= 'Alamat:';
+$_['entry_kecamatan']               = 'Kecamatan:';
+$_['pengirim']                		= 'Pengirim:';
+$_['layananPengirimin']             = 'Langkah 5: Layanan pengiriman';
+$_['text_checkout_payment_method1']   = 'Langkah 6: Metode Pembayaran';
+$_['text_checkout_confirm1']          = 'Langkah 7: Konfirmasi Pesanan';
 ?>

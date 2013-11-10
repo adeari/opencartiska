@@ -92,6 +92,7 @@ class ControllerCheckoutShippingAddress extends Controller {
 			$this->data['kesendiri'] = $this->language->get('kesendiri');
 			$this->data['kelain'] = $this->language->get('kelain');
 			$this->data['tujuan'] = $this->language->get('tujuan');
+			$this->data['text_modify'] = $this->language->get('text_modify');
 
 			$this->data['button_continue'] = $this->language->get('button_continue');
 
@@ -104,6 +105,24 @@ class ControllerCheckoutShippingAddress extends Controller {
 			$this->load->model('account/address');
 
 			$this->data['addresses'] = $this->model_account_address->getAddresses();
+			
+			if (isset($this->session->data['address_1'])) {
+				$this->data['address_1'] = $this->session->data['address_1'];
+			} else {
+				$this->data['address_1'] = '';
+			}
+			
+			if (isset($this->session->data['kecamatan'])) {
+				$this->data['kecamatan'] = $this->session->data['kecamatan'];
+			} else {
+				$this->data['kecamatan'] = '';
+			}
+			
+			if (isset($this->session->data['city'])) {
+				$this->data['city'] = $this->session->data['city'];
+			} else {
+				$this->data['city'] = '';
+			}
 
 			if (isset($this->session->data['shipping_postcode'])) {
 				$this->data['postcode'] = $this->session->data['shipping_postcode'];
@@ -151,13 +170,11 @@ class ControllerCheckoutShippingAddress extends Controller {
 
 		// Validate if shipping is required. If not the customer should not have reached this page.
 		if (!$this->cart->hasShipping()) {
-			echo 'ffff';
 			$json['redirect'] = $this->url->link('checkout/checkout', '', 'SSL');
 		}
 
 		// Validate cart has products and has stock.
 		if ((!$this->cart->hasProducts() && empty($this->session->data['vouchers'])) || (!$this->cart->hasStock() && !$this->config->get('config_stock_checkout'))) {
-			echo "ttt";
 			$json['redirect'] = $this->url->link('checkout/cart');
 		}
 
@@ -251,12 +268,54 @@ class ControllerCheckoutShippingAddress extends Controller {
 
 			if (!$json) {
 				// Default Shipping Address
+				$this->session->data['guest']['address_1'] = $this->request->post['address_1'];
+				$this->session->data['guest']['kecamatan'] = $this->request->post['kecamatan'];
+				$this->session->data['guest']['city'] = $this->request->post['city'];
+				$this->session->data['guest']['zone_id'] = $this->request->post['zone_id'];
+				
+				$this->session->data['guest']['shipping_address'] = true;
+				$this->session->data['guest']['shipping']['name'] = $this->request->post['name'];
+				$this->session->data['guest']['shipping']['hp'] = $this->request->post['hp'];
+				$this->session->data['guest']['shipping']['address_1'] = $this->request->post['address_1'];
+				$this->session->data['guest']['shipping']['kecamatan'] = $this->request->post['kecamatan'];
+				$this->session->data['guest']['shipping']['city'] = $this->request->post['city'];
+				$this->session->data['guest']['shipping']['country_id'] = $this->request->post['country_id'];
+				$this->session->data['guest']['shipping']['postcode'] = $this->request->post['postcode'];
+				$this->session->data['guest']['shipping']['zone_id'] = $this->request->post['zone_id'];
+				
+				$this->session->data['guest']['payment']['name'] = $this->request->post['name'];
+				$this->session->data['guest']['payment']['address_1'] = $this->request->post['address_1'];
+				$this->session->data['guest']['payment']['postcode'] = $this->request->post['postcode'];
+				$this->session->data['guest']['payment']['city'] = $this->request->post['city'];
+				$this->session->data['guest']['payment']['country_id'] = $this->request->post['country_id'];
+				$this->session->data['guest']['payment']['zone_id'] = $this->request->post['zone_id'];
+				
+				if (strcmp($this->request->post['jenispengiriman'],'lain')==0)  {
+					$this->session->data['guest']['shipping']['namapengirim'] = $this->request->post['namapengirim'];
+					$this->session->data['guest']['shipping']['hppengirim'] = $this->request->post['hppengirim'];
+				} else {
+					$this->session->data['guest']['shipping']['namapengirim'] = '';
+					$this->session->data['guest']['shipping']['hppengirim'] = '';
+				}
+				
+				$this->load->model('localisation/zone');					
+				$zone_info = $this->model_localisation_zone->getZone($this->request->post['zone_id']);
+				
+				if ($zone_info) {
+					$this->session->data['guest']['shipping']['zone'] = $zone_info['name'];
+					$this->session->data['guest']['shipping']['zone_code'] = $zone_info['code'];
+				} else {
+					$this->session->data['guest']['shipping']['zone'] = '';
+					$this->session->data['guest']['shipping']['zone_code'] = '';
+				}
+				
 				$this->load->model('account/address');
 
 				$this->session->data['shipping_address_id'] = $this->model_account_address->addAddressb($this->request->post);
 				$this->session->data['shipping_country_id'] = $this->request->post['country_id'];
 				$this->session->data['shipping_zone_id'] = $this->request->post['zone_id'];
 				$this->session->data['shipping_postcode'] = $this->request->post['postcode'];
+				
 
 				unset($this->session->data['shipping_method']);
 				unset($this->session->data['shipping_methods']);

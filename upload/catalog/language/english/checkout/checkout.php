@@ -109,10 +109,13 @@ $_['text_length']                   = ' for %s payments';
 
 
 $_['jenispengiriman'] 				= 'Delivey types';
-$_['kesendiri'] 				= 'Send to my address';
-$_['kelain'] 				= 'Send to another person';
-$_['tujuan'] 				= 'Destination delivery';
-$_['entry_address']                = 'Address:';
-$_['entry_kecamatan']                = 'District:';
-$_['pengirim']                = 'Sender:';
+$_['kesendiri'] 					= 'Send to my address';
+$_['kelain'] 						= 'Send to another person';
+$_['tujuan'] 						= 'Destination delivery';
+$_['entry_address']                	= 'Address:';
+$_['entry_kecamatan']               = 'District:';
+$_['pengirim']                		= 'Sender:';
+$_['layananPengirimin']             = 'Step 5: Service delivery';
+$_['text_checkout_payment_method1']   = 'Step 6: Payment Method';
+$_['text_checkout_confirm1']          = 'Step 7: Confirm Order';
 ?>

@@ -32,7 +32,7 @@
       <div class="checkout-content"></div>
     </div>
     <div id="pilihJne" style='display:none'>
-      <div class="checkout-heading">pilihhh</div>
+      <div class="checkout-heading"><?php echo $layananPengirimin; ?></div>
       <div class="checkout-content"></div>
     </div>
     <?php } ?>
@@ -638,7 +638,7 @@ $('#button-guest').live('click', function() {
 			} else {
 				<?php if ($shipping_required) { ?>	
 				$.ajax({
-						url: 'index.php?route=checkout/shipping_method',
+						url: 'index.php?route=checkout/shipping_method/trut',
 						dataType: 'html',
 						success: function(html) {
 							$('#shipping-address .checkout-content').html(html);							
@@ -885,7 +885,7 @@ $('#button-shipping-method').live('click', function() {
 
 $('#button-shipping-method1').live('click', function() {
 	$.ajax({
-		url: 'index.php?route=checkout/shipping_method/validate',
+		url: 'index.php?route=checkout/shipping_method/validatetust',
 		type: 'post',
 		data: $('#shipping-address input[type=\'radio\']:checked'),
 		dataType: 'json',

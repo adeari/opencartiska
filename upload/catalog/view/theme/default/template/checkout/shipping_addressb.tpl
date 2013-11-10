@@ -22,15 +22,15 @@
     </tr>
     <tr>
       <td><?php echo $entry_address; ?></td>
-      <td><input type="text" name="address_1" value="" class="large-field" /></td>
+      <td><input type="text" name="address_1" value="<?php echo $address_1; ?>" class="large-field" /></td>
     </tr>
     <tr>
       <td><?php echo $entry_kecamatan; ?></td>
-      <td><input type="text" name="kecamatan" value="" class="large-field" /></td>
+      <td><input type="text" name="kecamatan" value="<?php echo $kecamatan; ?>" class="large-field" /></td>
     </tr>
     <tr>
       <td><span class="required">*</span> <?php echo $entry_city; ?></td>
-      <td><input type="text" name="city" value="" class="large-field" /></td>
+      <td><input type="text" name="city" value="<?php echo $city; ?>" class="large-field" /></td>
     </tr>
     <tr>
       <td><?php echo $entry_postcode; ?></td>
@@ -159,7 +159,6 @@ $('#shipping-method select[name=\'country_id\']').trigger('change');
 
 $(document).ready(function() {
 showPropinsi232();
-$('#pilihJne').css('display','block' );
 });
 
 $('#button-shipping-addressb').live('click', function() {
@@ -169,11 +168,11 @@ $('#button-shipping-addressb').live('click', function() {
 		data: $('#shipping-method input[type=\'text\'], #shipping-method input[type=\'password\'], #shipping-method input[type=\'checkbox\']:checked, #shipping-method input[type=\'radio\']:checked, #shipping-method select'),
 		dataType: 'json',
 		beforeSend: function() {
-			$('#button-shipping-method').attr('disabled', true);
-			$('#button-shipping-address').after('<span class="wait">&nbsp;<img src="catalog/view/theme/default/image/loading.gif" alt="" /></span>');
+			$('#button-shipping-addressb').attr('disabled', true);
+			$('#button-shipping-addressb').after('<span class="wait">&nbsp;<img src="catalog/view/theme/default/image/loading.gif" alt="" /></span>');
 		},	
 		complete: function() {
-			$('#button-shipping-address').attr('disabled', false);
+			$('#button-shipping-addressb').attr('disabled', false);
 			$('.wait').remove();
 		},	
 		success: function(json) {
@@ -218,7 +217,25 @@ $('#button-shipping-addressb').live('click', function() {
 					}	
 				}
 			} else {
-				alert('deet');
+				$.ajax({
+					url: 'index.php?route=checkout/shipping_method/inep',
+					dataType: 'html',
+					success: function(html) {
+						$('#pilihJne .checkout-content').html(html);
+						
+						$('#shipping-method .checkout-content').slideUp('slow');
+						
+						$('#pilihJne .checkout-content').slideDown('slow');
+						
+						$('#shipping-method .checkout-heading a').remove();
+						$('#pilihJne .checkout-heading a').remove();
+						
+						$('#shipping-method .checkout-heading').append('<a><?php echo $text_modify; ?></a>');
+					},
+					error: function(xhr, ajaxOptions, thrownError) {
+						alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+					}
+				});	
 			}
 		},
 		error: function(xhr, ajaxOptions, thrownError) {

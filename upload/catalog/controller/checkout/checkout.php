@@ -61,6 +61,8 @@ class ControllerCheckoutCheckout extends Controller {
 		$this->data['text_checkout_payment_method'] = $this->language->get('text_checkout_payment_method');		
 		$this->data['text_checkout_confirm'] = $this->language->get('text_checkout_confirm');
 		$this->data['text_modify'] = $this->language->get('text_modify');
+		$this->data['layananPengirimin'] = $this->language->get('layananPengirimin');
+		
 		
 		$this->data['logged'] = $this->customer->isLogged();
 		$this->data['shipping_required'] = $this->cart->hasShipping();	

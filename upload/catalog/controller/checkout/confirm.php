@@ -131,7 +131,6 @@ class ControllerCheckoutConfirm extends Controller {
 				$data['customer_id'] = 0;
 				$data['customer_group_id'] = $this->session->data['guest']['customer_group_id'];
 				$data['name'] = $this->session->data['guest']['name'];
-				$data['lastname'] = $this->session->data['guest']['lastname'];
 				$data['email'] = $this->session->data['guest']['email'];
 				$data['telephone'] = $this->session->data['guest']['telephone'];
 				$data['bb'] = $this->session->data['guest']['bb'];
@@ -139,24 +138,37 @@ class ControllerCheckoutConfirm extends Controller {
 				$data['hp'] = $this->session->data['guest']['hp'];
 				$data['lainnya'] = $this->session->data['guest']['another_contact'];
 				$data['fax'] = $this->session->data['guest']['fax'];
+				$data['kecamatan'] = $this->session->data['guest']['kecamatan'];
 				
-				$payment_address = $this->session->data['guest']['payment'];
+				$payment_address = $this->session->data['guest']['payment'];				
 			}
 			
-			$data['payment_firstname'] = $payment_address['firstname'];
-			$data['payment_lastname'] = $payment_address['lastname'];	
-			$data['payment_company'] = $payment_address['company'];	
-			$data['payment_company_id'] = $payment_address['company_id'];	
-			$data['payment_tax_id'] = $payment_address['tax_id'];	
-			$data['payment_address_1'] = $payment_address['address_1'];
-			$data['payment_address_2'] = $payment_address['address_2'];
-			$data['payment_city'] = $payment_address['city'];
-			$data['payment_postcode'] = $payment_address['postcode'];
-			$data['payment_zone'] = $payment_address['zone'];
-			$data['payment_zone_id'] = $payment_address['zone_id'];
-			$data['payment_country'] = $payment_address['country'];
-			$data['payment_country_id'] = $payment_address['country_id'];
-			$data['payment_address_format'] = $payment_address['address_format'];
+			
+			
+			if (isset($this->session->data['guest'])) {
+				$data['name'] = $payment_address['name'];
+				$data['payment_address_1'] = $payment_address['address_1'];
+				$data['payment_city'] = $payment_address['city'];
+				$data['payment_postcode'] = $payment_address['postcode'];
+				$data['payment_zone'] = $payment_address['zone'];
+				$data['payment_zone_id'] = $payment_address['zone_id'];
+				$data['payment_country_id'] = $payment_address['country_id'];
+			} else {
+				$data['payment_firstname'] = $payment_address['firstname'];
+				$data['payment_lastname'] = $payment_address['lastname'];
+				$data['payment_company'] = $payment_address['company'];
+				$data['payment_company_id'] = $payment_address['company_id'];
+				$data['payment_tax_id'] = $payment_address['tax_id'];
+				$data['payment_address_1'] = $payment_address['address_1'];
+				$data['payment_address_2'] = $payment_address['address_2'];
+				$data['payment_city'] = $payment_address['city'];
+				$data['payment_postcode'] = $payment_address['postcode'];
+				$data['payment_zone'] = $payment_address['zone'];
+				$data['payment_zone_id'] = $payment_address['zone_id'];
+				$data['payment_country'] = $payment_address['country'];
+				$data['payment_country_id'] = $payment_address['country_id'];
+				$data['payment_address_format'] = $payment_address['address_format'];
+			}
 		
 			if (isset($this->session->data['payment_method']['title'])) {
 				$data['payment_method'] = $this->session->data['payment_method']['title'];
@@ -179,18 +191,29 @@ class ControllerCheckoutConfirm extends Controller {
 					$shipping_address = $this->session->data['guest']['shipping'];
 				}			
 				
-				$data['shipping_firstname'] = $shipping_address['firstname'];
-				$data['shipping_lastname'] = $shipping_address['lastname'];	
-				$data['shipping_company'] = $shipping_address['company'];	
-				$data['shipping_address_1'] = $shipping_address['address_1'];
-				$data['shipping_address_2'] = $shipping_address['address_2'];
-				$data['shipping_city'] = $shipping_address['city'];
-				$data['shipping_postcode'] = $shipping_address['postcode'];
-				$data['shipping_zone'] = $shipping_address['zone'];
-				$data['shipping_zone_id'] = $shipping_address['zone_id'];
-				$data['shipping_country'] = $shipping_address['country'];
-				$data['shipping_country_id'] = $shipping_address['country_id'];
-				$data['shipping_address_format'] = $shipping_address['address_format'];
+				if (isset($this->session->data['guest'])) {
+					$data['name'] = $shipping_address['name'];
+					$data['shipping_address_1'] = $shipping_address['address_1'];
+					$data['shipping_city'] = $shipping_address['city'];
+					$data['shipping_postcode'] = $shipping_address['postcode'];
+					$data['shipping_kecamatan'] = $shipping_address['kecamatan'];
+					$data['shipping_zone'] = $shipping_address['zone'];
+					$data['shipping_zone_id'] = $shipping_address['zone_id'];
+					$data['shipping_country_id'] = $shipping_address['country_id'];
+				} else {
+					$data['shipping_firstname'] = $shipping_address['firstname'];
+					$data['shipping_lastname'] = $shipping_address['lastname'];
+					$data['shipping_company'] = $shipping_address['company'];
+					$data['shipping_address_1'] = $shipping_address['address_1'];
+					$data['shipping_address_2'] = $shipping_address['address_2'];
+					$data['shipping_city'] = $shipping_address['city'];
+					$data['shipping_postcode'] = $shipping_address['postcode'];
+					$data['shipping_zone'] = $shipping_address['zone'];
+					$data['shipping_zone_id'] = $shipping_address['zone_id'];
+					$data['shipping_country'] = $shipping_address['country'];
+					$data['shipping_country_id'] = $shipping_address['country_id'];
+					$data['shipping_address_format'] = $shipping_address['address_format'];
+				}
 			
 				if (isset($this->session->data['shipping_method']['title'])) {
 					$data['shipping_method'] = $this->session->data['shipping_method']['title'];
@@ -329,7 +352,11 @@ class ControllerCheckoutConfirm extends Controller {
 						
 			$this->load->model('checkout/order');
 			
-			$this->session->data['order_id'] = $this->model_checkout_order->addOrder($data);
+			if (isset($this->session->data['guest'])) {
+				$this->session->data['order_id'] = $this->model_checkout_order->addOrderGuest($data);
+			} else {
+				$this->session->data['order_id'] = $this->model_checkout_order->addOrder($data);
+			}
 			
 			$this->data['column_name'] = $this->language->get('column_name');
 			$this->data['column_model'] = $this->language->get('column_model');
