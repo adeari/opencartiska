@@ -89,7 +89,7 @@
                 <input type="checkbox" name="selected[]" value="<?php echo $order['order_id']; ?>" />
                 <?php } ?></td>
               <td class="right"><?php echo $order['order_id']; ?></td>
-              <td class="left"><?php echo $order['customer']; ?></td>
+              <td class="left"><?php  if (strlen($order['customer'])==1||strcmp($order['customer'],' ')==0) echo $order['customer_name']; else echo $order['customer'];?></td>
               <td class="left"><?php echo $order['status']; ?></td>
               <td class="right"><?php echo $order['total']; ?></td>
               <td class="left"><?php echo $order['date_added']; ?></td>

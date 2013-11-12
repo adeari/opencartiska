@@ -138,6 +138,7 @@ class ControllerCheckoutConfirm extends Controller {
 					$data['hp'] = $this->session->data['guest']['hp'];
 					$data['lainnya'] = $this->session->data['guest']['another_contact'];
 					$data['fax'] = $this->session->data['guest']['fax'];
+					
 				if (strcmp($this->session->data['shipping_method']['code'],'pickup.pickup')==0) {
 					$data['kecamatan'] = '';
 				} else {
@@ -221,6 +222,20 @@ class ControllerCheckoutConfirm extends Controller {
 					$data['shipping_country'] = $shipping_address['country'];
 					$data['shipping_country_id'] = $shipping_address['country_id'];
 					$data['shipping_address_format'] = $shipping_address['address_format'];
+					
+					
+					if (isset($shipping_address['namapengirim'])) {
+						$data['namapengirim'] = $shipping_address['namapengirim'];
+					} else {
+						$data['namapengirim'] = '';
+					}
+					
+					if (isset($shipping_address['hppengirim'])) {
+						$data['hppengirim'] = $shipping_address['hppengirim'];
+					} else {
+						$data['hppengirim'] = '';
+					}
+					
 				} else {
 					$data['shipping_firstname'] = $shipping_address['firstname'];
 					$data['shipping_lastname'] = $shipping_address['lastname'];

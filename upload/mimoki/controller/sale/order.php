@@ -331,6 +331,7 @@ class ControllerSaleOrder extends Controller {
 			$this->data['orders'][] = array(
 				'order_id'      => $result['order_id'],
 				'customer'      => $result['customer'],
+				'customer_name'      => $result['customer_name'],
 				'status'        => $result['status'],
 				'total'         => $this->currency->format($result['total'], $result['currency_code'], $result['currency_value']),
 				'date_added'    => date($this->language->get('date_format_short'), strtotime($result['date_added'])),
@@ -501,6 +502,7 @@ class ControllerSaleOrder extends Controller {
 		$this->data['entry_customer'] = $this->language->get('entry_customer');
 		$this->data['entry_customer_group'] = $this->language->get('entry_customer_group');
 		$this->data['entry_firstname'] = $this->language->get('entry_firstname');
+		$this->data['entry_name'] = $this->language->get('entry_name');
 		$this->data['entry_lastname'] = $this->language->get('entry_lastname');
 		$this->data['entry_email'] = $this->language->get('entry_email');
 		$this->data['entry_telephone'] = $this->language->get('entry_telephone');
@@ -568,6 +570,12 @@ class ControllerSaleOrder extends Controller {
 			$this->data['error_firstname'] = $this->error['firstname'];
 		} else {
 			$this->data['error_firstname'] = '';
+		}
+		
+		if (isset($this->error['name'])) {
+			$this->data['error_name'] = $this->error['name'];
+		} else {
+			$this->data['error_name'] = '';
 		}
 
  		if (isset($this->error['lastname'])) {
@@ -815,6 +823,19 @@ class ControllerSaleOrder extends Controller {
 		} else {
       		$this->data['firstname'] = '';
     	}
+    	
+    	$nameExist = false;
+    	if (isset($this->request->post['name'])) {
+    		$this->data['name'] = $this->request->post['name'];
+    		$nameExist = true;
+    	} elseif (!empty($order_info)) {
+    		$this->data['name'] = $order_info['name'];
+    		$nameExist = true;
+    	} else {
+    		$this->data['name'] = '';
+    	}
+
+    	$this->data['nameExist'] = $nameExist;
 
     	if (isset($this->request->post['lastname'])) {
       		$this->data['lastname'] = $this->request->post['lastname'];
@@ -1417,6 +1438,7 @@ class ControllerSaleOrder extends Controller {
 			$this->data['text_company_id'] = $this->language->get('text_company_id');
 			$this->data['text_tax_id'] = $this->language->get('text_tax_id');
 			$this->data['text_address_1'] = $this->language->get('text_address_1');
+			$this->data['text_address'] = $this->language->get('text_address');
 			$this->data['text_address_2'] = $this->language->get('text_address_2');
 			$this->data['text_city'] = $this->language->get('text_city');
 			$this->data['text_postcode'] = $this->language->get('text_postcode');
@@ -1578,8 +1600,19 @@ class ControllerSaleOrder extends Controller {
             $this->data['amazon_order_id'] = $order_info['amazon_order_id'];
 			$this->data['store_name'] = $order_info['store_name'];
 			$this->data['store_url'] = $order_info['store_url'];
-			$this->data['firstname'] = $order_info['firstname'];
-			$this->data['lastname'] = $order_info['lastname'];
+			$adaFirstname = false;
+			if (isset($order_info['firstname'])) {
+				if (strlen($order_info['firstname'])>0) {
+					$this->data['firstname'] = $order_info['firstname'];
+					$adaFirstname = true;
+				}
+			}
+			if ($adaFirstname) {
+				$this->data['lastname'] = $order_info['lastname'];
+			} else {
+				$this->data['firstname'] = $order_info['name'];
+				$this->data['lastname'] = '';
+			}
 						
 			if ($order_info['customer_id']) {
 				$this->data['customer'] = $this->url->link('sale/customer/update', 'token=' . $this->session->data['token'] . '&customer_id=' . $order_info['customer_id'], 'SSL');
@@ -1655,6 +1688,7 @@ class ControllerSaleOrder extends Controller {
 			$this->data['date_added'] = date($this->language->get('date_format_short'), strtotime($order_info['date_added']));
 			$this->data['date_modified'] = date($this->language->get('date_format_short'), strtotime($order_info['date_modified']));		
 			$this->data['payment_firstname'] = $order_info['payment_firstname'];
+			$this->data['payment_name'] = $order_info['payment_name'];
 			$this->data['payment_lastname'] = $order_info['payment_lastname'];
 			$this->data['payment_company'] = $order_info['payment_company'];
 			$this->data['payment_company_id'] = $order_info['payment_company_id'];
@@ -1667,6 +1701,7 @@ class ControllerSaleOrder extends Controller {
 			$this->data['payment_zone_code'] = $order_info['payment_zone_code'];
 			$this->data['payment_country'] = $order_info['payment_country'];			
 			$this->data['shipping_firstname'] = $order_info['shipping_firstname'];
+			$this->data['shipping_name'] = $order_info['shipping_name'];
 			$this->data['shipping_lastname'] = $order_info['shipping_lastname'];
 			$this->data['shipping_company'] = $order_info['shipping_company'];
 			$this->data['shipping_address_1'] = $order_info['shipping_address_1'];

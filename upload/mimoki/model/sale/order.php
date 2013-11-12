@@ -422,6 +422,7 @@ class ModelSaleOrder extends Model {
 				'customer'                => $order_query->row['customer'],
 				'customer_group_id'       => $order_query->row['customer_group_id'],
 				'firstname'               => $order_query->row['firstname'],
+				'name'               	  => $order_query->row['name'],
 				'lastname'                => $order_query->row['lastname'],
 				'telephone'               => $order_query->row['telephone'],
 				'bb'               		  => $order_query->row['bb'],
@@ -431,6 +432,7 @@ class ModelSaleOrder extends Model {
 				'fax'                     => $order_query->row['fax'],
 				'email'                   => $order_query->row['email'],
 				'payment_firstname'       => $order_query->row['payment_firstname'],
+				'payment_name'       	  => $order_query->row['payment_name'],
 				'payment_lastname'        => $order_query->row['payment_lastname'],
 				'payment_company'         => $order_query->row['payment_company'],
 				'payment_company_id'      => $order_query->row['payment_company_id'],
@@ -450,6 +452,7 @@ class ModelSaleOrder extends Model {
 				'payment_method'          => $order_query->row['payment_method'],
 				'payment_code'            => $order_query->row['payment_code'],				
 				'shipping_firstname'      => $order_query->row['shipping_firstname'],
+				'shipping_name'      	  => $order_query->row['shipping_name'],
 				'shipping_lastname'       => $order_query->row['shipping_lastname'],
 				'shipping_company'        => $order_query->row['shipping_company'],
 				'shipping_address_1'      => $order_query->row['shipping_address_1'],
@@ -494,7 +497,7 @@ class ModelSaleOrder extends Model {
 	}
 	
 	public function getOrders($data = array()) {
-		$sql = "SELECT o.order_id, CONCAT(o.firstname, ' ', o.lastname) AS customer, (SELECT os.name FROM " . DB_PREFIX . "order_status os WHERE os.order_status_id = o.order_status_id AND os.language_id = '" . (int)$this->config->get('config_language_id') . "') AS status, o.total, o.currency_code, o.currency_value, o.date_added, o.date_modified FROM `" . DB_PREFIX . "order` o";
+		$sql = "SELECT o.order_id, CONCAT(o.firstname, ' ', o.lastname) AS customer,o.name AS customer_name, (SELECT os.name FROM " . DB_PREFIX . "order_status os WHERE os.order_status_id = o.order_status_id AND os.language_id = '" . (int)$this->config->get('config_language_id') . "') AS status, o.total, o.currency_code, o.currency_value, o.date_added, o.date_modified FROM `" . DB_PREFIX . "order` o";
 
 		if (isset($data['filter_order_status_id']) && !is_null($data['filter_order_status_id'])) {
 			$sql .= " WHERE o.order_status_id = '" . (int)$data['filter_order_status_id'] . "'";
@@ -507,7 +510,7 @@ class ModelSaleOrder extends Model {
 		}
 
 		if (!empty($data['filter_customer'])) {
-			$sql .= " AND CONCAT(o.firstname, ' ', o.lastname) LIKE '%" . $this->db->escape($data['filter_customer']) . "%'";
+			$sql .= " AND (CONCAT(o.firstname, ' ', o.lastname) LIKE '%" . $this->db->escape($data['filter_customer']) . "%' or o.name LIKE '%" . $this->db->escape($data['filter_customer']) . "%') ";
 		}
 
 		if (!empty($data['filter_date_added'])) {
@@ -524,7 +527,7 @@ class ModelSaleOrder extends Model {
 
 		$sort_data = array(
 			'o.order_id',
-			'customer',
+			'customer,customer_name',
 			'status',
 			'o.date_added',
 			'o.date_modified',

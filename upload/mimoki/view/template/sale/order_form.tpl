@@ -49,6 +49,15 @@
                   <?php } ?>
                 </select></td>
             </tr>
+            <?php if ($nameExist) { ?>
+            <tr>
+              <td><span class="required">*</span> <?php echo $entry_name; ?></td>
+              <td><input type="text" name="name" value="<?php echo $name; ?>" />
+                <?php if ($error_name) { ?>
+                <span class="error"><?php echo $error_name; ?></span>
+                <?php } ?></td>
+            </tr>
+            <?php } else { ?>            
             <tr>
               <td><span class="required">*</span> <?php echo $entry_firstname; ?></td>
               <td><input type="text" name="firstname" value="<?php echo $firstname; ?>" />
@@ -63,6 +72,8 @@
                 <span class="error"><?php echo $error_lastname; ?></span>
                 <?php } ?></td>
             </tr>
+            <?php } ?>
+            
             <tr>
               <td><span class="required">*</span> <?php echo $entry_email; ?></td>
               <td><input type="text" name="email" value="<?php echo $email; ?>" />

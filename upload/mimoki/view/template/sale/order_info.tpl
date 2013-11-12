@@ -182,14 +182,24 @@
       </div>
       <div id="tab-payment" class="vtabs-content">
         <table class="form">
+         <?php if (isset($payment_firstname)) { if (strlen($payment_firstname)>0) { ?>
           <tr>
             <td><?php echo $text_firstname; ?></td>
             <td><?php echo $payment_firstname; ?></td>
           </tr>
+          <?php }} ?>
+          <?php if (isset($payment_lastname)) { if (strlen($payment_lastname)>0) { ?>
           <tr>
             <td><?php echo $text_lastname; ?></td>
             <td><?php echo $payment_lastname; ?></td>
           </tr>
+          <?php }} ?>
+          <?php if (isset($payment_name)) { if (strlen($payment_name)>0) { ?>
+          <tr>
+            <td><?php echo $text_name; ?></td>
+            <td><?php echo $payment_name; ?></td>
+          </tr>
+          <?php }} ?>
           <?php if ($payment_company) { ?>
           <tr>
             <td><?php echo $text_company; ?></td>
@@ -207,11 +217,19 @@
             <td><?php echo $text_tax_id; ?></td>
             <td><?php echo $payment_tax_id; ?></td>
           </tr>
-          <?php } ?>            
+          <?php } ?>      
+           <?php if (isset($payment_firstname)) { if (strlen($payment_firstname)>0) { ?>      
           <tr>
             <td><?php echo $text_address_1; ?></td>
             <td><?php echo $payment_address_1; ?></td>
           </tr>
+          <?php }} ?>
+          <?php if (isset($payment_name)) { if (strlen($payment_name)>0) { ?>      
+          <tr>
+            <td><?php echo $text_address; ?></td>
+            <td><?php echo $payment_address_1; ?></td>
+          </tr>
+          <?php }} ?>
           <?php if ($payment_address_2) { ?>
           <tr>
             <td><?php echo $text_address_2; ?></td>
@@ -253,23 +271,37 @@
       <div id="tab-shipping" class="vtabs-content">
         <table class="form">
           <?php if (!empty($amazon_order_id) && empty($shipping_lastname)) { ?> 
-            
-            <tr>
-              <td><?php echo $text_name; ?></td>
-              <td><?php echo $shipping_firstname; ?></td>
-            </tr>
-            
-           <?php } else { ?>
-            
+            <?php if (isset($shipping_firstname)) { if (strlen($shipping_firstname)>0) { ?>
             <tr>
               <td><?php echo $text_firstname; ?></td>
               <td><?php echo $shipping_firstname; ?></td>
             </tr>
+           <?php }} ?>
+           <?php if (isset($shipping_name)) { if (strlen($shipping_name)>0) { ?>
+            <tr>
+              <td><?php echo $text_name; ?></td>
+              <td><?php echo $shipping_name; ?></td>
+            </tr>
+            <?php }} ?>
+           <?php } else { ?>
+            <?php if (isset($shipping_firstname)) { if (strlen($shipping_firstname)>0) { ?>
+            <tr>
+              <td><?php echo $text_firstname; ?></td>
+              <td><?php echo $shipping_firstname; ?></td>
+            </tr>
+            <?php }} ?>
+            <?php if (isset($shipping_lastname)) { if (strlen($shipping_lastname)>0) { ?>
             <tr>
               <td><?php echo $text_lastname; ?></td>
               <td><?php echo $shipping_lastname; ?></td>
             </tr>
-            
+            <?php }} ?>
+            <?php if (isset($shipping_name)) { if (strlen($shipping_name)>0) { ?>
+            <tr>
+              <td><?php echo $text_name; ?></td>
+              <td><?php echo $shipping_name; ?></td>
+            </tr>
+            <?php }} ?>
            <?php } ?>
           <?php if ($shipping_company) { ?>
           <tr>
@@ -277,10 +309,19 @@
             <td><?php echo $shipping_company; ?></td>
           </tr>
           <?php } ?>
+          <?php if (isset($shipping_firstname)) { if (strlen($shipping_firstname)>0) { ?>
           <tr>
             <td><?php echo $text_address_1; ?></td>
             <td><?php echo $shipping_address_1; ?></td>
           </tr>
+          <?php }} ?>
+          <?php if (isset($shipping_name)) { if (strlen($shipping_name)>0) { ?>
+          <tr>
+            <td><?php echo $text_address; ?></td>
+            <td><?php echo $shipping_address_1; ?></td>
+          </tr>
+          <?php }} ?>
+          
           <?php if ($shipping_address_2) { ?>
           <tr>
             <td><?php echo $text_address_2; ?></td>
