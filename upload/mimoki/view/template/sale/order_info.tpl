@@ -269,7 +269,27 @@
       </div>
       <?php if ($shipping_method) { ?>
       <div id="tab-shipping" class="vtabs-content">
+      <?php if (isset($namapengirim)) { if (strlen($namapengirim)>0) { ?>
+      <table class="form">
+      <tr>
+      	<th colspan="2"><h3><?php echo $pengirim; ?></h3></th>
+      </tr>
+      <tr>
+      	<td><?php echo $nama_pengirim; ?></td>
+      	<td><?php echo $namapengirim; ?></td>
+      </tr>
+      <tr>
+      	<td><?php echo $hp_pengirim; ?></td>
+      	<td><?php echo $hppengirim; ?></td>
+      </tr>  
+      </table>   
+      <?php }} ?>   
         <table class="form">
+        <?php if (isset($namapengirim)) { if (strlen($namapengirim)>0) { ?>
+        <tr>
+      	<th colspan="2"><h3><?php echo $tujuan; ?></h3></th>
+      </tr>
+      <?php }} ?>   
           <?php if (!empty($amazon_order_id) && empty($shipping_lastname)) { ?> 
             <?php if (isset($shipping_firstname)) { if (strlen($shipping_firstname)>0) { ?>
             <tr>

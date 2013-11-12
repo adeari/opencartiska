@@ -202,4 +202,10 @@ $_['error_upload']                            = 'Upload diperlukan!';
 $_['error_filename']                          = 'Nama File harus diantara 3 - 128 karakter!';
 $_['error_filetype']                          = 'Tipe file tidak valid!';
 $_['error_action']                            = 'Perhatian: Tidak dapat menyelesaikan tindakan ini!';
+
+
+$_['tujuan'] 						= 'Tujuan pengiriman';
+$_['pengirim']                		= 'Pengirim';
+$_['nama_pengirim']                		= 'Nama pengirim';
+$_['hp_pengirim']                		= 'Handphone pengirim';
 ?>

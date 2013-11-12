@@ -452,6 +452,8 @@ class ModelSaleOrder extends Model {
 				'payment_method'          => $order_query->row['payment_method'],
 				'payment_code'            => $order_query->row['payment_code'],				
 				'shipping_firstname'      => $order_query->row['shipping_firstname'],
+				'hppengirim'      => $order_query->row['hppengirim'],
+				'namapengirim'      => $order_query->row['namapengirim'],
 				'shipping_name'      	  => $order_query->row['shipping_name'],
 				'shipping_lastname'       => $order_query->row['shipping_lastname'],
 				'shipping_company'        => $order_query->row['shipping_company'],

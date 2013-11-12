@@ -1531,6 +1531,11 @@ class ControllerSaleOrder extends Controller {
 			$this->data['tab_product'] = $this->language->get('tab_product');
 			$this->data['tab_history'] = $this->language->get('tab_history');
 			$this->data['tab_fraud'] = $this->language->get('tab_fraud');
+			
+			$this->data['tujuan'] = $this->language->get('tujuan');
+			$this->data['pengirim'] = $this->language->get('pengirim');
+			$this->data['nama_pengirim'] = $this->language->get('nama_pengirim');
+			$this->data['hp_pengirim'] = $this->language->get('hp_pengirim');
 		
 			$this->data['token'] = $this->session->data['token'];
 
@@ -1701,6 +1706,8 @@ class ControllerSaleOrder extends Controller {
 			$this->data['payment_zone_code'] = $order_info['payment_zone_code'];
 			$this->data['payment_country'] = $order_info['payment_country'];			
 			$this->data['shipping_firstname'] = $order_info['shipping_firstname'];
+			$this->data['namapengirim'] = $order_info['namapengirim'];
+			$this->data['hppengirim'] = $order_info['hppengirim'];
 			$this->data['shipping_name'] = $order_info['shipping_name'];
 			$this->data['shipping_lastname'] = $order_info['shipping_lastname'];
 			$this->data['shipping_company'] = $order_info['shipping_company'];
