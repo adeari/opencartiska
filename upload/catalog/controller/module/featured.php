@@ -12,7 +12,7 @@ class ControllerModuleFeatured extends Controller {
 		$this->load->model('tool/image');
 
 		$this->data['products'] = array();
-
+		/*
 		$products = explode(',', $this->config->get('featured_product'));		
 
 		if (empty($setting['limit'])) {
@@ -20,6 +20,8 @@ class ControllerModuleFeatured extends Controller {
 		}
 		
 		$products = array_slice($products, 0, (int)$setting['limit']);
+		*/
+		$products = explode(',', $this->model_catalog_product->getproductIdkuh());
 		
 		foreach ($products as $product_id) {
 			$product_info = $this->model_catalog_product->getProduct($product_id);

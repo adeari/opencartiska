@@ -60,6 +60,21 @@ class ModelCatalogProduct extends Model {
 			return false;
 		}
 	}
+	
+	public function getproductIdkuh() {
+		$limit = 7;
+		$dataThis = '';
+		$sql = "select product_id from oc_product order by product_id desc  limit 8";
+		$query = $this->db->query($sql);
+		
+		foreach ($query->rows as $result) {
+			if (strlen($dataThis)<1)
+				$dataThis = $result['product_id'];
+			else 
+				$dataThis .= ','.$result['product_id'];
+		}
+		return $dataThis;
+	}
 
 	public function getProducts($data = array()) {
 		if ($this->customer->isLogged()) {

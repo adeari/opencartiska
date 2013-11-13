@@ -54,10 +54,15 @@ $('#shipping-address .checkout-content input[name=\'shipping_method\']').live('c
 function showDetailShipping(valii){
 	if (valii=='pickup.pickup'||$('#shipping-address .checkout-content input[name=\'shipping_method\']').eq(1).is(':checked')) {
 		$('#pilihJne').css('display','none');
+		$('#payment-method').css('display','none');
+		$('#confirm').css('display','none');
+		
 		$('#payment-method .checkout-heading').html('<?php echo $text_checkout_payment_method; ?>');
-		$('#confirm .checkout-heading').html('<?php echo $text_checkout_confirm; ?>');
+		$('#confirm .checkout-heading').html('<?php echo $text_checkout_confirm; ?>');		
 	} else {
-		$('#pilihJne').css('display','block');		
+		$('#pilihJne').css('display','block');
+		$('#confirm').css('display','block');	
+		$('#payment-method').css('display','block');
 		$('#payment-method .checkout-heading').html('<?php echo $text_checkout_payment_method1; ?>');
 		$('#confirm .checkout-heading').html('<?php echo $text_checkout_confirm1; ?>');
 	}

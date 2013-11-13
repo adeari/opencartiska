@@ -2,7 +2,7 @@
 <br />
 <div class="buttons">
   <div class="right">
-    <input type="button" value="<?php echo $button_continue; ?>" id="button-shipping-addressc" class="button" />
+    <input type="button" value="<?php echo $button_confirm; ?>" id="button-shipping-addressc" class="button" />
   </div>
 </div>
 <script>
@@ -21,25 +21,7 @@ $('#button-shipping-addressc').live('click', function() {
 			$('.wait').remove();
 		},	
 		success: function(json) {
-			$.ajax({
-					url: 'index.php?route=checkout/payment_method',
-					dataType: 'html',
-					success: function(html) {
-						$('#payment-method .checkout-content').html(html);
-						
-						$('#shipping-method .checkout-content').slideUp('slow');
-						
-						$('#payment-method .checkout-content').slideDown('slow');
-
-						$('#shipping-method .checkout-heading a').remove();
-						$('#payment-method .checkout-heading a').remove();
-						
-						$('#shipping-method .checkout-heading').append('<a><?php echo $text_modify; ?></a>');	
-					},
-					error: function(xhr, ajaxOptions, thrownError) {
-						alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
-					}
-				});
+			location = json['success'];
 		},
 		error: function(xhr, ajaxOptions, thrownError) {
 			alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
