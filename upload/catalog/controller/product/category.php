@@ -2,6 +2,7 @@
 class ControllerProductCategory extends Controller {  
 	public function index() { 
 		$this->language->load('product/category');
+		$this->data['sold_out'] = $this->language->get('sold_out');
 		
 		$this->load->model('catalog/category');
 		
