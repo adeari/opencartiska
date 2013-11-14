@@ -49,4 +49,6 @@ $_['error_postcode']       = 'Kode Pos harus terdiri dari 2 s/d 10 karakter!';
 $_['error_country']        = 'Silahkan pilih Propinsi!';
 $_['error_zone']           = 'Silahkan pilih Kab / Kota!';
 $_['error_agree']          = 'Peringatan: Anda harus setuju dengan %s!';
+
+$_['gratis'] = 'Gratis mudah dan cepat';
 ?>

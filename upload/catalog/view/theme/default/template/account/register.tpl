@@ -40,7 +40,7 @@
       </table>
     </div>
     <div class="buttons1"> 
-    Gratis mudah cepat 
+    <?php echo $gratis; ?>
  		<a href="<?php echo $fbconnect_url; ?>"><div class="brt_FB"><div>Login with</div>Facebook</div></a>
  	</div>
     </div>

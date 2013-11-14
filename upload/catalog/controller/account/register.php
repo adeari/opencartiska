@@ -72,6 +72,7 @@ class ControllerAccountRegister extends Controller {
 		$this->data['text_no'] = $this->language->get('text_no');
 		$this->data['text_select'] = $this->language->get('text_select');
 		$this->data['text_none'] = $this->language->get('text_none');
+		$this->data['gratis'] = $this->language->get('gratis');
 						
     	$this->data['entry_firstname'] = $this->language->get('entry_firstname');
     	$this->data['entry_lastname'] = $this->language->get('entry_lastname');
