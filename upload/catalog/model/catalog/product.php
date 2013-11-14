@@ -64,7 +64,7 @@ class ModelCatalogProduct extends Model {
 	public function getproductIdkuh() {
 		$limit = 7;
 		$dataThis = '';
-		$sql = "select product_id from oc_product order by product_id desc  limit 8";
+		$sql = "select product_id from oc_product where status=1 and quantity>0 order by product_id desc  limit 8";
 		$query = $this->db->query($sql);
 		
 		foreach ($query->rows as $result) {

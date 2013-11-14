@@ -898,7 +898,6 @@ ul.box-filter>li ul {
 }
 
 .box-product>div {
-	width: 134px;
 	display: inline-block;
 	vertical-align: top;
 	margin: 0 1px 5px;
@@ -914,7 +913,7 @@ ul.box-filter>li ul {
 }
 
 #column-left+#column-right+#content .box-product>div {
-	width: 119px;
+	width: 138px;
 }
 
 .box-product .image {
@@ -2161,4 +2160,79 @@ position:relative;
 }
 .box-content11 {
 	padding:10px;
+}
+
+.content1 {
+	margin-bottom: 25px;
+	width:350px;
+	background-color: #FFF;
+	padding: 2px;
+	-webkit-border-radius: 7px 7px 0px 0px;
+	-moz-border-radius: 7px 7px 0px 0px;
+	-khtml-border-radius: 7px 7px 0px 0px;
+	border-radius: 7px 7px 7px 7px;
+	border: 1px solid #DBDEE1;
+	position: relative;
+	float:left;
+}
+
+.buttons1 {
+	background: #FFFFFF;
+	width:150px;
+	position: relative;
+	overflow: auto;
+	padding: 6px;
+	margin:0 0 20px 36px;
+	float:left;
+	height:120px;
+}
+
+
+
+.brt_FB{
+	moz-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+-webkit-box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+background: -moz-linear-gradient( center top, #79bbff 5%, #304F85 100% );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-left-radius: 5px;
+text-indent: 0;
+border: 1px solid #84bbf3;
+display: inline-block;
+color: #ffffff;
+font-family:"lucida grande,tahoma,verdana,arial,sans-serif";
+font-size: 24px;
+font-weight: bold;
+font-style: normal;
+height: 65px;
+line-height: 65px;
+width: 131px;
+text-decoration: none;
+text-align: center;
+text-shadow: 1px 1px 0px #3b1bf2;
+}
+.brt_FB:hover{	
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #304F85), color-stop(1, #378de5) );
+background: -moz-linear-gradient( center top, #304F85 5%, #79bbff 100% );
+}
+
+.brt_FB>div {
+	float:left;
+	position: absolute;
+	font-weight: normal;
+	font-size: 11px;
+	font-family:"tahoma";
+	margin:-20px 0 0 30px;
 }
