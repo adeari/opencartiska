@@ -913,7 +913,8 @@ ul.box-filter>li ul {
 }
 
 #column-left+#column-right+#content .box-product>div {
-	width: 138px;
+	width: 137px;
+	margin-left:1px;
 }
 
 .box-product .image {
@@ -2235,4 +2236,10 @@ background: -moz-linear-gradient( center top, #304F85 5%, #79bbff 100% );
 	font-size: 11px;
 	font-family:"tahoma";
 	margin:-20px 0 0 30px;
+}
+
+.soldout {
+	color:blue;
+	font-weight: bold;
+	font-size: 15px;
 }
