@@ -1,6 +1,10 @@
 <?php 
 class ControllerCheckoutRegister extends Controller {
   	public function index() {
+  		$this->language->load('account/register');
+  		$this->data['button_register'] = $this->language->get('text_register');  		
+  		$this->data['gratis'] = $this->language->get('gratis');
+  		
 		$this->language->load('checkout/checkout');
 		
 		$this->data['text_your_details'] = $this->language->get('text_your_details');
@@ -84,6 +88,20 @@ class ControllerCheckoutRegister extends Controller {
 		}
 		
 		$this->data['shipping_required'] = $this->cart->hasShipping();
+		
+		if(!isset($this->fbconnect)){
+			require_once(DIR_SYSTEM . 'vendor/facebook-sdk/facebook.php');
+			$this->fbconnect = new Facebook(array(
+					'appId'  => $this->config->get('fbconnect_apikey'),
+					'secret' => $this->config->get('fbconnect_apisecret'),
+			));
+		}
+		$this->data['fbconnect_url'] = $this->fbconnect->getLoginUrl(
+				array(
+						'scope' => 'email,user_birthday,user_location,user_hometown',
+						'redirect_uri'  => $this->url->link('account/fbconnect', '', 'SSL')
+				)
+		);
 			
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/register.tpl')) {
 			$this->template = $this->config->get('config_template') . '/template/checkout/register.tpl';
@@ -130,14 +148,7 @@ class ControllerCheckoutRegister extends Controller {
 			}				
 		}
 						
-		if (!$json) {					
-			if ((utf8_strlen($this->request->post['firstname']) < 1) || (utf8_strlen($this->request->post['firstname']) > 32)) {
-				$json['error']['firstname'] = $this->language->get('error_firstname');
-			}
-		
-			if ((utf8_strlen($this->request->post['lastname']) < 1) || (utf8_strlen($this->request->post['lastname']) > 32)) {
-				$json['error']['lastname'] = $this->language->get('error_lastname');
-			}
+		if (!$json) {
 		
 			if ((utf8_strlen($this->request->post['email']) > 96) || !preg_match('/^[^\@]+@.*\.[a-z]{2,6}$/i', $this->request->post['email'])) {
 				$json['error']['email'] = $this->language->get('error_email');
@@ -147,65 +158,6 @@ class ControllerCheckoutRegister extends Controller {
 				$json['error']['warning'] = $this->language->get('error_exists');
 			}
 			
-			if ((utf8_strlen($this->request->post['telephone']) < 3) || (utf8_strlen($this->request->post['telephone']) > 32)) {
-				$json['error']['telephone'] = $this->language->get('error_telephone');
-			}
-	
-			// Customer Group
-			$this->load->model('account/customer_group');
-			
-			if (isset($this->request->post['customer_group_id']) && is_array($this->config->get('config_customer_group_display')) && in_array($this->request->post['customer_group_id'], $this->config->get('config_customer_group_display'))) {
-				$customer_group_id = $this->request->post['customer_group_id'];
-			} else {
-				$customer_group_id = $this->config->get('config_customer_group_id');
-			}
-			
-			$customer_group = $this->model_account_customer_group->getCustomerGroup($customer_group_id);
-				
-			if ($customer_group) {	
-				// Company ID
-				if ($customer_group['company_id_display'] && $customer_group['company_id_required'] && empty($this->request->post['company_id'])) {
-					$json['error']['company_id'] = $this->language->get('error_company_id');
-				}
-				
-				// Tax ID
-				if ($customer_group['tax_id_display'] && $customer_group['tax_id_required'] && empty($this->request->post['tax_id'])) {
-					$json['error']['tax_id'] = $this->language->get('error_tax_id');
-				}						
-			}
-			
-			if ((utf8_strlen($this->request->post['address_1']) < 3) || (utf8_strlen($this->request->post['address_1']) > 128)) {
-				$json['error']['address_1'] = $this->language->get('error_address_1');
-			}
-	
-			if ((utf8_strlen($this->request->post['city']) < 2) || (utf8_strlen($this->request->post['city']) > 128)) {
-				$json['error']['city'] = $this->language->get('error_city');
-			}
-	
-			$this->load->model('localisation/country');
-			
-			$country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);
-			
-			if ($country_info) {
-				if ($country_info['postcode_required'] && (utf8_strlen($this->request->post['postcode']) < 2) || (utf8_strlen($this->request->post['postcode']) > 10)) {
-					$json['error']['postcode'] = $this->language->get('error_postcode');
-				}
-				 
-				// VAT Validation
-				$this->load->helper('vat');
-				
-				if ($this->config->get('config_vat') && $this->request->post['tax_id'] && (vat_validation($country_info['iso_code_2'], $this->request->post['tax_id']) == 'invalid')) {
-					$json['error']['tax_id'] = $this->language->get('error_vat');
-				}				
-			}
-	
-			if ($this->request->post['country_id'] == '') {
-				$json['error']['country'] = $this->language->get('error_country');
-			}
-			
-			if (!isset($this->request->post['zone_id']) || $this->request->post['zone_id'] == '') {
-				$json['error']['zone'] = $this->language->get('error_zone');
-			}
 	
 			if ((utf8_strlen($this->request->post['password']) < 4) || (utf8_strlen($this->request->post['password']) > 20)) {
 				$json['error']['password'] = $this->language->get('error_password');
@@ -215,38 +167,17 @@ class ControllerCheckoutRegister extends Controller {
 				$json['error']['confirm'] = $this->language->get('error_confirm');
 			}
 			
-			if ($this->config->get('config_account_id')) {
-				$this->load->model('catalog/information');
-				
-				$information_info = $this->model_catalog_information->getInformation($this->config->get('config_account_id'));
-				
-				if ($information_info && !isset($this->request->post['agree'])) {
-					$json['error']['warning'] = sprintf($this->language->get('error_agree'), $information_info['title']);
-				}
-			}
+			
 		}
 		
 		if (!$json) {
-			$this->model_account_customer->addCustomer($this->request->post);
+			$this->model_account_customer->addCustomerQuick1($this->request->post);
 			
 			$this->session->data['account'] = 'register';
 			
-			if ($customer_group && !$customer_group['approval']) {
-				$this->customer->login($this->request->post['email'], $this->request->post['password']);
-				
-				$this->session->data['payment_address_id'] = $this->customer->getAddressId();
-				$this->session->data['payment_country_id'] = $this->request->post['country_id'];
-				$this->session->data['payment_zone_id'] = $this->request->post['zone_id'];
-									
-				if (!empty($this->request->post['shipping_address'])) {
-					$this->session->data['shipping_address_id'] = $this->customer->getAddressId();
-					$this->session->data['shipping_country_id'] = $this->request->post['country_id'];
-					$this->session->data['shipping_zone_id'] = $this->request->post['zone_id'];
-					$this->session->data['shipping_postcode'] = $this->request->post['postcode'];					
-				}
-			} else {
-				$json['redirect'] = $this->url->link('account/success');
-			}
+			$this->customer->login($this->request->post['email'], $this->request->post['password']);
+			
+			$json['redirect'] = $this->url->link('account/success');
 			
 			unset($this->session->data['guest']);
 			unset($this->session->data['shipping_method']);

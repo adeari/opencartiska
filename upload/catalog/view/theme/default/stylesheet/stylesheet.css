@@ -1824,8 +1824,14 @@ ul.box-filter>li ul {
 }
 
 .cart-info tbody .name,.cart-info tbody .model,.cart-info tbody .quantity
-	{
+{
 	text-align: left;
+}
+.cart-info .quantity {
+	width:90px;	
+}
+.cart-info .name {
+	width:130px;	
 }
 
 .cart-info tbody .quantity input[type='image'],.cart-info tbody .quantity img
@@ -1905,6 +1911,13 @@ position:relative;
 .checkout-content .right {
 	float: right;
 	width: 48%;
+}
+
+.checkout-content .right1 {
+	float: right;
+	margin-top:50px;
+	width: 37%;
+	position:relative;
 }
 
 .checkout-content .buttons {
@@ -2242,4 +2255,5 @@ background: -moz-linear-gradient( center top, #304F85 5%, #79bbff 100% );
 	color:blue;
 	font-weight: bold;
 	font-size: 15px;
+	margin: 8px 0;
 }

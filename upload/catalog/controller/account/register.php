@@ -26,6 +26,7 @@ class ControllerAccountRegister extends Controller {
 		$this->document->setTitle($this->language->get('heading_title'));
 		$this->document->addScript('catalog/view/javascript/jquery/colorbox/jquery.colorbox-min.js');
 		$this->document->addStyle('catalog/view/javascript/jquery/colorbox/colorbox.css');
+		$this->data['button_continue'] = $this->language->get('text_register');
 					
 		$this->load->model('account/customer');
 		
@@ -93,7 +94,7 @@ class ControllerAccountRegister extends Controller {
     	$this->data['entry_password'] = $this->language->get('entry_password');
     	$this->data['entry_confirm'] = $this->language->get('entry_confirm');
 
-		$this->data['button_continue'] = $this->language->get('button_continue');
+
     
 		if (isset($this->error['warning'])) {
 			$this->data['error_warning'] = $this->error['warning'];
