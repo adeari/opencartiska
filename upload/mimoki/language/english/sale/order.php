@@ -188,6 +188,7 @@ $_['error_name']                         	  = 'Name must be between 1 and 32 cha
 $_['error_lastname']                          = 'Last Name must be between 1 and 32 characters!';
 $_['error_email']                             = 'E-Mail Address does not appear to be valid!';
 $_['error_telephone']                         = 'Telephone must be between 3 and 32 characters!';
+$_['error_hp']                         = 'Handphone must be between 3 and 32 characters!';
 $_['error_password']                          = 'Password must be between 3 and 20 characters!';
 $_['error_confirm']                           = 'Password and password confirmation do not match!';
 $_['error_company_id']                        = 'Company ID required!';
@@ -208,7 +209,7 @@ $_['error_action']                            = 'Warning: Could not complete thi
 
 $_['tujuan'] 						= 'Destination delivery';
 $_['pengirim']                		= 'Sender:';
-$_['nama_pengirim']                		= 'Sender name';
-$_['hp_pengirim']                		= 'Sender handphone';
+$_['nama_pengirim']                		= 'Sender\'s name';
+$_['hp_pengirim']                		= 'Sender\'s handphone';
 $_['entry_kecamatan']               = 'Kecamatan:';
 ?>

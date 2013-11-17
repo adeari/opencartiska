@@ -73,25 +73,21 @@
                 <?php } ?></td>
             </tr>
             <?php } ?>
-            
             <tr>
-              <td><span class="required">*</span> <?php echo $entry_email; ?></td>
-              <td><input type="text" name="email" value="<?php echo $email; ?>" />
-                <?php if ($error_email) { ?>
-                <span class="error"><?php echo $error_email; ?></span>
+              <td><span class="required">*</span> Handphone:</td>
+              <td><input type="text" name="hp" value="<?php echo $hp; ?>" />
+                <?php if ($error_hp) { ?>
+                <span class="error"><?php echo $error_hp; ?></span>
                 <?php } ?></td>
-            </tr>
+            </tr>            
             <tr>
-              <td><span class="required">*</span> <?php echo $entry_telephone; ?></td>
-              <td><input type="text" name="telephone" value="<?php echo $telephone; ?>" />
-                <?php if ($error_telephone) { ?>
-                <span class="error"><?php echo $error_telephone; ?></span>
-                <?php } ?></td>
-            </tr>
+              <td><?php echo $entry_email; ?></td>
+              <td><input type="text" name="email" value="<?php echo $email; ?>" /></td>
+            </tr>             
             <tr>
-              <td>Handphone:</td>
-              <td><input type="text" name="hp" value="<?php echo $hp; ?>" /></td>
-            </tr>
+              <td><?php echo $entry_telephone; ?></td>
+              <td><input type="text" name="telephone" value="<?php echo $telephone; ?>" /></td>
+            </tr>           
             <tr>
               <td>Pin Blackberry:</td>
               <td><input type="text" name="bb" value="<?php echo $bb; ?>" /></td>
@@ -235,6 +231,23 @@
                 </select></td>
             </tr>
             <?php if ($nameExist) { ?>
+            
+             <?php if ($senderNameExist) { ?>
+            <tr>
+              <td><span class="required">*</span> <?php echo $nama_pengirim; ?></td>
+              <td><input type="text" name="sender_name" value="<?php echo $sender_name; ?>" />
+                <?php if ($error_sender_name) { ?>
+                <span class="error"><?php echo $error_sender_name; ?></span>
+                <?php } ?></td>
+            </tr>
+            <tr>
+              <td><span class="required">*</span> <?php echo $hp_pengirim; ?></td>
+              <td><input type="text" name="sender_hp" value="<?php echo $sender_hp; ?>" />
+                <?php if ($error_sender_hp) { ?>
+                <span class="error"><?php echo $error_sender_hp; ?></span>
+                <?php } ?></td>
+            </tr>
+            <?php } ?>
              <tr>
               <td><span class="required">*</span> <?php echo $entry_name; ?></td>
               <td><input type="text" name="shipping_name" value="<?php echo $shipping_name; ?>" />

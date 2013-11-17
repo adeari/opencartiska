@@ -188,6 +188,7 @@ $_['error_name']                         = 'Nama harus diantara 1 - 32 karakter!
 $_['error_lastname']                          = 'Nama Belakang harus diantara 1 - 32 karakter!';
 $_['error_email']                             = 'Alamat E-Mail tidak valid!';
 $_['error_telephone']                         = 'Telepon harus diantara 3 - 32 karakter!';
+$_['error_hp']                         = 'Handphone harus diantara 3 - 32 karakter!';
 $_['error_password']                          = 'Password harus diantara 3 - 20 karakter!';
 $_['error_confirm']                           = 'Password and password konfirmasi tidak sesuai!';
 $_['error_company_id']                        = 'ID Negara diperlukan!';

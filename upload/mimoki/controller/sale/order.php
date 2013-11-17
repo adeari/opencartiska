@@ -122,7 +122,7 @@ class ControllerSaleOrder extends Controller {
 				$url .= '&page=' . $this->request->get['page'];
 			}
 			
-			//$this->redirect($this->url->link('sale/order', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+			$this->redirect($this->url->link('sale/order', 'token=' . $this->session->data['token'] . $url, 'SSL'));
 		}
 		
     	$this->getForm();
@@ -522,6 +522,8 @@ class ControllerSaleOrder extends Controller {
 		$this->data['entry_address_1'] = $this->language->get('entry_address_1');
 		$this->data['entry_addressa'] = $this->language->get('entry_addressa');
 		$this->data['entry_kecamatan'] = $this->language->get('entry_kecamatan');
+		$this->data['nama_pengirim'] = $this->language->get('nama_pengirim');
+		$this->data['hp_pengirim'] = $this->language->get('hp_pengirim');
 		$this->data['entry_address_2'] = $this->language->get('entry_address_2');
 		$this->data['entry_city'] = $this->language->get('entry_city');
 		$this->data['entry_postcode'] = $this->language->get('entry_postcode');
@@ -589,19 +591,13 @@ class ControllerSaleOrder extends Controller {
 		} else {
 			$this->data['error_lastname'] = '';
 		}
-		
- 		if (isset($this->error['email'])) {
-			$this->data['error_email'] = $this->error['email'];
+				
+		if (isset($this->error['hp'])) {
+			$this->data['error_hp'] = $this->error['hp'];
 		} else {
-			$this->data['error_email'] = '';
+			$this->data['error_hp'] = '';
 		}
-		
- 		if (isset($this->error['telephone'])) {
-			$this->data['error_telephone'] = $this->error['telephone'];
-		} else {
-			$this->data['error_telephone'] = '';
-		}
-						
+								
 		if (isset($this->error['payment_name'])) {
 			$this->data['error_payment_name'] = $this->error['payment_name'];
 		} else {
@@ -672,6 +668,18 @@ class ControllerSaleOrder extends Controller {
 			$this->data['error_shipping_name'] = $this->error['shipping_name'];
 		} else {
 			$this->data['error_shipping_name'] = '';
+		}
+		
+		if (isset($this->error['sender_name'])) {
+			$this->data['error_sender_name'] = $this->error['sender_name'];
+		} else {
+			$this->data['error_sender_name'] = '';
+		}
+		
+		if (isset($this->error['sender_hp'])) {
+			$this->data['error_sender_hp'] = $this->error['sender_hp'];
+		} else {
+			$this->data['error_sender_hp'] = '';
 		}
 
  		if (isset($this->error['shipping_firstname'])) {
@@ -1026,8 +1034,8 @@ class ControllerSaleOrder extends Controller {
       		$this->data['payment_tax_id'] = '';
     	}
 				
-    	if (isset($this->request->post['payment_address_1'])) {
-      		$this->data['payment_address_1'] = $this->request->post['payment_address_1'];
+    	if (isset($this->request->post['payment_address'])) {
+      		$this->data['payment_address_1'] = $this->request->post['payment_address'];
     	} elseif (!empty($order_info)) { 
 			$this->data['payment_address_1'] = $order_info['payment_address_1'];
 		} else {
@@ -1098,6 +1106,27 @@ class ControllerSaleOrder extends Controller {
     	} else {
     		$this->data['shipping_name'] = '';
     	}
+    	$senderNameExist = false;
+    	if (isset($this->request->post['sender_name'])) {
+    		$this->data['sender_name'] = $this->request->post['sender_name'];
+    		$senderNameExist = true;
+    	} elseif (!empty($order_info)) {
+    		$this->data['sender_name'] = $order_info['sender_name'];
+    		if (strlen($order_info['sender_name'])>0) {
+    			$senderNameExist = true;
+    		}
+    	} else {
+      		$this->data['sender_name'] = '';
+    	}
+    	$this->data['senderNameExist'] = $senderNameExist;
+    	
+    	if (isset($this->request->post['sender_hp'])) {
+    		$this->data['sender_hp'] = $this->request->post['sender_hp'];
+    	} elseif (!empty($order_info)) {
+    		$this->data['sender_hp'] = $order_info['sender_hp'];
+    	} else {
+      		$this->data['sender_hp'] = '';
+    	}
     	
     	if (isset($this->request->post['shipping_kecamatan'])) {
     		$this->data['shipping_kecamatan'] = $this->request->post['shipping_kecamatan'];
@@ -1131,8 +1160,8 @@ class ControllerSaleOrder extends Controller {
       		$this->data['shipping_company'] = '';
     	}
 
-    	if (isset($this->request->post['shipping_address_1'])) {
-      		$this->data['shipping_address_1'] = $this->request->post['shipping_address_1'];
+    	if (isset($this->request->post['shipping_address'])) {
+      		$this->data['shipping_address_1'] = $this->request->post['shipping_address'];
     	} elseif (!empty($order_info)) { 
 			$this->data['shipping_address_1'] = $order_info['shipping_address_1'];
 		} else {
@@ -1314,13 +1343,9 @@ class ControllerSaleOrder extends Controller {
 	    		$this->error['payment_address_1'] = $this->language->get('error_address_1');
 	    	}
     	}
-
-    	if ((utf8_strlen($this->request->post['email']) > 96) || (!preg_match('/^[^\@]+@.*\.[a-z]{2,6}$/i', $this->request->post['email']))) {
-      		$this->error['email'] = $this->language->get('error_email');
-    	}
 		
-    	if ((utf8_strlen($this->request->post['telephone']) < 3) || (utf8_strlen($this->request->post['telephone']) > 32)) {
-      		$this->error['telephone'] = $this->language->get('error_telephone');
+    	if ((utf8_strlen($this->request->post['hp']) < 3) || (utf8_strlen($this->request->post['hp']) > 32)) {
+      		$this->error['hp'] = $this->language->get('error_hp');
     	}    	
 
     	if ((utf8_strlen($this->request->post['payment_city']) < 3) || (utf8_strlen($this->request->post['payment_city']) > 128)) {
@@ -1380,6 +1405,15 @@ class ControllerSaleOrder extends Controller {
 				if ((utf8_strlen($this->request->post['shipping_name']) < 1) || (utf8_strlen($this->request->post['shipping_name']) > 32)) {
 					$this->error['shipping_name'] = $this->language->get('error_name');
 				}
+				if (isset($this->request->post['sender_name'])) {
+					if ((utf8_strlen($this->request->post['sender_name']) < 1) || (utf8_strlen($this->request->post['sender_name']) > 32)) {
+						$this->error['sender_name'] = $this->language->get('error_name');
+					}				
+					if ((utf8_strlen($this->request->post['sender_hp']) < 3) || (utf8_strlen($this->request->post['sender_hp']) > 32)) {
+						$this->error['sender_hp'] = $this->language->get('error_hp');
+					}
+				}
+				
 				if ((utf8_strlen($this->request->post['shipping_address']) < 3) || (utf8_strlen($this->request->post['shipping_address']) > 128)) {
 					$this->error['shipping_address'] = $this->language->get('error_address');
 				}
