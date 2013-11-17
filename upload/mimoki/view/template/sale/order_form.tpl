@@ -121,6 +121,23 @@
                   <?php } ?>
                 </select></td>
             </tr>
+            
+            <?php if ($nameExist) { ?>
+            <tr>
+              <td><span class="required">*</span> <?php echo $entry_name; ?></td>
+              <td><input type="text" name="payment_name" value="<?php echo $payment_name; ?>" />
+                <?php if ($error_payment_name) { ?>
+                <span class="error"><?php echo $error_payment_name; ?></span>
+                <?php } ?></td>
+            </tr>
+            <tr>
+              <td><span class="required">*</span> <?php echo $entry_addressa; ?></td>
+              <td><input type="text" name="payment_address" value="<?php echo $payment_address_1; ?>" />
+                <?php if ($error_payment_address) { ?>
+                <span class="error"><?php echo $error_payment_address; ?></span>
+                <?php } ?></td>
+            </tr>
+            <?php } else { ?> 
             <tr>
               <td><span class="required">*</span> <?php echo $entry_firstname; ?></td>
               <td><input type="text" name="payment_firstname" value="<?php echo $payment_firstname; ?>" />
@@ -135,6 +152,7 @@
                 <span class="error"><?php echo $error_payment_lastname; ?></span>
                 <?php } ?></td>
             </tr>
+            
             <tr>
               <td><?php echo $entry_company; ?></td>
               <td><input type="text" name="payment_company" value="<?php echo $payment_company; ?>" /></td>
@@ -161,6 +179,10 @@
               <td><?php echo $entry_address_2; ?></td>
               <td><input type="text" name="payment_address_2" value="<?php echo $payment_address_2; ?>" /></td>
             </tr>
+            <?php } ?></td>
+            
+            
+           
             <tr>
               <td><span class="required">*</span> <?php echo $entry_city; ?></td>
               <td><input type="text" name="payment_city" value="<?php echo $payment_city; ?>" />
@@ -212,6 +234,26 @@
                   <?php } ?>
                 </select></td>
             </tr>
+            <?php if ($nameExist) { ?>
+             <tr>
+              <td><span class="required">*</span> <?php echo $entry_name; ?></td>
+              <td><input type="text" name="shipping_name" value="<?php echo $shipping_name; ?>" />
+                <?php if ($error_shipping_name) { ?>
+                <span class="error"><?php echo $error_shipping_name; ?></span>
+                <?php } ?></td>
+            </tr>
+             <tr>
+              <td><span class="required">*</span> <?php echo $entry_addressa; ?></td>
+              <td><input type="text" name="shipping_address" value="<?php echo $shipping_address_1; ?>" />
+                <?php if ($error_shipping_address) { ?>
+                <span class="error"><?php echo $error_shipping_address; ?></span>
+                <?php } ?></td>
+            </tr>
+            <tr>
+              <td><?php echo $entry_kecamatan; ?></td>
+              <td><input type="text" name="shipping_kecamatan" value="<?php echo $shipping_kecamatan; ?>" /></td>
+            </tr>
+            <?php } else { ?>
             <tr>
               <td><span class="required">*</span> <?php echo $entry_firstname; ?></td>
               <td><input type="text" name="shipping_firstname" value="<?php echo $shipping_firstname; ?>" />
@@ -229,21 +271,18 @@
             <tr>
               <td><?php echo $entry_company; ?></td>
               <td><input type="text" name="shipping_company" value="<?php echo $shipping_company; ?>" /></td>
-            </tr>
-            <tr>
-              <td><span class="required">*</span> <?php echo $entry_address_1; ?></td>
-              <td><input type="text" name="shipping_address_1" value="<?php echo $shipping_address_1; ?>" />
-                <?php if ($error_shipping_address_1) { ?>
-                <span class="error"><?php echo $error_shipping_address_1; ?></span>
-                <?php } ?></td>
-            </tr>
+            </tr>           
             <tr>
               <td><?php echo $entry_address_2; ?></td>
               <td><input type="text" name="shipping_address_2" value="<?php echo $shipping_address_2; ?>" /></td>
-            </tr>
-            <tr>
+            </tr>           
+            <?php } ?>
+             <tr>
               <td><span class="required">*</span> <?php echo $entry_city; ?></td>
-              <td><input type="text" name="shipping_city" value="<?php echo $shipping_city; ?>" /></td>
+              <td><input type="text" name="shipping_city" value="<?php echo $shipping_city; ?>" />
+              <?php if ($error_shipping_city) { ?>
+                <span class="error"><?php echo $error_shipping_city; ?></span>
+                <?php } ?></td>
             </tr>
             <tr>
               <td><span id="shipping-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?></td>

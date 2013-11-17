@@ -103,4 +103,5 @@ $_['pengirim']                		= 'Pengirim:';
 $_['layananPengirimin']             = 'Langkah 5: Layanan pengiriman';
 $_['text_checkout_payment_method1']   = 'Langkah 6: Metode Pembayaran';
 $_['text_checkout_confirm1']          = 'Langkah 7: Konfirmasi Pesanan';
+$_['warning_jne']                	= 'Kota %s tidak terdaftar di JNE';
 ?>

@@ -118,4 +118,5 @@ $_['pengirim']                		= 'Sender:';
 $_['layananPengirimin']             = 'Step 5: Service delivery';
 $_['text_checkout_payment_method1']   = 'Step 6: Payment Method';
 $_['text_checkout_confirm1']          = 'Step 7: Confirm Order';
+$_['warning_jne']                	= 'City %s is not available for JNE';
 ?>

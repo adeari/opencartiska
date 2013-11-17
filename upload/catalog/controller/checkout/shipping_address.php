@@ -275,8 +275,11 @@ class ControllerCheckoutShippingAddress extends Controller {
 			if (!$json) {
 				// Default Shipping Address
 				$this->session->data['guest']['address_1'] = $this->request->post['address_1'];
+				$this->session->data['address_1'] = $this->request->post['address_1'];
 				$this->session->data['guest']['kecamatan'] = $this->request->post['kecamatan'];
+				$this->session->data['kecamatan'] = $this->request->post['kecamatan'];
 				$this->session->data['guest']['city'] = $this->request->post['city'];
+				$this->session->data['city'] = $this->request->post['city'];
 				$this->session->data['guest']['zone_id'] = $this->request->post['zone_id'];
 				
 				$this->session->data['guest']['shipping_address'] = true;

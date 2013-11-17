@@ -1828,10 +1828,10 @@ ul.box-filter>li ul {
 	text-align: left;
 }
 .cart-info .quantity {
-	width:90px;	
+	width:110px;	
 }
 .cart-info .name {
-	width:130px;	
+	width:100px;	
 }
 
 .cart-info tbody .quantity input[type='image'],.cart-info tbody .quantity img
