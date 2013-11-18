@@ -6,6 +6,8 @@ class ControllerModuleFeatured extends Controller {
       	$this->data['heading_title'] = $this->language->get('heading_title');
 		
 		$this->data['button_cart'] = $this->language->get('button_cart');
+		$this->data['lihatSEmua'] = $this->language->get('lihatSEmua');
+		$this->data['urlAll'] = $this->url->link('product/category', 'path=All');
 		
 		$this->load->model('catalog/product'); 
 		

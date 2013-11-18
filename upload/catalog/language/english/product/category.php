@@ -28,4 +28,5 @@ $_['text_model_desc']   = 'Model (Z - A)';
 $_['text_limit']        = 'Show:';
 
 $_['sold_out'] = 'Sold out';
+$_['semua'] = 'All products';
 ?>

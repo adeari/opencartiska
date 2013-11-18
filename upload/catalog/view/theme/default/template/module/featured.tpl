@@ -25,4 +25,6 @@
       <?php } ?>
     </div>
   </div>
+  <div style='text-align:center;width:100%'><a href="<?php echo $urlAll;?>"><?php echo $lihatSEmua; ?></a></div>
 </div>
+
