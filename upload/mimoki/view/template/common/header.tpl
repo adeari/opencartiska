@@ -244,6 +244,7 @@ $(document).ready(function(){
           </li>
         </ul>
       </li>
+      <li ID="JNE"><a href="<?php echo $jne; ?>" class="top">JNE</a></li>
       <li id="help"><a class="top"><?php echo $text_help; ?></a>
         <ul>
           <li><a href="http://www.opencart.com" target="_blank"><?php echo $text_opencart; ?></a></li>
