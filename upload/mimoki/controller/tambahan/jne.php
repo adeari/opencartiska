@@ -239,6 +239,7 @@ class ControllerTambahanJne extends Controller {
 		$jne_total = $this->model_tambahan_jne->getTotalFilterGroups();
 		
 		$results = $this->model_tambahan_jne->getFilterGroups();
+		$this->data['jne'] =  array();
 		
 		foreach ($results as $result) {
 			$action = array();
