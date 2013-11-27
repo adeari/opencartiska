@@ -91,26 +91,6 @@
   <div class="content">
     <p><?php echo $text_next_choice; ?></p>
     <table class="radio">
-      <?php if ($coupon_status) { ?>
-      <tr class="highlight">
-        <td><?php if ($next == 'coupon') { ?>
-          <input type="radio" name="next" value="coupon" id="use_coupon" checked="checked" />
-          <?php } else { ?>
-          <input type="radio" name="next" value="coupon" id="use_coupon" />
-          <?php } ?></td>
-        <td><label for="use_coupon"><?php echo $text_use_coupon; ?></label></td>
-      </tr>
-      <?php } ?>
-      <?php if ($voucher_status) { ?>
-      <tr class="highlight">
-        <td><?php if ($next == 'voucher') { ?>
-          <input type="radio" name="next" value="voucher" id="use_voucher" checked="checked" />
-          <?php } else { ?>
-          <input type="radio" name="next" value="voucher" id="use_voucher" />
-          <?php } ?></td>
-        <td><label for="use_voucher"><?php echo $text_use_voucher; ?></label></td>
-      </tr>
-      <?php } ?>
       <?php if ($reward_status) { ?>
       <tr class="highlight">
         <td><?php if ($next == 'reward') { ?>

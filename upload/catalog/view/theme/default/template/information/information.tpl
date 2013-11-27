@@ -10,6 +10,6 @@
   <div class="buttons">
     <div class="right"><a href="<?php echo $continue; ?>" class="button"><?php echo $button_continue; ?></a></div>
   </div>
-  <?php echo $jnelist; ?>
+  <?php if(isset($jnelist)) echo $jnelist; ?>
   <?php echo $content_bottom; ?></div>
 <?php echo $footer; ?>

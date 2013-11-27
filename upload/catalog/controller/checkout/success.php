@@ -8,8 +8,23 @@ class ControllerCheckoutSuccess extends Controller {
 			
 			$order_info = $this->model_account_order->getOrder($this->session->data['order_id']);
 			$this->data['totalHarga'] = $this->currency->format($order_info['total'], $order_info['currency_code'], $order_info['currency_value']);
+			if (isset($this->session->data['payment_method'])) {
+				$this->data['texmiioo'] = sprintf($this->language->get('texmiioo'), 
+				$this->config->get('config_SMS'),
+				$this->session->data['payment_method']['title'],			
+				$this->data['totalHarga'],			
+				$this->session->data['order_id'],
+				$this->url->link('information/contact')
+				);
+			} else {
+				$this->data['texmiioo'] = sprintf($this->language->get('texmiioo1'), 
+				$this->config->get('config_SMS'),			
+				$this->data['totalHarga'],			
+				$this->session->data['order_id'],
+				$this->url->link('information/contact')
+				);
+			}
 			
-			$this->data['texmiioo'] = sprintf($this->language->get('texmiioo'), $this->config->get('config_SMS'),$this->session->data['order_id'],$this->url->link('information/contact'));
 			unset($this->session->data['shipping_method']);
 			unset($this->session->data['shipping_methods']);
 			unset($this->session->data['payment_method']);
