@@ -43,15 +43,25 @@ class ControllerInformationInformation extends Controller {
 			} else {
 				$this->template = 'default/template/information/information.tpl';
 			}
-			
+			if ($information_id==6)
 			$this->children = array(
 				'common/column_left',
 				'common/column_right',
 				'common/content_top',
 				'common/content_bottom',
 				'common/footer',
+				'tambahan/jnelist',
 				'common/header'
 			);
+			else
+				$this->children = array(
+						'common/column_left',
+						'common/column_right',
+						'common/content_top',
+						'common/content_bottom',
+						'common/footer',
+						'common/header'
+				);
 						
 	  		$this->response->setOutput($this->render());
     	} else {

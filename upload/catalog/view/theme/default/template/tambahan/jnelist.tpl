@@ -1,4 +1,4 @@
-<?php echo $header.$column_left.$column_right; ?><div id="content"><?php echo $content_top; ?>
+
 <h1>Resi JNE</h1>
 <table width="100%" class="list">
 <tr>
@@ -20,4 +20,3 @@
 </tbody>
 <?php } ?>
 </table>
-<?php echo $content_bottom; ?></div><?php echo $footer; ?> 

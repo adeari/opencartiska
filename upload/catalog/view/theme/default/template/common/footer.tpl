@@ -3,7 +3,6 @@
 	<?php echo $powered; ?>
 </p>
 <ul class="floatright clearfix">
-<li><a href="<?php echo $resijne; ?>">Resi JNE</a></li>
 <li>|</li><li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
 <li>|</li><li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
 </ul>
