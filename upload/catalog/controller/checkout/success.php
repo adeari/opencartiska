@@ -18,8 +18,7 @@ class ControllerCheckoutSuccess extends Controller {
 				);
 			} else {
 				$this->data['texmiioo'] = sprintf($this->language->get('texmiioo1'), 
-				$this->config->get('config_SMS'),			
-				$this->data['totalHarga'],			
+				$this->config->get('config_SMS'),
 				$this->session->data['order_id'],
 				$this->url->link('information/contact')
 				);
