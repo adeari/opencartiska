@@ -39,9 +39,9 @@
         <span class="price-old"><?php echo $price; ?></span> <span class="price-new"><?php echo $special; ?></span>
         <?php } ?>
         <br />
-        <?php if ($tax) { ?>
+        <?php /* if ($tax) { ?>
         <span class="price-tax"><?php echo $text_tax; ?> <?php echo $tax; ?></span><br />
-        <?php } ?>
+        <?php } */ ?>
         <?php if ($points) { ?>
         <span class="reward"><small><?php echo $text_points; ?> <?php echo $points; ?></small></span><br />
         <?php } ?>
@@ -244,10 +244,11 @@
       <?php } ?>
     </div>
   </div>
-  <div id="tabs" class="htabs"><a href="#tab-description"><?php echo $tab_description; ?></a>
+  <div id="tabs" class="htabs">	
     <?php if ($attribute_groups) { ?>
     <a href="#tab-attribute"><?php echo $tab_attribute; ?></a>
     <?php } ?>
+	<a href="#tab-description"><?php echo $tab_description; ?></a>
     <?php if ($review_status) { ?>
     <a href="#tab-review"><?php echo $tab_review; ?></a>
     <?php } ?>
