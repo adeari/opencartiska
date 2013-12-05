@@ -277,6 +277,9 @@ class ControllerProductProduct extends Controller {
 			$this->data['model'] = $product_info['model'];
 			$this->data['reward'] = $product_info['reward'];
 			$this->data['points'] = $product_info['points'];
+			$this->data['textKeterangan'] = $this->language->get('textKeterangan');
+
+			
 			
 			if ($product_info['quantity'] <= 0) {
 				$this->data['stock'] = $product_info['stock_status'];

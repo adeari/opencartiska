@@ -12,6 +12,18 @@
       <?php if ($thumb) { ?>
       <div class="image"><a href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>" class="colorbox"><img src="<?php echo $thumb; ?>" title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" id="image" /></a></div>
       <?php } ?>
+
+<?php if ($review_status) { ?>
+      <div class="review">
+        <div><img src="catalog/view/theme/default/image/stars-<?php echo $rating; ?>.png" alt="<?php echo $reviews; ?>" />&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $reviews; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a></div>
+        <div class="share"><!-- AddThis Button BEGIN -->
+          <div class="addthis_default_style"><a class="addthis_button_compact"><?php echo $text_share; ?></a> <a class="addthis_button_email"></a><a class="addthis_button_print"></a> <a class="addthis_button_facebook"></a> <a class="addthis_button_twitter"></a></div>
+          <script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script> 
+          <!-- AddThis Button END --> 
+        </div>
+      </div>
+      <?php } ?>
+
       <?php if ($images) { ?>
       <div class="image-additional">
         <?php foreach ($images as $image) { ?>
@@ -53,6 +65,9 @@
           <?php } ?>
         </div>
         <?php } ?>
+      </div>
+      <div class="description">
+      <?php echo $textKeterangan; ?>
       </div>
       <?php } ?>
       <?php if ($profiles): ?>
@@ -231,17 +246,7 @@
         <?php if ($minimum > 1) { ?>
         <div class="minimum"><?php echo $text_minimum; ?></div>
         <?php } ?>
-      </div>
-      <?php if ($review_status) { ?>
-      <div class="review">
-        <div><img src="catalog/view/theme/default/image/stars-<?php echo $rating; ?>.png" alt="<?php echo $reviews; ?>" />&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $reviews; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a></div>
-        <div class="share"><!-- AddThis Button BEGIN -->
-          <div class="addthis_default_style"><a class="addthis_button_compact"><?php echo $text_share; ?></a> <a class="addthis_button_email"></a><a class="addthis_button_print"></a> <a class="addthis_button_facebook"></a> <a class="addthis_button_twitter"></a></div>
-          <script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script> 
-          <!-- AddThis Button END --> 
-        </div>
-      </div>
-      <?php } ?>
+      </div>      
     </div>
   </div>
   <div id="tabs" class="htabs">	
@@ -317,6 +322,7 @@
     <div class="box-product">
       <?php foreach ($products as $product) { ?>
       <div>
+
         <?php if ($product['thumb']) { ?>
         <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
         <?php } ?>
