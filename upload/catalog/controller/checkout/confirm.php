@@ -280,7 +280,7 @@ class ControllerCheckoutConfirm extends Controller {
 			}
 			
 			$product_data = array();
-		
+		$qtyTotal = 0;
 			foreach ($this->cart->getProducts() as $product) {
 				$option_data = array();
 	
@@ -314,7 +314,8 @@ class ControllerCheckoutConfirm extends Controller {
 					'total'      => $product['total'],
 					'tax'        => $this->tax->getTax($product['price'], $product['tax_class_id']),
 					'reward'     => $product['reward']
-				); 
+				);
+				$qtyTotal +=intval($product['quantity']);
 			}
 			
 			// Gift Voucher
@@ -334,10 +335,65 @@ class ControllerCheckoutConfirm extends Controller {
 						'amount'           => $voucher['amount']
 					);
 				}
-			}  
+			}
+			
+			
 						
 			$data['products'] = $product_data;
 			$data['vouchers'] = $voucher_data;
+			$totalPriceHere = 0;
+			$total_data2 = array();
+			foreach ($total_data as $inData) {
+				$selek = $inData['code'];
+				if ('total'==$selek) {
+					$totalPriceHere = $inData['value'];
+					break;
+				} else {
+					array_push($total_data2, $inData);
+				}
+			}
+			if ($qtyTotal>1&&$qtyTotal<11) {
+				$rpDiskon = $qtyTotal * 10000;
+				$totalDisc = array(
+					'code' => 'discount'
+					,'title' => 'Discount'
+					,'text' => $this->currency->format($rpDiskon)
+					,'value' => $rpDiskon
+					,'sort_order' => 8
+					);
+				array_push($total_data2, $totalDisc);
+				$rpPayed = $totalPriceHere-$rpDiskon;
+				$totalPay = array(
+					'code' => 'total'
+					,'title' => 'Total'
+					,'text' => $this->currency->format($rpPayed)
+					,'value' => $rpPayed
+					,'sort_order' => 9
+					);
+				array_push($total_data2, $totalPay);
+			} elseif ($qtyTotal>11) {
+				$rpDiskon = $qtyTotal * 15000;
+				$totalDisc = array(
+					'code' => 'discount'
+					,'title' => 'Discount'
+					,'text' => $this->currency->format($rpDiskon)
+					,'value' => $rpDiskon
+					,'sort_order' => 8
+					);
+				array_push($total_data2, $totalDisc);
+				$rpPayed = $totalPriceHere-$rpDiskon;
+				$totalPay = array(
+					'code' => 'total'
+					,'title' => 'Total'
+					,'text' => $this->currency->format($rpPayed)
+					,'value' => $rpPayed
+					,'sort_order' => 9
+					);
+				array_push($total_data2, $totalPay);
+			}
+			
+			$total_data = $total_data2;
+			
 			$data['totals'] = $total_data;
 			$data['comment'] = $this->session->data['comment'];
 			$data['total'] = $total;

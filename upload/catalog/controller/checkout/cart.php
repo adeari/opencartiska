@@ -193,6 +193,7 @@ class ControllerCheckoutCart extends Controller {
             $products = $this->cart->getProducts();
 			
 			$weight = 0;
+			$qtyTotal = 0;
             foreach ($products as $product) {
                 $product_total = 0;
 				try {
@@ -207,6 +208,8 @@ class ControllerCheckoutCart extends Controller {
                 if ($product['minimum'] > $product_total) {
                     $this->data['error_warning'] = sprintf($this->language->get('error_minimum'), $product['name'], $product['minimum']);
                 }
+				
+				$qtyTotal += $product_total;
 
                 if ($product['image']) {
                     $image = $this->model_tool_image->resize($product['image'], $this->config->get('config_image_cart_width'), $this->config->get('config_image_cart_height'));
@@ -269,6 +272,7 @@ class ControllerCheckoutCart extends Controller {
                         $profile_description .= sprintf($this->language->get('text_payment_until_canceled_description'), $recurring_price, $product['recurring_cycle'], $frequencies[$product['recurring_frequency']], $product['recurring_duration']);
                     }
                 }
+				
 
                 $this->data['products'][] = array(
                     'key'                 => $product['key'],
@@ -412,7 +416,58 @@ class ControllerCheckoutCart extends Controller {
 					array_multisort($sort_order, SORT_ASC, $total_data);			
 				}
 			}
+			$totalPriceHere = 0;
+			$total_data2 = array();
+			foreach ($total_data as $inData) {
+				$selek = $inData['code'];
+				if ('total'==$selek) {
+					$totalPriceHere = $inData['value'];
+					break;
+				} else {
+					array_push($total_data2, $inData);
+				}
+			}
+			if ($qtyTotal>1&&$qtyTotal<11) {
+				$rpDiskon = $qtyTotal * 10000;
+				$totalDisc = array(
+					'code' => 'discount'
+					,'title' => 'Discount'
+					,'text' => $this->currency->format($rpDiskon)
+					,'value' => $rpDiskon
+					,'sort_order' => 8
+					);
+				array_push($total_data2, $totalDisc);
+				$rpPayed = $totalPriceHere-$rpDiskon;
+				$totalPay = array(
+					'code' => 'total'
+					,'title' => 'Total'
+					,'text' => $this->currency->format($rpPayed)
+					,'value' => $rpPayed
+					,'sort_order' => 9
+					);
+				array_push($total_data2, $totalPay);
+			} elseif ($qtyTotal>11) {
+				$rpDiskon = $qtyTotal * 15000;
+				$totalDisc = array(
+					'code' => 'discount'
+					,'title' => 'Discount'
+					,'text' => $this->currency->format($rpDiskon)
+					,'value' => $rpDiskon
+					,'sort_order' => 8
+					);
+				array_push($total_data2, $totalDisc);
+				$rpPayed = $totalPriceHere-$rpDiskon;
+				$totalPay = array(
+					'code' => 'total'
+					,'title' => 'Total'
+					,'text' => $this->currency->format($rpPayed)
+					,'value' => $rpPayed
+					,'sort_order' => 9
+					);
+				array_push($total_data2, $totalPay);
+			}
 			
+			$total_data = $total_data2;
 			$this->data['totals'] = $total_data;
 						
 			$this->data['continue'] = $this->url->link('common/home');
