@@ -446,6 +446,7 @@ class ControllerCheckoutCart extends Controller {
 					,'sort_order' => 9
 					);
 				array_push($total_data2, $totalPay);
+				$total_data = $total_data2;
 			} elseif ($qtyTotal>11) {
 				$rpDiskon = $qtyTotal * 15000;
 				$totalDisc = array(
@@ -465,9 +466,10 @@ class ControllerCheckoutCart extends Controller {
 					,'sort_order' => 9
 					);
 				array_push($total_data2, $totalPay);
+				$total_data = $total_data2;
 			}
 			
-			$total_data = $total_data2;
+			
 			$this->data['totals'] = $total_data;
 						
 			$this->data['continue'] = $this->url->link('common/home');
