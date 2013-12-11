@@ -6,7 +6,9 @@
     <?php } ?>
   </div>
   <h1><?php echo $heading_title; ?></h1>
+  <div style="text-align:justify;text-justify:inter-word;">
   <?php echo $description; ?>
+  </div>
   <div class="buttons">
     <div class="right"><a href="<?php echo $continue; ?>" class="button"><?php echo $button_continue; ?></a></div>
   </div>
