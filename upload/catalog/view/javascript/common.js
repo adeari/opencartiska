@@ -132,7 +132,14 @@ function addToCart(product_id, quantity) {
 				
 				$('#cart-total').html(json['total']);
 				
-				$('html, body').animate({ scrollTop: 0 }, 'slow'); 
+				$('html, body').animate({ scrollTop: 0 }, 'slow');
+				$.ajax({
+					url: 'index.php?route=module/cart/lihat',
+					type: 'get',
+					success: function(result) {
+						$('#KeranjangBelanja').html(result);
+					}
+				});
 			}	
 		}
 	});

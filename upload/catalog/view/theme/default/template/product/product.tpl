@@ -415,7 +415,10 @@ $('#button-cart').bind('click', function() {
 				$('#cart-total').html(json['total']);
 				
 				$('html, body').animate({ scrollTop: 0 }, 'slow'); 
-			}	
+			}
+         $.get("index.php?route=module/cart/lihat",function(result){
+            $('#KeranjangBelanja').html(result);
+        });
 		}
 	});
 });

@@ -1,9 +1,10 @@
 <?php if ($modules) { ?>
 <div id="column-right">
-  <?php foreach ($modules as $module) { ?>
-  <?php echo $module; ?>
-  <?php } ?>
   
+  
+<?php echo $modules[0]; ?>
+  <div id="KeranjangBelanja" style="margin:10px 0 10px 0"><?php echo $keranjangBelanja; ?></div>
+  <?php echo $modules[1]; ?>
  <div style="text-align:center"> 
   <?php if ($showFBAcc) { ?>  
   <div style="text-align:center">

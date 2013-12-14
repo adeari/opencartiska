@@ -49,6 +49,8 @@ class ControllerCommonColumnRight extends Controller {
 			}
 		}
 		
+		$this->data['keranjangBelanja'] = $this->getChild('module/cart/lihat');
+		
 		$this->data['showFBAcc']=showFBIT;
 		
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/column_right.tpl')) {
