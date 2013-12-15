@@ -3,6 +3,7 @@ class ControllerProductCategory extends Controller {
 	public function index() { 
 		$this->language->load('product/category');
 		$this->data['sold_out'] = $this->language->get('sold_out');
+		$this->data['fullbook'] = $this->language->get('fullbook');
 		
 		$this->load->model('catalog/category');
 		
@@ -267,6 +268,7 @@ class ControllerProductCategory extends Controller {
 				$this->data['products'][] = array(
 					'product_id'  => $result['product_id'],
 					'quantity'  => $result['quantity'],
+					'stock_status'  => $result['stock_status'],
 					'thumb'       => $image,
 					'name'        => $result['name'],
 					'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, 100) . '..',

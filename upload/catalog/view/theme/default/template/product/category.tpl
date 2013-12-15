@@ -99,7 +99,7 @@
       <div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');"><?php echo $button_wishlist; ?></a></div>
       <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><?php echo $button_compare; ?></a></div>
       <?php } else { ?>
-      <div class="soldout"><?php echo $sold_out; ?></div>
+      <div class="soldout"><?php echo $product['stock_status']; ?></div>
       <?php } ?>
     </div>
     <?php } ?>
