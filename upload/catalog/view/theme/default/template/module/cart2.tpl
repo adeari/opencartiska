@@ -1,6 +1,8 @@
-<div id="cart">
-  <div class="heading">
-    <h4><?php echo $heading_title; ?></h4>
+<div class="boxLogin">
+<div class="box">
+  <div class="box-heading"><?php echo $heading_title; ?></div>
+<div id="cart" class="boxForm">
+  <div class="heading">    
     <a><span id="cart-total"><?php echo $text_items; ?></span></a></div>
   <div class="content">
     <?php if ($products || $vouchers) { ?>
@@ -55,3 +57,7 @@
     <?php } ?>
   </div>
 </div>
+
+  </div>
+</div>
+
