@@ -29,6 +29,7 @@
             <td class="name"><?php echo $column_name; ?></td>
             <td class="model"><?php echo $column_model; ?></td>
             <td class="quantity"><?php echo $column_quantity; ?></td>
+            <td class="price" style="text-align:center"><?php echo $text_minimum; ?></td>
             <td class="price"><?php echo $column_price; ?></td>
             <td class="total"><?php echo $column_total; ?></td>
           </tr>
@@ -67,6 +68,7 @@
               &nbsp;
               <input type="image" src="catalog/view/theme/default/image/update.png" alt="<?php echo $button_update; ?>" title="<?php echo $button_update; ?>" />
               &nbsp;<a href="<?php echo $product['remove']; ?>"><img src="catalog/view/theme/default/image/remove.png" alt="<?php echo $button_remove; ?>" title="<?php echo $button_remove; ?>" /></a></td>
+              <td class="price" style="text-align:center"><?php echo $product['minimum']; ?></td>
             <td class="price"><?php echo $product['price']; ?></td>
             <td class="total"><?php echo $product['total']; ?></td>
           </tr>

@@ -111,6 +111,7 @@ class ControllerCheckoutCart extends Controller {
       		$this->data['heading_title'] = $this->language->get('heading_title');
 			
 			$this->data['text_next'] = $this->language->get('text_next');
+			$this->data['text_minimum'] = $this->language->get('text_minimum');
 			$this->data['text_next_choice'] = $this->language->get('text_next_choice');
      		$this->data['text_use_coupon'] = $this->language->get('text_use_coupon');
 			$this->data['text_use_voucher'] = $this->language->get('text_use_voucher');
@@ -281,6 +282,7 @@ class ControllerCheckoutCart extends Controller {
                     'model'               => $product['model'],
                     'option'              => $option_data,
                     'quantity'            => $product['quantity'],
+                    'minimum'            => $product['minimum'],
                     'stock'               => $product['stock'] ? true : !(!$this->config->get('config_stock_checkout') || $this->config->get('config_stock_warning')),
                     'reward'              => ($product['reward'] ? sprintf($this->language->get('text_points'), $product['reward']) : ''),
                     'price'               => $price,

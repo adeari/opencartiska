@@ -42,7 +42,8 @@
         <?php if ($reward) { ?>
         <span><?php echo $text_reward; ?></span> <?php echo $reward; ?><br />
         <?php } ?>
-        <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div>
+        <span><?php echo $text_stock; ?></span> <?php echo $stock; ?><br />
+        <span><?php echo $text_minimum; ?></span></div>
       <?php if ($price) { ?>
       <div class="price"><?php echo $text_price; ?>
         <?php if (!$special) { ?>
@@ -243,9 +244,9 @@
           <span class="links"><a onclick="addToWishList('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a><br />
             <a onclick="addToCompare('<?php echo $product_id; ?>');"><?php echo $button_compare; ?></a></span>
         </div>
-        <?php if ($minimum > 1) { ?>
+        
         <div class="minimum"><?php echo $text_minimum; ?></div>
-        <?php } ?>
+        
       </div>      
     </div>
   </div>

@@ -43,7 +43,7 @@ $_['beratnya']         	 	 = 'Berat:';
 $_['entry_postcode']         = 'Post Code:';
 
 // Error
-$_['error_stock']            = 'Produk yang ditandai dengan *** sedang tidak ada stok!';
+$_['error_stock']            = 'Maaf, jumlah order Anda untuk produk yang ditandai dengan <font color="red">***</font> melebihi stok, silakan sesuaikan dengan stok yang tersedia.';
 $_['error_minimum']          = 'Jumlah pesanan minimum untuk %s adalah %s!';	
 $_['error_required']         = '%s diperlukan!';	
 $_['error_product']          = 'Peringatan: Tidak ada produk dalam keranjang Anda!';	
@@ -60,4 +60,6 @@ $_['error_to_country']             = 'Tulis kota tujuan!';
 $_['error_weight']             = 'Tulis berat dalam ukuran ';
 $_['error_shipping']         = 'Peringatan: Metode pengiriman diperlukan!';
 $_['error_no_shipping']      = 'Peringatan: Tidak ada opsi pengiriman yang tersedia. Silahkan <a href="%s">hubungi kami</a>!';
+
+$_['text_minimum']             = 'Minimum stok';
 ?>
