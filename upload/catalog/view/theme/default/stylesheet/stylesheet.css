@@ -1810,6 +1810,15 @@ ul.box-filter>li ul {
 	text-align: right;
 }
 
+.cart-info thead .total1 {
+	text-align: center;
+	width:10px;
+}
+.cart-info thead .total {
+	text-align: center;
+	width:60px;
+}
+
 .cart-info tbody td {
 	vertical-align: top;
 	border-bottom: 1px solid #DDDDDD;
