@@ -60,4 +60,6 @@ $_['error_upload']      = 'Upload required!';
 $_['error_filename']    = 'Filename must be between 3 and 64 characters!';
 $_['error_filetype']    = 'Invalid file type!';
 $_['textKeterangan'] ='*Purchases may be mixed with other models.<br/>*The price will change automatically when the total purchases qualify for wholesale prices';
+
+$_['tersedia'] ='Available';
 ?>

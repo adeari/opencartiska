@@ -36,7 +36,7 @@ class ControllerCheckoutCart extends Controller {
 			unset($this->session->data['shipping_methods']);
 			unset($this->session->data['payment_method']);
 			unset($this->session->data['payment_methods']); 
-			unset($this->session->data['reward']);  
+			unset($this->session->data['reward']);
 								
 			$this->redirect($this->url->link('checkout/cart'));
 		}
@@ -96,7 +96,6 @@ class ControllerCheckoutCart extends Controller {
         	'text'      => $this->language->get('heading_title'),
         	'separator' => $this->language->get('text_separator')
       	);
-			
     	if ($this->cart->hasProducts() || !empty($this->session->data['vouchers'])) {
 			$points = $this->customer->getRewardPoints();
 			
@@ -283,6 +282,7 @@ class ControllerCheckoutCart extends Controller {
                     'option'              => $option_data,
                     'quantity'            => $product['quantity'],
                     'minimum'            => $product['minimum'],
+                	'stokready'            => $product['stokready'],
                     'stock'               => $product['stock'] ? true : !(!$this->config->get('config_stock_checkout') || $this->config->get('config_stock_warning')),
                     'reward'              => ($product['reward'] ? sprintf($this->language->get('text_points'), $product['reward']) : ''),
                     'price'               => $price,

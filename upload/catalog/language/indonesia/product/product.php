@@ -50,4 +50,6 @@ $_['error_upload']      = 'Upload diperlukan!';
 $_['error_filename']    = 'Nama file harus terdiri dari 3 s/d 64 karakter!';
 $_['error_filetype']    = 'Tipe file tidak valid!';
 $_['textKeterangan'] ='*Pembelian boleh campur dengan model lain.<br/>*Harga akan berubah dengan otomatis saat total pembelian memenuhi syarat untuk mendapatkan harga grosir. ';
+
+$_['tersedia'] ='Tersedia';
 ?>

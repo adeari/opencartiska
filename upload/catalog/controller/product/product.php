@@ -267,6 +267,7 @@ class ControllerProductProduct extends Controller {
 			$this->load->model('catalog/review');
 
 			$this->data['tab_description'] = $this->language->get('tab_description');
+			$this->data['tersedia'] = $this->language->get('tersedia');
 			$this->data['tab_attribute'] = $this->language->get('tab_attribute');
 			$this->data['tab_review'] = sprintf($this->language->get('tab_review'), $product_info['reviews']);
 			$this->data['tab_related'] = $this->language->get('tab_related');
@@ -361,6 +362,7 @@ class ControllerProductProduct extends Controller {
 								'product_option_value_id' => $option_value['product_option_value_id'],
 								'option_value_id'         => $option_value['option_value_id'],
 								'name'                    => $option_value['name'],
+								'quantity'                    => $option_value['quantity'],
 								'image'                   => $this->model_tool_image->resize($option_value['image'], 50, 50),
 								'price'                   => $price,
 								'price_prefix'            => $option_value['price_prefix']
