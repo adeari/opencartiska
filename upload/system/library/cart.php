@@ -52,8 +52,7 @@ class Cart {
 					foreach ($options as $product_option_id => $option_value) {
 						$option_query = $this->db->query("SELECT po.product_option_id, po.option_id, od.name, o.type,opov.quantity FROM " . DB_PREFIX . "product_option po left join oc_product_option_value opov on (opov.product_option_id = po.product_option_id and opov.product_id = po.product_id and opov.option_id=po.option_id)	 LEFT JOIN `" . DB_PREFIX . "option` o ON (po.option_id = o.option_id) LEFT JOIN " . DB_PREFIX . "option_description od ON (o.option_id = od.option_id) WHERE po.product_option_id = '" . (int)$product_option_id . "' AND po.product_id = '" . (int)$product_id . "' AND od.language_id = '" . (int)$this->config->get('config_language_id') . "'");
 						
-						if ($option_query->num_rows) {
-							$inih=1;
+						if ($option_query->num_rows) {							
 							if ($option_query->row['type'] == 'select' || $option_query->row['type'] == 'radio' || $option_query->row['type'] == 'image') {
 								$option_value_query = $this->db->query("SELECT pov.option_value_id, ovd.name, pov.quantity, pov.subtract, pov.price, pov.price_prefix, pov.points, pov.points_prefix, pov.weight, pov.weight_prefix FROM " . DB_PREFIX . "product_option_value pov LEFT JOIN " . DB_PREFIX . "option_value ov ON (pov.option_value_id = ov.option_value_id) LEFT JOIN " . DB_PREFIX . "option_value_description ovd ON (ov.option_value_id = ovd.option_value_id) WHERE pov.product_option_value_id = '" . (int)$option_value . "' AND pov.product_option_id = '" . (int)$product_option_id . "' AND ovd.language_id = '" . (int)$this->config->get('config_language_id') . "'");
 								
@@ -79,6 +78,7 @@ class Cart {
 									if ($option_value_query->row['subtract'] && (!$option_value_query->row['quantity'] || ($option_value_query->row['quantity'] < $quantity))) {
 										$stock = false;
 									}
+									$inih=1;
 									$option_data[] = array(
 										'product_option_id'       => $product_option_id,
 										'product_option_value_id' => $option_value,
@@ -123,7 +123,7 @@ class Cart {
 										if ($option_value_query->row['subtract'] && (!$option_value_query->row['quantity'] || ($option_value_query->row['quantity'] < $quantity))) {
 											$stock = false;
 										}
-										
+										$inih=2;
 										$option_data[] = array(
 											'product_option_id'       => $product_option_id,
 											'product_option_value_id' => $product_option_value_id,
@@ -144,6 +144,7 @@ class Cart {
 									}
 								}						
 							} elseif ($option_query->row['type'] == 'text' || $option_query->row['type'] == 'textarea' || $option_query->row['type'] == 'file' || $option_query->row['type'] == 'date' || $option_query->row['type'] == 'datetime' || $option_query->row['type'] == 'time') {
+								$inih=3;
 								$option_data[] = array(
 									'product_option_id'       => $product_option_id,
 									'product_option_value_id' => '',

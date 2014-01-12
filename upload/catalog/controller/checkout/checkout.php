@@ -1,5 +1,17 @@
 <?php  
 class ControllerCheckoutCheckout extends Controller { 
+	
+
+	public function indexcheck() {
+	foreach ($_GET as $name => $value1) {
+	   if ($name=='quantity') {
+	   	foreach ($value1 as $nama => $isi) {
+	   		$this->cart->update($nama, $isi);
+	   	}
+	   }
+	}
+	}
+	
 	public function index() {
 		// Validate cart has products and has stock.
 		if ((!$this->cart->hasProducts() && empty($this->session->data['vouchers'])) || (!$this->cart->hasStock() && !$this->config->get('config_stock_checkout'))) {

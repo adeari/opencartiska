@@ -20,7 +20,7 @@
     &nbsp;(<?php echo $weight; ?>)
     <?php } ?>
   </h1>
-  <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
+  <form action="<?php echo $action; ?>" id="frCartData" method="post" enctype="multipart/form-data">
     <div class="cart-info">
       <table>
         <thead>
@@ -66,7 +66,7 @@
             <td class="model"><?php echo $product['model']; ?></td>
             <td class="quantity"><input type="text" name="quantity[<?php echo $product['key']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" />
               &nbsp;
-              <input type="image" src="catalog/view/theme/default/image/update.png" alt="<?php echo $button_update; ?>" title="<?php echo $button_update; ?>" />
+              <input type="image" src="catalog/view/theme/default/image/update.png" alt="<?php echo $button_update; ?>" title="<?php echo $button_update; ?>" />              
               &nbsp;<a href="<?php echo $product['remove']; ?>"><img src="catalog/view/theme/default/image/remove.png" alt="<?php echo $button_remove; ?>" title="<?php echo $button_remove; ?>" /></a></td>
               <td class="price" style="text-align:center"><?php echo $product['stokready']; ?></td>
             <td class="price"><?php echo $product['price']; ?></td>
@@ -171,7 +171,7 @@
 	<div class="kippp"><?php echo $text_infoinfo;?></div>
   </div>
   <div class="buttons">
-    <div class="right"><a href="<?php echo $checkout; ?>" class="button"><?php echo $button_checkout; ?></a></div>
+    <div class="right"><a href="#" id="buttonSelessai" class="button"><?php echo $button_checkout; ?></a></div>
     <div class="center"><a href="<?php echo $continue; ?>" class="button"><?php echo $button_shopping; ?></a></div>
   </div>
   <?php echo $content_bottom; ?></div>
@@ -284,13 +284,7 @@ $('#button-quote').live('click', function() {
 				});
 				
 				
-				}
-		
-		
-				
-				
-				
-			
+				}			
 		}
 	});
 });
@@ -336,6 +330,15 @@ $('select[name=\'country_id\']').bind('change', function() {
 		}
 	});
 });
+
+$('#buttonSelessai').click(function(e){
+	e.preventDefault();
+	$.get( "<?php echo $checkout; ?>/indexcheck", $('#frCartData').serialize(), function( data ) {
+	  window.location.href="<?php echo $checkout; ?>";
+	}, "json" );
+});
+
+
 
 $('select[name=\'country_id\']').trigger('change');
 //--></script>
