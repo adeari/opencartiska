@@ -1,1 +1,0 @@
- <a><span id="cart-total"><?php echo $text_items; ?></span></a>
