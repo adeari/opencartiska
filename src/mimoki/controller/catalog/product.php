@@ -266,7 +266,7 @@ class ControllerCatalogProduct extends Controller {
   		);
   			
   		if (!isset($this->request->get['product_id'])) {
-  			$this->data['action'] = $this->url->link('catalog/product/insert', 'token=' . $this->session->data['token'] . $url, 'SSL');
+  			$this->data['action'] = $this->url->link('catalog/product/insertgampang', 'token=' . $this->session->data['token'] . $url, 'SSL');
   		} else {
   			$this->data['action'] = $this->url->link('catalog/product/update', 'token=' . $this->session->data['token'] . '&product_id=' . $this->request->get['product_id'] . $url, 'SSL');
   		}
@@ -836,6 +836,60 @@ class ControllerCatalogProduct extends Controller {
   	
   		$this->response->setOutput($this->render());
   	}
+  	
+
+  	public function insertgampang() {
+  		$this->language->load('catalog/product');
+  	
+  		$this->document->setTitle($this->language->get('heading_title'));
+  	
+  		$this->load->model('catalog/product');
+  	
+  		if (($this->request->server['REQUEST_METHOD'] == 'POST')) {
+  			$this->model_catalog_product->addProductgampang($this->request->post);
+  		  
+  			$this->session->data['success'] = $this->language->get('text_success');
+  			 
+  			$url = '';
+  				
+  			if (isset($this->request->get['filter_name'])) {
+  				$url .= '&filter_name=' . urlencode(html_entity_decode($this->request->get['filter_name'], ENT_QUOTES, 'UTF-8'));
+  			}
+  	
+  			if (isset($this->request->get['filter_model'])) {
+  				$url .= '&filter_model=' . urlencode(html_entity_decode($this->request->get['filter_model'], ENT_QUOTES, 'UTF-8'));
+  			}
+  				
+  			if (isset($this->request->get['filter_price'])) {
+  				$url .= '&filter_price=' . $this->request->get['filter_price'];
+  			}
+  				
+  			if (isset($this->request->get['filter_quantity'])) {
+  				$url .= '&filter_quantity=' . $this->request->get['filter_quantity'];
+  			}
+  				
+  			if (isset($this->request->get['filter_status'])) {
+  				$url .= '&filter_status=' . $this->request->get['filter_status'];
+  			}
+  				
+  			if (isset($this->request->get['sort'])) {
+  				$url .= '&sort=' . $this->request->get['sort'];
+  			}
+  	
+  			if (isset($this->request->get['order'])) {
+  				$url .= '&order=' . $this->request->get['order'];
+  			}
+  	
+  			if (isset($this->request->get['page'])) {
+  				$url .= '&page=' . $this->request->get['page'];
+  			}
+  				
+  			$this->redirect($this->url->link('catalog/product', 'token=' . $this->session->data['token'] . $url, 'SSL'));
+  		}
+  	
+  		$this->getFormgampang();
+  	}
+  	 
   	
   	public function insert() {
     	$this->language->load('catalog/product');
