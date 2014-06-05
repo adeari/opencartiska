@@ -26,12 +26,15 @@ class ModelCatalogProduct extends Model {
 			}
 		}
 		
+		
 		foreach ($data['url'] as $language_id => $value) {
-			$iniii = "select * from ". DB_PREFIX ."urlkunih where product_id=".(int)$product_id." and urlku='".$this->db->escape($value['ini'])."'";
-			$query = $this->db->query($iniii);
-			if ($query->num_rows==0) {
-				$iniii = "INSERT INTO " . DB_PREFIX . "urlkunih (product_id,urlku) values (" . (int)$product_id . ",'".$this->db->escape($value['ini'])."')";
-				$this->db->query($iniii);
+			if (strlen($value['ini'])>0) {
+				$iniii = "select * from ". DB_PREFIX ."urlkunih where product_id=".(int)$product_id." and urlku='".$this->db->escape($value['ini'])."'";
+				$query = $this->db->query($iniii);
+				if ($query->num_rows==0) {
+					$iniii = "INSERT INTO " . DB_PREFIX . "urlkunih (product_id,urlku) values (" . (int)$product_id . ",'".$this->db->escape($value['ini'])."')";
+					$this->db->query($iniii);
+				}
 			}
 		}
 		
@@ -438,6 +441,16 @@ class ModelCatalogProduct extends Model {
 		$query = $this->db->query($sql);
 	
 		return $query->rows;
+	}
+	
+	public function getURLByCatalogID($catalogID) {
+		$str = '';
+		$sql = "select urlku from ". DB_PREFIX ."urlkunih where product_id=".(int)$catalogID;
+		$query = $this->db->query($sql);
+		foreach ($query->rows as $result) {
+			$str = $result['urlku'];
+		}
+		return $str;
 	}
 	
 	public function getProductsByCategoryId($category_id) {

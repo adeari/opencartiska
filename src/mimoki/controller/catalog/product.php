@@ -1239,6 +1239,8 @@ class ControllerCatalogProduct extends Controller {
 			if ($result['image'] && file_exists(DIR_IMAGE . $result['image'])) {
 				$image = $this->model_tool_image->resize($result['image'], 40, 40);
 			} else {
+				$image = $this->model_catalog_product->getURLByCatalogID($result['product_id']);
+				if (strlen($image)<1)
 				$image = $this->model_tool_image->resize('no_image.jpg', 40, 40);
 			}
 	
