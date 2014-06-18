@@ -13,7 +13,7 @@ class ControllerCheckoutGuest extends Controller {
 		$this->data['entry_email'] = $this->language->get('entry_email');
 		$this->data['entry_telephone'] = $this->language->get('entry_telephone');
 		$this->data['entry_hp'] = 'Handphone:';
-		$this->data['entry_wa'] = 'Whatsapp:';
+		$this->data['entry_wa'] = 'WA:';
 		$this->data['entry_bb'] = 'Pin Blackberry:';
 		$this->data['entry_another_contact'] = $this->language->get('entry_another_contact');
 		$this->data['entry_fax'] = $this->language->get('entry_fax');

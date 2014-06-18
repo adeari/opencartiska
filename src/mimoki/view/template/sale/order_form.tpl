@@ -93,7 +93,7 @@
               <td><input type="text" name="bb" value="<?php echo $bb; ?>" /></td>
             </tr>
             <tr>
-              <td>Whatsapp:</td>
+              <td>WA:</td>
               <td><input type="text" name="wa" value="<?php echo $wa; ?>" /></td>
             </tr>			
             <tr>

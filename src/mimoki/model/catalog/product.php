@@ -1,9 +1,12 @@
 <?php
 class ModelCatalogProduct extends Model {
-	
+	//  http://3.bp.blogspot.com/-XpjWp0gfie0/U5gxVxVRi6I/AAAAAAAAKII/_QKTypC8PGQ/s1600/galang+dana+joko.jpg
 	public function addProductgampang($data) {
-		
-		$this->db->query("INSERT INTO " . DB_PREFIX . "product SET  date_available = now(), weight = '0.1', length_class_id = 1, status = 1, viewed=100, date_added = NOW()");
+		$nameproduct = '';
+		foreach ($data['product_description'] as $language_id => $value) {
+			$nameproduct =$this->db->escape($value['name']);
+		}
+		$this->db->query("INSERT INTO " . DB_PREFIX . "product SET  model = '" .$nameproduct."',date_available = now(), weight = '0.1', length_class_id = 1, status = 1, viewed=100, date_added = NOW(), quantity = 1");
 		
 		$product_id = $this->db->getLastId();
 		

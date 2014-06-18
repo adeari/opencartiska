@@ -4,7 +4,7 @@
   
 <?php echo $modules[0]; ?>
   <div id="KeranjangBelanja" style="margin:10px 0 10px 0"><?php echo $keranjangBelanja; ?></div>
-  <?php echo $modules[1]; ?>
+  <?php if (isset($modules[1]))echo $modules[1]; ?>
  <div style="text-align:center"> 
   <?php if ($showFBAcc) { ?>  
   <div style="text-align:center">

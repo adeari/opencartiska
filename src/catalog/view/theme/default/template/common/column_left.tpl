@@ -37,7 +37,7 @@
   	?>
   <tr>
   	<td height=1 width=20><img src="image/logo/wa.png" /></td>
-  	<td height=1 width=75> Whatsapp : </td>
+  	<td height=1 width=75> WA : </td>
   	<td align="right"><?php echo $YMid1[$i]; ?></td>
   </tr> 
   <?php  } ?>

@@ -904,12 +904,12 @@ ul.box-filter>li ul {
 	background: #f3f3f3;
 	border: 1px solid #ddd;
 	text-align: center;
-	padding: 15px 0;
+	padding: 15px 0;	min-height:210px;
 }
 
 .box-product>div:hover {
 	background: #eaeaea;
-	border: 1px solid #d1d1d1;
+	border: 1px solid #d1d1d1;	min-height:210px;
 }
 
 #column-left+#column-right+#content .box-product>div {

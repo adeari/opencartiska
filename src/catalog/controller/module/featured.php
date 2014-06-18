@@ -26,7 +26,7 @@ class ControllerModuleFeatured extends Controller {
 		$products = explode(',', $this->model_catalog_product->getproductIdkuh());
 		
 		foreach ($products as $product_id) {
-			$product_info = $this->model_catalog_product->getProduct($product_id);
+			$product_info = $this->model_catalog_product->getProduct($product_id);			echo "<br/><br/>product id = ".$product_info['product_id'];
 			
 			if ($product_info) {
 				if ($product_info['image']) {
